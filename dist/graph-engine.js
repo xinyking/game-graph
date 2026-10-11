@@ -1,9 +1,7 @@
 /* Game Atlas Canvas engine.
- * Adapted physicsStep from Essie363/MusicalGraph web/app.js,
- * commit 84e5440b837156e1ba6511307d62f32e33309447.
- * Uses deterministic graph-connected components, pair repulsion, all-edge
- * springs and damping; no fixed company islands or artificial edges.
- * This local adaptation does not connect to the upstream production backend.
+ * Project-specific deterministic distance relaxation and component packing.
+ * Each connected component minimizes graph-distance stress without velocity
+ * integration. MusicalGraph was a visual inspiration, not a code dependency.
  */
 (function(){
   'use strict';
@@ -29,13 +27,29 @@
       const levels=new Map();for(const id of ids){const d=depth.get(id);if(!levels.has(d))levels.set(d,[]);levels.get(d).push(id);}
       for(const [d,level] of levels)level.forEach((id,i)=>{const angle=i/level.length*Math.PI*2+d*.7,r=d*145;points.set(id,{...byId.get(id),x:Math.cos(angle)*r,y:Math.sin(angle)*r,vx:0,vy:0});});
       const list=ids.map(id=>points.get(id)),valid=new Set(ids),edges=data.edges.filter(e=>valid.has(e.a)&&valid.has(e.b));
-      for(let step=0;step<420;step++){
-        for(let i=0;i<list.length;i++)for(let j=i+1;j<list.length;j++){
-          const a=list[i],b=list[j],dx=b.x-a.x,dy=b.y-a.y,d=Math.max(1,Math.hypot(dx,dy)),force=Math.min(16,8500/(d*d));
-          a.vx-=dx/d*force;a.vy-=dy/d*force;b.vx+=dx/d*force;b.vy+=dy/d*force;
+      // Build shortest graph distances once, then perform pairwise projections.
+      // A cooling schedule makes the result repeatable and limits oscillation.
+      const constraints=[];
+      for(let i=0;i<ids.length;i++){
+        const distances=new Map([[ids[i],0]]),frontier=[ids[i]];
+        for(let q=0;q<frontier.length;q++)for(const id of adjacency.get(frontier[q])){
+          if(!distances.has(id)){distances.set(id,distances.get(frontier[q])+1);frontier.push(id);}
         }
-        for(const e of edges){const a=points.get(e.a),b=points.get(e.b),dx=b.x-a.x,dy=b.y-a.y,d=Math.max(1,Math.hypot(dx,dy)),target=e.kind==='member'?150:115,force=(d-target)*.045;a.vx+=dx/d*force;a.vy+=dy/d*force;b.vx-=dx/d*force;b.vy-=dy/d*force;}
-        for(const n of list){n.vx=(n.vx-n.x*.001)*.78;n.vy=(n.vy-n.y*.001)*.78;n.x+=n.vx*.4;n.y+=n.vy*.4;}
+        for(let j=i+1;j<ids.length;j++){
+          const hops=distances.get(ids[j]);
+          constraints.push({i,j,length:130*Math.pow(hops,.72),weight:1/(hops*hops)});
+        }
+      }
+      for(let sweep=0;sweep<240;sweep++){
+        const rate=.32*(1-sweep/240)+.025;
+        for(const pair of constraints){
+          const left=list[pair.i],right=list[pair.j];
+          let dx=right.x-left.x,dy=right.y-left.y,actual=Math.hypot(dx,dy);
+          if(actual<.00001){const angle=(pair.i+pair.j)*2.399963;dx=Math.cos(angle);dy=Math.sin(angle);actual=1;}
+          const correction=(actual-pair.length)*rate*pair.weight/2;
+          const shiftX=dx/actual*correction,shiftY=dy/actual*correction;
+          left.x+=shiftX;left.y+=shiftY;right.x-=shiftX;right.y-=shiftY;
+        }
       }
       const minX=Math.min(...list.map(n=>n.x)),maxX=Math.max(...list.map(n=>n.x)),minY=Math.min(...list.map(n=>n.y)),maxY=Math.max(...list.map(n=>n.y));
       return {list,minX,minY,width:Math.max(180,maxX-minX+145),height:Math.max(150,maxY-minY+110)};
