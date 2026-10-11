@@ -14,3 +14,11 @@ body{-webkit-font-smoothing:antialiased}header{height:68px;padding:0 32px;backgr
 .hero-choices{display:flex;gap:14px;flex-wrap:wrap;animation:reveal .8s .44s both}.hero-choices .hero-enter{gap:25px;animation:none}.hero-choices .hero-map{background:#ffffff08;color:#ddd1bb;border:1px solid #c6aa7544;min-width:150px}.hero-choices .hero-map:hover{background:#c6aa751c}
 .dot.investor{background:#bd97dc;border-radius:0;transform:rotate(45deg)}.line.control{border-color:#bd97dc}.line.invest{border-color:#d9a1bd;border-top-style:dashed}.node-attributes{padding:12px 0;margin:15px 0;border-top:1px solid #ffffff12;border-bottom:1px solid #ffffff12}.node-attributes dl{margin:0}.node-attributes dl>div{display:grid;grid-template-columns:70px 1fr;gap:10px;padding:7px 0;font-size:10px;line-height:1.75}.node-attributes dt{color:#7d7d88}.node-attributes dd{margin:0;color:#d0cbc1}.details .capital-date{color:#c5a5d9;font-size:9px}.relations{flex-wrap:wrap;max-width:75%;row-gap:8px}.hero-foot{flex-wrap:wrap;gap:12px}
 @media(max-width:560px){.kinds{flex-wrap:wrap;row-gap:8px;padding-right:0}.explorer{height:175px}.map-help{max-width:calc(100% - 30px);line-height:1.6}.relations{max-width:65%;font-size:8px}.hero-stats{font-size:7px;letter-spacing:0}.hero-foot i{margin:0 4px}}
+
+/* Map navigation and readable Chinese labels. */
+body{font-family:Geist,"PingFang SC","Microsoft YaHei",sans-serif}
+.details p{font-size:13px;line-height:1.85;color:#c7c7ce}
+.view-switch{flex-wrap:wrap;max-width:calc(100% - 34px)}
+#map-region-jump{max-width:145px;background:#1c1c20;color:#e8dfcf;border:1px solid #4a463c;border-radius:5px;padding:7px;font:inherit;font-size:11px}
+#map-global{color:#f1d590;border:1px solid #6f5c33;border-radius:5px}
+@media(max-width:560px){.view-switch{top:78px;gap:4px}#map-region-jump{max-width:118px;font-size:10px;padding:5px}.view-switch button{font-size:10px;padding:6px}.counts{top:148px}}

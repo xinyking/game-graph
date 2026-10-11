@@ -9,7 +9,7 @@
   const landPath=new Path2D();
   for(const ring of window.WORLD_LAND){ring.forEach(([x,y],i)=>i?landPath.lineTo(x,y):landPath.moveTo(x,y));landPath.closePath();}
   let phase=0;
-  let cityGroups=new Map();
+  let cityGroups=new Map(),mapMarkers=new Map(),cameraFrame=0;
   const COLORS={company:'#e8c578',studio:'#92b9b0',game:'#989cbb',member:'#92b9b0',develop:'#989cbb',publish:'#d2ac62',investor:'#bd97dc',control:'#bd97dc',invest:'#d9a1bd'};
   const LABELS={company:'厂商 / 品牌',studio:'工作室 / 团队',game:'游戏 / 系列',member:'组织归属',develop:'开发',publish:'发行',investor:'股东 / 控股主体',control:'控制关系',invest:'参股投资'};
   const S={mode:'stars',selected:null,hover:null,tab:'graph',path:null,region:'all',kinds:new Set(['company','studio','game','investor']),relations:new Set(['control','invest','member','develop','publish']),view:{x:0,y:0,zoom:1},width:0,height:0,labels:[]};
@@ -49,7 +49,8 @@
       }
       visibleEdges=filteredEdges.filter(e=>scope.has(e.a)&&scope.has(e.b));
     }else visibleEdges=filteredEdges;
-    visibleNodes=filteredNodes.filter(n=>!scope||scope.has(n.id));
+    visibleNodes=filteredNodes.filter(n=>(!scope||scope.has(n.id))&&(S.mode!=='map'||scope||n.kind!=='game'));
+    if(S.mode==='map'&&!scope)visibleEdges=visibleEdges.filter(e=>visibleNodes.some(n=>n.id===e.a)&&visibleNodes.some(n=>n.id===e.b));
     $('empty').classList.toggle('hidden',visibleNodes.length>0);
     $('map-title').textContent=S.path?'关系路径':S.selected?byId.get(S.selected).name:S.mode==='map'?'游戏的世界坐标':'全球游戏星图';
     $('clear-focus').classList.toggle('hidden',!S.selected&&!S.path);
@@ -84,7 +85,7 @@
     }
     // Sparse coordinate grid, restrained enough to keep connections legible.
     ctx.fillStyle='#8b8375';for(let i=0;i<100;i++){const x=((i*7919+61)%1009)/1009*S.width,y=((i*3571+37)%997)/997*S.height;ctx.globalAlpha=i%7===0?.35:.13;ctx.beginPath();ctx.arc(x,y,i%7===0?.8:.45,0,Math.PI*2);ctx.fill();}
-    for(const e of visibleEdges){
+    for(const e of (S.mode==='map'&&!S.selected&&!S.path?[]:visibleEdges)){
       const a=screen(points.get(e.a)),b=screen(points.get(e.b));
       const bright=!S.hover||e.a===S.hover||e.b===S.hover;
       ctx.globalAlpha=bright?((S.selected||S.path)? .8 : S.mode==='map'?.19:.68):.1;
@@ -110,31 +111,43 @@
       }
     }
     ctx.globalAlpha=1;ctx.setLineDash([]);
-    cityGroups=new Map();
-    for(const n of visibleNodes){if(!n.geo||S.mode==='map'&&n.kind==='game'&&!S.selected&&!S.path)continue;const key=n.geo.cityId;if(!cityGroups.has(key))cityGroups.set(key,[]);cityGroups.get(key).push(n);}
-    const cityNodes=[...cityGroups].map(([cityId,ns])=>{const organization=ns.find(n=>n.kind==='company')||ns.find(n=>n.kind==='studio')||ns[0];return {...organization,cityId,name:organization.geo.city+(ns.length>1?' · '+ns.length:''),members:ns};});
+    cityGroups=new Map();mapMarkers=new Map();
+    const groups=window.MapLayout.clusters(visibleNodes.filter(n=>n.geo),points,S.view.zoom);
+    const cityNodes=groups.map(group=>{
+      const ns=group.members,organization=ns.find(n=>n.id===S.selected)||ns.find(n=>n.kind==='company')||ns[0];
+      const cities=[...new Set(ns.map(n=>n.geo.city))],countries=[...new Set(ns.map(n=>n.geo.country))];
+      const longitude=group.x/7-180;
+      const label=cities.length===1?cities[0]:countries.length===1?countries[0]+'区域':longitude>90?'东亚':longitude<-100?'北美西部':longitude<-40?'北美东部':'欧洲';
+      const marker={...organization,x:group.x,y:group.y,cityId:group.key,name:ns.length===1?organization.name:label+' · '+ns.length+' 家',members:ns};
+      cityGroups.set(group.key,ns);mapMarkers.set(group.key,marker);return marker;
+    });
+    if(S.mode==='map'){
+      const options='<option value="">选择区域 / 城市</option>'+cityNodes.map(n=>`<option value="${escape(n.cityId)}">${escape(n.name)}</option>`).join('');
+      if($('map-region-jump').innerHTML!==options)$('map-region-jump').innerHTML=options;
+    }
     const ordered=(S.mode==='map'?cityNodes:[...visibleNodes]).sort((a,b)=>({investor:0,company:1,studio:2,game:3}[a.kind]-{investor:0,company:1,studio:2,game:3}[b.kind]));
     for(const n of ordered){
-      const p=screen(points.get(n.id)),r=radius(n);ctx.globalAlpha=isBright(n)?1:.23;ctx.fillStyle=COLORS[n.kind];
+      const p=screen(S.mode==='map'?n:points.get(n.id)),r=S.mode==='map'&&n.members.length>1?10:radius(n);ctx.globalAlpha=isBright(n)?1:.23;ctx.fillStyle=COLORS[n.kind];
       if(n.id===S.selected||n.id===S.hover||n.members?.some(m=>m.id===S.selected)){ctx.globalAlpha=.12;ctx.beginPath();ctx.arc(p.x,p.y,16,0,Math.PI*2);ctx.fill();ctx.globalAlpha=1;}
       ctx.shadowColor=COLORS[n.kind];ctx.shadowBlur=n.kind==='company'?18+(!motionPreference.matches?Math.sin(phase*.0013+ordered.indexOf(n)) *5:0):8;
       if(n.kind==='investor'){ctx.beginPath();ctx.moveTo(p.x,p.y-r);ctx.lineTo(p.x+r,p.y);ctx.lineTo(p.x,p.y+r);ctx.lineTo(p.x-r,p.y);ctx.closePath();ctx.fill();}else if(n.kind==='company'){ctx.beginPath();ctx.arc(p.x,p.y,r,0,Math.PI*2);ctx.fill();ctx.shadowBlur=0;ctx.strokeStyle='#e8c57855';ctx.beginPath();ctx.arc(p.x,p.y,r+5,0,Math.PI*2);ctx.stroke();}else{ctx.beginPath();ctx.arc(p.x,p.y,r,0,Math.PI*2);ctx.fill();}ctx.shadowBlur=0;
     }
+    if(S.mode==='map')for(const n of cityNodes){if(n.members.length<2)continue;const p=screen(n);ctx.globalAlpha=1;ctx.fillStyle='#151415';ctx.font='bold 10px sans-serif';ctx.textAlign='center';ctx.fillText(n.members.length,p.x,p.y+3);ctx.textAlign='start';}
     ctx.globalAlpha=1;S.labels=[];
     // Label priority and collision filtering keep overview names readable.
     const priority=[...ordered].sort((a,b)=>(b.id===S.hover?1:0)-(a.id===S.hover?1:0)||(b.id===S.selected?1:0)-(a.id===S.selected?1:0));
     for(const n of priority){
       if(S.mode==='map'&&n.kind==='game'&&!S.selected&&!S.path&&S.view.zoom<.65&&n.id!==S.hover)continue;
       if(S.mode==='map'&&n.kind==='studio'&&!S.selected&&!S.path&&S.view.zoom<.3&&n.id!==S.hover)continue;
-      const p=screen(points.get(n.id));if(p.x<0||p.x>S.width||p.y<155||p.y>S.height-96)continue;
-      const size=n.kind==='company'?12:11;ctx.font=`${n.kind==='company'?500:400} ${size}px "Microsoft YaHei",sans-serif`;
+      const p=screen(S.mode==='map'?n:points.get(n.id));if(p.x<0||p.x>S.width||p.y<155||p.y>S.height-96)continue;
+      const size=S.mode==='map'?14:n.kind==='company'?13:12;ctx.font=`${n.kind==='company'?500:400} ${size}px "Microsoft YaHei",sans-serif`;
       const w=ctx.measureText(n.name).width,y=p.y+radius(n)+18;
       const x=Math.max(8,Math.min(S.width-w-8,p.x-w/2));
       const bounds={x:x-4,y:y-size-2,w:w+8,h:size+8};
       if(w>S.width-16)continue;
       if(S.labels.some(l=>bounds.x<l.x+l.w&&bounds.x+bounds.w>l.x&&bounds.y<l.y+l.h&&bounds.y+bounds.h>l.y)&&n.id!==S.hover&&n.id!==S.selected)continue;
       ctx.globalAlpha=isBright(n)?1:.25;ctx.strokeStyle='#0a0a0c';ctx.lineWidth=4;ctx.lineJoin='round';ctx.strokeText(n.name,x,y);
-      ctx.fillStyle=n.kind==='company'?'#e7ddc8':'#a6a6af';ctx.fillText(n.name,x,y);S.labels.push({...bounds,text:n.name,tx:x,ty:y,size,color:ctx.fillStyle,id:S.mode==='map'?'city:'+n.cityId:n.id});
+      ctx.fillStyle=n.kind==='company'?'#e7ddc8':'#d2d3de';ctx.fillText(n.name,x,y);S.labels.push({...bounds,text:n.name,tx:x,ty:y,size,color:ctx.fillStyle,id:S.mode==='map'?'city:'+n.cityId:n.id});
     }
     ctx.globalAlpha=1;$('zoom-level').value=Math.round(S.view.zoom*100)+'%';
   }
@@ -156,9 +169,26 @@
   function select(id){
     if(!byId.has(id))return;
     const n=byId.get(id);if(S.mode==='map'&&!n.geo)setMode('stars');if(!filteredNodes.some(x=>x.id===id)){resetFilters(false);}
-    S.selected=id;S.path=null;setTab('graph',false);document.body.classList.add('detail-open');refresh();announce(`已选中${n.name}，显示相关节点与来源。`);
+    S.selected=id;S.path=null;S.hover=null;setTab('graph',false);document.body.classList.add('detail-open');refresh(S.mode!=='map');if(S.mode==='map'){const p=points.get(id);moveCamera({x:p.x,y:p.y,zoom:Math.max(S.view.zoom,1.3)});}announce(`已选中${n.name}，显示相关节点与来源。`);
   }
-  function cityView(cityId){const ns=cityGroups.get(cityId);if(!ns?.length)return;setTab('graph',false);document.body.classList.add('detail-open');const g=ns[0].geo;$('detail-content').innerHTML=`<div class="detail-label">ONE CITY, MANY CREATORS</div><h2>${escape(g.city)}</h2><p>${escape(g.country)} · 此视图 ${ns.length} 个节点共享城市参考坐标。标记保持原位，请选择机构查看对应地点与来源。</p>${ns.map(n=>`<button class="location-item" data-node="${n.id}"><span>${escape(n.name)}</span><small>${escape(n.geo.basis)}</small><b>↗</b></button>`).join('')}`;announce(g.city+'，'+ns.length+'个节点');}
+  function moveCamera(target){
+    cancelAnimationFrame(cameraFrame);
+    if(motionPreference.matches){Object.assign(S.view,target);draw();return;}
+    const from={...S.view},started=performance.now();
+    function frame(now){const t=Math.min(1,(now-started)/650),e=1-Math.pow(1-t,3);for(const k of ['x','y','zoom'])S.view[k]=from[k]+(target[k]-from[k])*e;draw();if(t<1)cameraFrame=requestAnimationFrame(frame);}
+    cameraFrame=requestAnimationFrame(frame);
+  }
+  function cityView(cityId){
+    const ns=cityGroups.get(cityId);if(!ns?.length)return;
+    if(ns.length===1){select(ns[0].id);return;}
+    const ps=ns.map(n=>points.get(n.id)),xs=ps.map(p=>p.x),ys=ps.map(p=>p.y);
+    const width=Math.max(...xs)-Math.min(...xs),height=Math.max(...ys)-Math.min(...ys);
+    const target={x:(Math.max(...xs)+Math.min(...xs))/2,y:(Math.max(...ys)+Math.min(...ys))/2,zoom:Math.min(12,Math.max(S.view.zoom*1.7,Math.min((S.width-160)/Math.max(40,width+40),(S.height-290)/Math.max(40,height+40))))};
+    S.selected=null;S.path=null;S.hover=null;setTab('graph',false);refresh(false);document.body.classList.add('detail-open');
+    const cities=[...new Set(ns.map(n=>n.geo.city))],countries=[...new Set(ns.map(n=>n.geo.country))],longitude=target.x/7-180,name=cities.length===1?cities[0]:countries.length===1?countries[0]+'区域':longitude>90?'东亚':longitude<-100?'北美西部':longitude<-40?'北美东部':'欧洲';
+    $('detail-content').innerHTML=`<div class="detail-label">EXPLORE THIS AREA</div><h2>${escape(name)}</h2><p>已放大到 ${ns.length} 家机构所在区域。继续点击地图聚合点可逐步展开；同城机构通过下方列表选择，真实坐标保持不变。</p>${ns.map(n=>`<button class="location-item" data-node="${n.id}"><span>${escape(n.name)}</span><small>${escape(n.geo.city)} · ${escape(n.geo.basis)}</small><b>↗</b></button>`).join('')}`;
+    moveCamera(target);announce(name+'，已放大，包含'+ns.length+'家机构');
+  }
   function locationsView(){setTab('sources',false);document.body.classList.add('detail-open');const ns=filteredNodes.filter(n=>n.kind!=='game'&&n.geo);$('detail-content').innerHTML=`<div class="detail-label">VERIFIED ORGANIZATION LOCATIONS</div><h2>厂商地点对照</h2><p>${ns.length} 家厂商与团队逐项对应城市坐标。机构点位固定，重叠时合并选择。游戏坐标继承关联团队，仅表达作品关系。</p><p>城市参考点不等同于办公楼地址。总部、主要工作室与官方联系城市分别注明。</p>${ns.map(n=>`<div class="location-record"><button data-node="${n.id}">${escape(n.name)} ↗</button><p>${escape(n.geo.country)} · ${escape(n.geo.city)}<br>${escape(n.geo.basis)}</p><small>${n.geo.lat.toFixed(5)}, ${n.geo.lon.toFixed(5)}</small><div>${link(D.sources[n.geo.source].url,'地点依据')}${link(n.geo.coordinateSource,'坐标')}</div></div>`).join('')}`;}
   function clear(){S.selected=null;S.path=null;S.hover=null;document.body.classList.remove('detail-open');setTab('graph',false);refresh();location.hash='';}
   function setTab(tab,render=true){
@@ -188,18 +218,19 @@
   }
   function resize(){const box=canvas.getBoundingClientRect();S.width=box.width;S.height=box.height;const dpr=Math.min(devicePixelRatio||1,2);canvas.width=Math.round(box.width*dpr);canvas.height=Math.round(box.height*dpr);fitView();}
   function zoom(factor,x=S.width/2,y=S.height/2+38){
-    const before=world(x,y);S.view.zoom=Math.max(.1,Math.min(3,S.view.zoom*factor));const after=world(x,y);S.view.x+=before.x-after.x;S.view.y+=before.y-after.y;draw();
+    cancelAnimationFrame(cameraFrame);
+    const before=world(x,y);S.view.zoom=Math.max(.1,Math.min(S.mode==='map'?12:3,S.view.zoom*factor));const after=world(x,y);S.view.x+=before.x-after.x;S.view.y+=before.y-after.y;draw();
   }
   function local(event){const r=canvas.getBoundingClientRect();return {x:event.clientX-r.left,y:event.clientY-r.top};}
   function hit(x,y){
     for(const label of S.labels)if(x>=label.x&&x<=label.x+label.w&&y>=label.y&&y<=label.y+label.h)return label.id;
-    if(S.mode==='map'){let nearest=null,distance=15;for(const [cityId,ns] of cityGroups){const p=screen(points.get(ns[0].id)),d=Math.hypot(x-p.x,y-p.y);if(d<distance){distance=d;nearest='city:'+cityId;}}return nearest;}
+    if(S.mode==='map'){let nearest=null,distance=15;for(const [cityId,ns] of cityGroups){const p=screen(mapMarkers.get(cityId)),d=Math.hypot(x-p.x,y-p.y);if(d<distance){distance=d;nearest='city:'+cityId;}}return nearest;}
     let nearest=null,distance=15;for(const n of visibleNodes){const p=screen(points.get(n.id)),d=Math.hypot(x-p.x,y-p.y);if(d<distance){distance=d;nearest=n.id;}}return nearest;
   }
   const pointers=new Map();let gesture=null;
   canvas.addEventListener('pointerdown',event=>{
     if(event.button!==0&&event.pointerType!=='touch')return;const p=local(event);pointers.set(event.pointerId,p);canvas.setPointerCapture(event.pointerId);canvas.classList.add('dragging');$('tooltip').classList.add('hidden');
-    if(pointers.size===1)gesture={start:p,last:p,moved:false,pinch:false};
+    cancelAnimationFrame(cameraFrame);if(pointers.size===1)gesture={start:p,last:p,moved:false,pinch:false};
     else{const [a,b]=[...pointers.values()];gesture={pinch:true,distance:Math.hypot(a.x-b.x,a.y-b.y),mid:{x:(a.x+b.x)/2,y:(a.y+b.y)/2},moved:true};}
   });
   canvas.addEventListener('pointermove',event=>{
@@ -227,7 +258,9 @@
   $('enter-map').onclick=()=>{showGraph();setMode('map');setTab('graph');};
   $('home-tab').onclick=()=>{document.body.classList.remove('in-graph','detail-open');$('landing').classList.remove('hidden');};
   $('locations').onclick=locationsView;
-  function setMode(mode){S.mode=mode;points=mode==='map'?window.MapLayout.layout(D):E.layout(D);$('map-mode').classList.toggle('active',mode==='map');$('stars-mode').classList.toggle('active',mode==='stars');$('map-mode').setAttribute('aria-pressed',mode==='map');$('stars-mode').setAttribute('aria-pressed',mode==='stars');$('map-help').textContent=mode==='map'?'城市坐标 · 同城点击展开 · 未定位股东仅在星图展示':'点击节点查看连接 · 拖动平移 · 滚轮或双指缩放';refresh();}
+  $('map-region-jump').onchange=event=>{if(event.target.value)cityView(event.target.value);};
+  $('map-global').onclick=()=>{cancelAnimationFrame(cameraFrame);resetFilters(false);clear();};
+  function setMode(mode){cancelAnimationFrame(cameraFrame);S.mode=mode;$('map-global').classList.toggle('hidden',mode!=='map');$('map-region-jump').classList.toggle('hidden',mode!=='map');points=mode==='map'?window.MapLayout.layout(D):E.layout(D);$('map-mode').classList.toggle('active',mode==='map');$('stars-mode').classList.toggle('active',mode==='stars');$('map-mode').setAttribute('aria-pressed',mode==='map');$('stars-mode').setAttribute('aria-pressed',mode==='stars');$('map-help').textContent=mode==='map'?'点击聚合点放大 · 同城列表选择 · 返回全球重置地图':'点击节点查看连接 · 拖动平移 · 滚轮或双指缩放';refresh();}
   for(const [id,mode] of [['map-mode','map'],['stars-mode','stars']])$(id).onclick=()=>setMode(mode);
   for(const tab of ['graph','path','sources'])$(tab+'-tab').onclick=()=>{showGraph();setTab(tab);};
   document.addEventListener('submit',e=>{if(e.target.id==='path-form')findPath(e);});
@@ -239,7 +272,7 @@
     const geography=S.mode==='map'?window.WORLD_LAND.map(ring=>`<polygon points="${ring.map(([x,y])=>{const p=screen({x,y});return p.x.toFixed(2)+','+p.y.toFixed(2);}).join(' ')}" fill="#1f2425" stroke="#56615f" stroke-width=".7"/>`).join(''):'';
     const lines=visibleEdges.map(e=>{const a=screen(points.get(e.a)),b=screen(points.get(e.b)),bend=S.mode==='map'?Math.min(65,Math.hypot(b.x-a.x,b.y-a.y)*.18):0;return `<path d="M ${a.x.toFixed(2)} ${a.y.toFixed(2)} Q ${((a.x+b.x)/2).toFixed(2)} ${((a.y+b.y)/2-bend).toFixed(2)} ${b.x.toFixed(2)} ${b.y.toFixed(2)}" fill="none" stroke="${COLORS[e.kind]}" stroke-opacity=".4" stroke-width="1"${e.kind==='publish'?' stroke-dasharray="3 4"':''}/>`;}).join('');
     const exportNodes=S.mode==='map'?[...cityGroups.values()].map(ns=>ns.find(n=>n.kind==='company')||ns.find(n=>n.kind==='studio')||ns[0]):visibleNodes;
-    const dots=exportNodes.map(n=>{const p=screen(points.get(n.id)),r=radius(n);return `<circle cx="${p.x}" cy="${p.y}" r="${r}" fill="${COLORS[n.kind]}"/>`+(n.kind==='company'?`<circle cx="${p.x}" cy="${p.y}" r="${r+5}" fill="none" stroke="#e8c57855"/>`:'');}).join('');
+    const dots=exportNodes.map(n=>{const p=screen(S.mode==='map'?n:points.get(n.id)),r=S.mode==='map'&&n.members.length>1?10:radius(n);return `<circle cx="${p.x}" cy="${p.y}" r="${r}" fill="${COLORS[n.kind]}"/>`+(n.kind==='company'?`<circle cx="${p.x}" cy="${p.y}" r="${r+5}" fill="none" stroke="#e8c57855"/>`:'');}).join('');
     const labels=S.labels.map(l=>`<text x="${l.tx}" y="${l.ty}" font-size="${l.size}" fill="${l.color}" paint-order="stroke" stroke="#0a0a0c" stroke-width="3">${escape(l.text)}</text>`).join('');
     download(`<svg xmlns="http://www.w3.org/2000/svg" width="${S.width}" height="${S.height}" viewBox="0 0 ${S.width} ${S.height}"><title>${escape($('map-title').textContent)} · 游戏厂商图谱</title><desc>${escape(D.meta.note)}</desc><defs><clipPath id="bounds"><rect width="${S.width}" height="${S.height}"/></clipPath></defs><rect width="100%" height="100%" fill="#0a0a0c"/><g clip-path="url(#bounds)">${geography}${lines}${dots}<g font-family="Microsoft YaHei,sans-serif">${labels}</g></g><rect width="100%" height="105" fill="#0a0a0c"/><text x="30" y="42" font-family="Microsoft YaHei,sans-serif" font-size="22" fill="#eee9df">${escape($('map-title').textContent)}</text><text x="30" y="71" font-family="Microsoft YaHei,sans-serif" font-size="11" fill="#96939a">游戏厂商图谱 · 核对 ${D.meta.checked} · ${visibleNodes.length} 个节点 / ${visibleEdges.length} 条关系</text></svg>`,'image/svg+xml','game-atlas.svg');
   };
