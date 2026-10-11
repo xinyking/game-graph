@@ -1,0 +1,57 @@
+﻿ID,机构名称,类型,国家,城市,纬度,经度,地点口径,精度,地点依据,坐标来源,说明
+tencent,腾讯游戏,company,中国,深圳,22.54554,114.0683,全球总部,城市参考点，非楼宇定位,https://www.tencent.com/en-us/about.html.html,https://www.geonames.org/1795565/,
+netease,网易游戏,company,中国,杭州,30.29365,120.16142,官网列示中国办公室,城市参考点，非楼宇定位,https://www.neteasegames.com/,https://www.geonames.org/1808926/,同时设有广州、上海办公室；不把单一办公室称为全部游戏业务总部。
+hoyo,HoYoverse,company,新加坡,新加坡,1.28967,103.85007,全球总部,城市参考点，非楼宇定位,https://sdk.hoyoverse.com/hyp/agreement/index.html?language=en-us&launcher_id=VYTpXlbWo8&prev=false&type=2,https://www.geonames.org/1880252/,
+kuro,库洛游戏,company,中国,广州,23.11667,113.25,公司所在地,城市参考点，非楼宇定位,https://pns.kurogames.com/p/privacy.html,https://www.geonames.org/1809858/,
+science,游戏科学,company,中国,深圳,22.54554,114.0683,官方办公城市,城市参考点，非楼宇定位,https://gamesci.cn/about.html,https://www.geonames.org/1795565/,团队另有其他开发地点；此处定位官方列示深圳办公室。
+sony,索尼互动娱乐,company,美国,圣马特奥,37.56299,-122.32553,全球总部,城市参考点，非楼宇定位,https://sonyinteractive.com/en/office/global-headquarters/,https://www.geonames.org/5392423/,索尼互动娱乐 SIE，不是东京的索尼集团总部。
+nintendo,任天堂,company,日本,京都,35.02107,135.75385,总部,城市参考点，非楼宇定位,https://www.nintendo.co.jp/corporate/en/outline/index.html,https://www.geonames.org/1857910/,
+capcom,卡普空,company,日本,大阪,34.69379,135.50107,总部,城市参考点，非楼宇定位,https://www.capcom.co.jp/ir/english/company/info.html,https://www.geonames.org/1853909/,
+sega,世嘉,company,日本,东京,35.6895,139.69171,总部,城市参考点，非楼宇定位,https://www.sega.co.jp/en/company/outline/,https://www.geonames.org/1850147/,
+square,史克威尔艾尼克斯,company,日本,东京,35.6895,139.69171,总部,城市参考点，非楼宇定位,https://web.jp.square-enix.com/company/en/outline/,https://www.geonames.org/1850147/,
+bandai,万代南梦宫,company,日本,东京,35.6895,139.69171,总部,城市参考点，非楼宇定位,https://www.bandainamcoent.co.jp/corporate/overview/detail/,https://www.geonames.org/1850147/,
+from,FromSoftware,company,日本,东京,35.6895,139.69171,总部,城市参考点，非楼宇定位,https://www.fromsoftware.jp/ww/company_access.html,https://www.geonames.org/1850147/,
+xbox,微软 / Xbox,company,美国,雷德蒙德,47.67399,-122.12151,微软总部／Xbox 业务定位,城市参考点，非楼宇定位,https://www.microsoft.com/en-us/about/office-locations,https://www.geonames.org/5808079/,采用微软总部城市，不表示所有 Xbox 团队均在此办公。
+ea,艺电,company,美国,雷德伍德城,37.48522,-122.23635,全球总部,城市参考点，非楼宇定位,https://www.ea.com/about,https://www.geonames.org/5386834/,
+valve,Valve,company,美国,贝尔维尤,47.61038,-122.20068,公司城市,城市参考点，非楼宇定位,https://www.valvesoftware.com/company/Valve_Handbook_LowRes.pdf,https://www.geonames.org/5786882/,官方员工手册列示城市；不定位具体楼宇。
+epic,Epic Games,company,美国,卡里,35.79154,-78.78112,总部,城市参考点，非楼宇定位,https://www.epicgames.com/site/about?lang=en-US,https://www.geonames.org/4459467/,
+ubisoft,育碧,company,法国,圣芒代,48.83864,2.41579,全球总部,城市参考点，非楼宇定位,https://www.ubisoft.com/fr-fr/company/careers/locations/paris-area/ubisoft-worldwide-hq,https://www.geonames.org/2978621/,位于巴黎都市圈，地图使用圣芒代城市坐标。
+cdp,CD PROJEKT RED,company,波兰,华沙,52.22977,21.01178,公司所在地,城市参考点，非楼宇定位,https://www.cdprojekt.com/en/terms-of-service/,https://www.geonames.org/756135/,
+larian,拉瑞安,company,比利时,根特,51.05,3.71667,创始与主要工作室,城市参考点，非楼宇定位,https://larian.com/careers/location/gent,https://www.geonames.org/2797656/,多地开发团队；不把单一工作室坐标等同于完整法律注册结构。
+riot,拳头游戏,studio,美国,洛杉矶,34.05223,-118.24368,全球总部,城市参考点，非楼宇定位,https://www.riotgames.com/en/work-with-us/offices/los-angeles,https://www.geonames.org/5368361/,
+timi,天美工作室群,studio,中国,深圳,22.54554,114.0683,总部,城市参考点，非楼宇定位,https://www.tencent.com/timi-studio-group-the-next-chapter-part-1/,https://www.geonames.org/1795565/,官方 2021 年公告；多地工作室。
+supercell,Supercell,studio,芬兰,赫尔辛基,60.16952,24.93545,总部,城市参考点，非楼宇定位,https://supercell.com/en/office-privacy-policy/,https://www.geonames.org/658225/,
+naughty,顽皮狗,studio,美国,圣莫尼卡,34.01949,-118.49138,主要工作室,城市参考点，非楼宇定位,https://www.naughtydog.com/careers,https://www.geonames.org/5393212/,
+insomniac,Insomniac Games,studio,美国,伯班克,34.18084,-118.30897,主要实体工作室,城市参考点，非楼宇定位,https://insomniac.games/careers/,https://www.geonames.org/5331835/,同时有远程员工；定位实体工作室城市。
+santa,圣莫尼卡工作室,studio,美国,圣莫尼卡,34.01949,-118.49138,当前招聘列示工作城市,城市参考点，非楼宇定位,https://careers.playstation.com/senior-game-designer-combat/job/6117785004,https://www.geonames.org/5393212/,采用当前官方招聘的 Santa Monica 城市口径；不推断具体楼宇。
+guerrilla,Guerrilla Games,studio,荷兰,阿姆斯特丹,52.37403,4.88969,工作室,城市参考点，非楼宇定位,https://www.guerrilla-games.com/join/where-we-work,https://www.geonames.org/2759794/,
+asobi,Team ASOBI,studio,日本,东京,35.6895,139.69171,工作室,城市参考点，非楼宇定位,https://www.teamasobi.com/aboutus,https://www.geonames.org/1850147/,
+sucker,Sucker Punch,studio,美国,贝尔维尤,47.61038,-122.20068,工作室,城市参考点，非楼宇定位,https://www.glowybits.com/talks/real-time_samurai_cinema/real-time_samurai_cinema.pdf,https://www.geonames.org/5786882/,团队成员技术演讲列示所在地。
+retro,Retro Studios,studio,美国,奥斯汀,30.26715,-97.74306,工作室,城市参考点，非楼宇定位,https://www.retrostudios.com/about/,https://www.geonames.org/4671654/,
+bethesda,Bethesda Game Studios,studio,美国,罗克维尔,39.084,-77.15276,主要工作室,城市参考点，非楼宇定位,https://bethesdagamestudios.com/,https://www.geonames.org/4367175/,同时有蒙特利尔、奥斯汀、达拉斯团队。
+mojang,Mojang Studios,studio,瑞典,斯德哥尔摩,59.32938,18.06871,主要工作室,城市参考点，非楼宇定位,https://www.linkedin.com/company/mojangstudios,https://www.geonames.org/2673730/,公司官方账号列示斯德哥尔摩与雷德蒙德，另有多地团队。
+bioware,BioWare,studio,加拿大,埃德蒙顿,53.55014,-113.46871,主要工作室,城市参考点，非楼宇定位,https://www.bioware.com/studios/bioware-edmonton/,https://www.geonames.org/5946768/,
+respawn,Respawn Entertainment,studio,美国,洛杉矶,34.05223,-118.24368,Chatsworth 工作室城市,城市参考点，非楼宇定位,https://www.ea.com/careers/locations,https://www.geonames.org/5368361/,以洛杉矶城市参考点表示 Chatsworth，不声称具体楼宇位置。
+montreal,育碧蒙特利尔,studio,加拿大,蒙特利尔,45.50884,-73.58781,工作室,城市参考点，非楼宇定位,https://montreal.ubisoft.com/en/contact-us/,https://www.geonames.org/6077243/,
+rgg,如龙工作室,studio,日本,东京,35.6895,139.69171,所属世嘉总部城市,城市参考点，非楼宇定位,https://www.sega.co.jp/en/company/outline/,https://www.geonames.org/1850147/,内部团队，采用所属公司总部定位；未独立确认办公室地址。
+24ent,24 Entertainment,studio,中国,杭州,30.29365,120.16142,工作室,城市参考点，非楼宇定位,https://www.24-ent.com/,https://www.geonames.org/1808926/,
+nexon,Nexon,company,日本,东京,35.6895,139.69171,全球总部,城市参考点，非楼宇定位,https://www.nexon.co.jp/en/about/,https://www.geonames.org/1850147/,不要与 Nexon Korea 的韩国办公室混同。
+netmarble,Netmarble,company,韩国,首尔,37.566,126.9784,总部,城市参考点，非楼宇定位,https://company.netmarble.com/en/company/location,https://www.geonames.org/1835848/,
+krafton,KRAFTON,company,韩国,首尔,37.566,126.9784,总部,城市参考点，非楼宇定位,https://www.krafton.com/en/privacypolicy-11212023/,https://www.geonames.org/1835848/,
+pearl,Pearl Abyss,company,韩国,果川,37.43,126.99,总部,城市参考点，非楼宇定位,https://www.pearlabyss.com/en-US/Company/About,https://www.fallingrain.com/world/KS/a/G/w/a/c/index.html,
+konami,科乐美,company,日本,东京,35.6895,139.69171,数字娱乐总部,城市参考点，非楼宇定位,https://www.konami.com/games/corporate/en/,https://www.geonames.org/1850147/,
+koei,光荣特库摩,company,日本,横滨,35.43333,139.65,游戏公司总部,城市参考点，非楼宇定位,https://www.koeitecmo.co.jp/e/company/outline/,https://www.geonames.org/1848354/,
+snk,SNK,company,日本,大阪,34.69379,135.50107,总部,城市参考点，非楼宇定位,https://www.snk-corp.co.jp/us/company/,https://www.geonames.org/1853909/,
+take2,Take-Two Interactive,company,美国,纽约,40.71427,-74.00597,总部,城市参考点，非楼宇定位,https://careers.take2games.com/locations,https://www.geonames.org/5128581/,
+rockstar,Rockstar Games,company,美国,纽约,40.71427,-74.00597,总部／发行厂牌,城市参考点，非楼宇定位,https://www.rockstargames.com/careers/openings/position/7748469003,https://www.geonames.org/5128581/,不代表 GTA 或 RDR 所有开发者所在地。
+blizzard,暴雪娱乐,company,美国,尔湾,33.66946,-117.82311,主要园区,城市参考点，非楼宇定位,https://careers.blizzard.com/global/en/irvine,https://www.geonames.org/5359777/,
+bungie,Bungie,company,美国,贝尔维尤,47.61038,-122.20068,总部,城市参考点，非楼宇定位,https://www.bungie.net/7/en/Legal/PrivacyPolicy,https://www.geonames.org/5786882/,
+remedy,Remedy Entertainment,company,芬兰,埃斯波,60.2052,24.6522,芬兰总部办公室,城市参考点，非楼宇定位,https://www.remedygames.com/contact,https://www.geonames.org/660158/,另有斯德哥尔摩办公室。
+hello,Hello Games,company,英国,吉尔福德,51.23536,-0.57427,主要工作室,城市参考点，非楼宇定位,https://hellogames.org/join-us/,https://www.geonames.org/2647793/,另有剑桥团队。
+paradox,Paradox Interactive,company,瑞典,斯德哥尔摩,59.32938,18.06871,总部,城市参考点，非楼宇定位,https://www.paradoxinteractive.com/our-company,https://www.geonames.org/2673730/,
+supergiant,Supergiant Games,company,美国,旧金山,37.77493,-122.41942,工作室,城市参考点，非楼宇定位,https://www.supergiantgames.com/,https://www.geonames.org/5391959/,
+11bit,11 bit studios,company,波兰,华沙,52.22977,21.01178,公司所在地,城市参考点，非楼宇定位,https://ir.11bitstudios.com/en/who-we-are/,https://www.geonames.org/756135/,
+digital,Digital Extremes,company,加拿大,伦敦（安大略省）,42.98339,-81.23304,总部,城市参考点，非楼宇定位,https://www.digitalextremes.com/about,https://www.geonames.org/6058560/,加拿大伦敦，不是英国伦敦。
+mihoyo,米哈游,company,中国,上海,31.22222,121.45806,官方联系城市,城市参考点，非楼宇定位,https://uploadstatic.mihoyo.com/bh3/upload/officialsites/202008/privacy-V20200820-1.1_1597895224_9041.pdf,https://www.geonames.org/1796236/,官方来源为 2020 年隐私文件；标记城市级位置，不声称当前具体楼宇。
+tencenthold,腾讯控股,investor,中国,深圳,22.54554,114.0683,全球总部,城市参考点，非楼宇定位,https://www.tencent.com/en-us/about.html.html,https://www.geonames.org/1795565/,
+sonygroup,索尼集团,investor,日本,东京,35.6895,139.69171,索尼集团总部,城市参考点，非楼宇定位,https://www.sony.com/en/SonyInfo/CorporateInfo/data/,https://www.geonames.org/1850147/,索尼集团东京总部，与 SIE 圣马特奥节点分开。

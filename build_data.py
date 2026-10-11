@@ -1,0 +1,166 @@
+"""Maintain the small, source-linked editorial dataset; no live scraping."""
+import json
+import csv
+from pathlib import Path
+
+ROOT = Path(__file__).parent
+nodes, edges, sources = [], [], {}
+def source(key, title, url, dated=''):
+    sources[key] = dict(title=title, url=url, checked='2026-10-11', dated=dated)
+def node(id, name, kind, region, aliases='', description='', group=None, url=''):
+    nodes.append(dict(id=id, name=name, kind=kind, region=region, aliases=aliases,
+                      description=description, group=group or id, url=url))
+def edge(a,b,kind,src,note=''):
+    edges.append(dict(id=f'{a}:{kind}:{b}', a=a,b=b,kind=kind,source=src,note=note))
+def company(id,name,region,aliases,description,src):
+    node(id,name,'company',region,aliases,description,url=sources[src]['url'])
+def studio(id,name,parent,region,aliases,description,src,note=''):
+    node(id,name,'studio',region,aliases,description,group=parent,url=sources[src]['url'])
+    edge(parent,id,'member',src,note)
+def game(id,name,developer,aliases,genre,src,publisher=None,note=''):
+    dev=next(n for n in nodes if n['id']==developer)
+    node(id,name,'game',dev['region'],aliases,genre,group=dev['group'],url=sources[src]['url'])
+    edge(developer,id,'develop',src,note)
+    if publisher: edge(publisher,id,'publish',src,note)
+
+source('sony','PlayStation Studios：工作室与作品','https://www.playstation.com/en-us/corporate/playstation-studios/')
+source('xbox','Xbox：Bethesda 加入 Xbox 公告','https://news.xbox.com/en-us/2021/03/09/officially-welcoming-bethesda-to-the-xbox-family/','2021-03-09')
+source('bethesda','Bethesda Game Studios：作品','https://bethesdagamestudios.com/')
+source('minecraft','Minecraft 官方资料：Mojang 开发','https://news.xbox.com/en-us/wp-content/uploads/sites/2/2021/04/Minecraft-Franchise-Fact-Sheet_April-2021.pdf','2021-04')
+source('xboxlist','Xbox Game Studios 官方目录','https://www.xbox.com/en-GB/xbox-game-studios')
+source('tencent','腾讯年报：Riot、Supercell 与天美','https://static.www.tencent.com/uploads/2021/04/13/b6b9b71123a85775472307e7853a965e.pdf','2020 年报')
+source('riot','Riot Games：我们与游戏','https://www.riotgames.com/en/who-we-are')
+source('timi','天美：Honor of Kings','https://www.timistudios.com/games/honor-of-kings-2')
+source('supercell','Supercell 游戏目录','https://supercell.com/en/games/')
+source('netease','网易游戏官方目录','https://www.neteasegames.com/')
+source('naraka','永劫无间：开发商与发行公司','https://www.yjwujian.cn/news/official/20240202/33961_1136417.html','2024-02-02')
+source('hoyo','HoYoverse 官方产品目录','https://www.hoyoverse.com/en-us/')
+source('kuro','库洛游戏官方作品','https://www.kurogames.net/')
+source('science','黑神话：悟空官网','https://gamesci.cn/wukong/')
+source('nintendo','Nintendo 关联公司目录','https://www.nintendo.com/jp/privacy/affiliate/index.html')
+source('retro','Retro Studios：任天堂关系与开发作品','https://www.retrostudios.com/about/')
+source('capcom','Capcom 官方系列目录','https://captown.capcom.com/assets/super_elections/v1/result/pdf/CapcomSuperElectionsResults_Q1_en.pdf','2024')
+source('sega','RGG Studio 游戏目录','https://rggstudio.sega.com/games/')
+source('square','Square Enix 官方作品','https://www.square-enix-games.com/en_US/home')
+source('bandai','Bandai Namco / FromSoftware：艾尔登法环开发与发行','https://www.bandainamco.co.jp/cgi-bin/releases/index.cgi/en/press/10707?entry_id=7473','2022-03-16')
+source('ea','EA 官方工作室与作品','https://www.ea.com/careers/teams/ea-studios')
+source('ubisoft','Ubisoft Montréal 工作室资料','https://static-wordpressv2.ubisoft.com/quebec.ubisoft.com/wp-content/uploads/2022/12/Press_KIT_2022-EN.pdf','2022')
+source('cdp','CD PROJEKT RED 核心业务','https://www.cdprojekt.com/en/core-business/')
+source('valve','Valve：我们制作的游戏','https://www.valvesoftware.com/en/about')
+source('epic','Epic Games：公司与 Fortnite','https://www.epicgames.com/site/en-US/about')
+source('larian','Larian Studios 官方游戏目录','https://larian.com/')
+
+company('tencent','腾讯游戏','中国','Tencent Games 腾讯','以内部工作室、控股公司与发行业务连接全球游戏市场。','tencent')
+company('netease','网易游戏','中国','NetEase 网易','开发与发行业务覆盖多人在线、动作与角色扮演游戏。','netease')
+company('hoyo','HoYoverse / 米哈游','中国','miHoYo 米哈游','以 HoYoverse 品牌展示代表产品；这里合并为品牌视图，不表示法律主体等同。','hoyo')
+company('kuro','库洛游戏','中国','Kuro Games','以动作角色扮演游戏为主要代表作品。','kuro')
+company('science','游戏科学','中国','Game Science','《黑神话：悟空》的开发厂商。','science')
+company('sony','索尼互动娱乐','日本','Sony SIE PlayStation PS','通过 PlayStation Studios 汇集旗下开发团队。','sony')
+company('nintendo','任天堂','日本','Nintendo','以主机平台与第一方游戏开发、发行为核心。','nintendo')
+company('capcom','卡普空','日本','CAPCOM','代表系列包括生化危机、怪物猎人与街头霸王。','capcom')
+company('sega','世嘉','日本','SEGA','旗下如龙工作室开发如龙与审判系列作品。','sega')
+company('square','史克威尔艾尼克斯','日本','Square Enix SE','以最终幻想等角色扮演作品为代表。','square')
+company('bandai','万代南梦宫','日本','Bandai Namco','游戏开发与发行厂商；发行合作不等于拥有开发团队。','bandai')
+company('from','FromSoftware','日本','FS From Software 宫崎英高','《艾尔登法环》的开发方，在日本也承担该作发行。','bandai')
+company('xbox','微软 / Xbox','北美','Microsoft Gaming Xbox','这里将 Xbox 游戏业务合并为组织视图；不是完整法律股权链。','xbox')
+company('ea','艺电','北美','Electronic Arts EA','旗下开发团队覆盖角色扮演、动作与竞技游戏。','ea')
+company('valve','Valve','北美','V社 维尔福 Steam','开发游戏，并运营 Steam 平台。','valve')
+company('epic','Epic Games','北美','Epic 堡垒之夜','开发《Fortnite》并提供 Unreal Engine 等技术。','epic')
+company('ubisoft','育碧','欧洲','Ubisoft','跨工作室协作的游戏开发与发行厂商。','ubisoft')
+company('cdp','CD PROJEKT RED','欧洲','CDPR 波兰蠢驴 CD Projekt','开发与发行巫师系列及《赛博朋克 2077》。','cdp')
+company('larian','拉瑞安','欧洲','Larian Studios','以博德之门与神界系列角色扮演游戏为代表。','larian')
+
+studio('riot','拳头游戏','tencent','北美','Riot Games','开发《英雄联盟》《无畏契约》等游戏。','tencent','腾讯年报将 Riot 列为附属公司；组织关系采用该报告口径。')
+studio('timi','天美工作室群','tencent','中国','TiMi','《王者荣耀》的开发团队。','tencent')
+studio('supercell','Supercell','tencent','欧洲','超级细胞','《部落冲突》《荒野乱斗》的开发公司。','tencent','属于腾讯控股公司关系；不是腾讯内部工作室，图中统一使用组织归属线。')
+studio('naughty','顽皮狗','sony','北美','Naughty Dog','最后生还者与神秘海域系列开发团队。','sony')
+studio('insomniac','Insomniac Games','sony','北美','失眠组','漫威蜘蛛侠与瑞奇与叮当系列开发团队。','sony')
+studio('santa','圣莫尼卡工作室','sony','北美','Santa Monica Studio','战神系列开发团队。','sony')
+studio('guerrilla','Guerrilla Games','sony','欧洲','游骑兵','地平线系列开发团队。','sony')
+studio('asobi','Team ASOBI','sony','日本','机器人 阿索比','《ASTRO BOT》的开发团队。','sony')
+studio('sucker','Sucker Punch','sony','北美','对马岛','对马岛与羊蹄山系列开发团队。','sony')
+studio('retro','Retro Studios','nintendo','北美','银河战士','任天堂旗下开发团队，作品包括银河战士 Prime。','retro')
+studio('bethesda','Bethesda Game Studios','xbox','北美','BGS B社','上古卷轴、辐射与星空的开发团队。','xbox','通过 Bethesda / ZeniMax 归入 Xbox；图中省略中间法律主体。')
+studio('mojang','Mojang Studios','xbox','欧洲','我的世界','Minecraft 开发团队。','xboxlist')
+studio('bioware','BioWare','ea','北美','生软','质量效应与龙腾世纪系列开发团队。','ea')
+studio('respawn','Respawn Entertainment','ea','北美','重生工作室','Apex Legends 与 Titanfall 的开发团队。','ea')
+studio('montreal','育碧蒙特利尔','ubisoft','北美','Ubisoft Montréal Montreal','参与刺客信条、彩虹六号、孤岛惊魂等系列开发。','ubisoft')
+studio('rgg','如龙工作室','sega','日本','Ryu Ga Gotoku RGG','如龙与审判系列开发团队。','sega')
+# 24 Entertainment is kept separate: the cited source establishes publishing,
+# not a current ownership chain. Never derive ownership from a publisher credit.
+node('24ent','24 Entertainment','studio','中国','二十四工作室','《永劫无间》的开发团队。',group='netease',url=sources['naraka']['url'])
+
+game('lol','英雄联盟','riot','League of Legends LOL','多人在线战术竞技','riot')
+game('valorant','无畏契约','riot','VALORANT 瓦罗兰特','战术射击','riot')
+game('tft','云顶之弈','riot','Teamfight Tactics TFT','自走棋','riot')
+game('hok','王者荣耀','timi','Honor of Kings','移动端多人竞技','timi')
+game('coc','部落冲突','supercell','Clash of Clans','移动端策略','supercell')
+game('brawl','荒野乱斗','supercell','Brawl Stars','移动端多人动作','supercell')
+game('naraka','永劫无间','24ent','NARAKA BLADEPOINT','武侠动作竞技','naraka','netease','国际发行由 NetEase Games Montréal；中国发行由杭州网易雷火。')
+# Directory listing supports publication; do not invent an internal developer.
+def published(id,name,publisher,aliases,genre,src):
+    p=next(n for n in nodes if n['id']==publisher)
+    node(id,name,'game',p['region'],aliases,genre,group=publisher,url=sources[src]['url'])
+    edge(publisher,id,'publish',src,'官方产品目录列出的发行作品；未在本图补充内部开发团队。')
+published('marvel','漫威争锋','netease','Marvel Rivals','多人英雄射击','netease')
+published('once','七日世界','netease','Once Human','开放世界生存','netease')
+published('winds','燕云十六声','netease','Where Winds Meet','武侠开放世界','netease')
+published('genshin','原神','hoyo','Genshin Impact','开放世界动作角色扮演','hoyo')
+published('starrail','崩坏：星穹铁道','hoyo','Honkai Star Rail','回合制角色扮演','hoyo')
+published('zzz','绝区零','hoyo','Zenless Zone Zero','动作角色扮演','hoyo')
+game('wuthering','鸣潮','kuro','Wuthering Waves','开放世界动作角色扮演','kuro')
+game('wukong','黑神话：悟空','science','Black Myth Wukong','动作角色扮演','science')
+game('tlou','最后生还者','naughty','The Last of Us TLOU','动作冒险系列','sony','sony')
+game('uncharted','神秘海域','naughty','Uncharted','动作冒险系列','sony','sony')
+game('spiderman','漫威蜘蛛侠','insomniac','Marvel Spider-Man','动作冒险系列','sony','sony')
+game('gow','战神','santa','God of War','动作冒险系列','sony','sony')
+game('horizon','地平线','guerrilla','Horizon','开放世界动作系列','sony','sony')
+game('astro','宇宙机器人','asobi','ASTRO BOT','平台动作','sony','sony')
+game('tsushima','对马岛之魂','sucker','Ghost of Tsushima','开放世界动作冒险','sony','sony')
+game('prime','银河战士 Prime','retro','Metroid Prime','第一人称动作冒险系列','retro')
+game('dk','大金刚：热带寒流','retro','Donkey Kong Country Tropical Freeze','平台动作','retro')
+published('resident','生化危机','capcom','Resident Evil Biohazard','生存恐怖系列','capcom')
+published('monster','怪物猎人','capcom','Monster Hunter','动作角色扮演系列','capcom')
+published('sf','街头霸王','capcom','Street Fighter','格斗系列','capcom')
+game('dragon','如龙8','rgg','Like a Dragon Infinite Wealth','角色扮演','sega','sega')
+game('judgment','审判之眼','rgg','Judgment','动作冒险','sega','sega')
+published('ff14','最终幻想 XIV','square','Final Fantasy XIV FFXIV','大型多人在线角色扮演','square')
+published('ff7','最终幻想 VII 重制版','square','Final Fantasy VII Remake','动作角色扮演','square')
+game('elden','艾尔登法环','from','Elden Ring 老头环','开放世界动作角色扮演','bandai','bandai','FromSoftware 主导开发；本图标注万代南梦宫负责日本以外地区发行。')
+game('skyrim','上古卷轴 V：天际','bethesda','The Elder Scrolls Skyrim','开放世界角色扮演','bethesda')
+game('starfield','星空','bethesda','Starfield','科幻角色扮演','bethesda')
+game('minecraft','我的世界','mojang','Minecraft','沙盒建造','minecraft')
+game('mass','质量效应','bioware','Mass Effect','科幻角色扮演系列','ea')
+game('age','龙腾世纪','bioware','Dragon Age','奇幻角色扮演系列','ea')
+game('apex','Apex 英雄','respawn','Apex Legends','多人射击','ea')
+game('ac','刺客信条','montreal','Assassin Creed','动作冒险系列','ubisoft',note='系列为多工作室协作，本图只记录蒙特利尔参与；不是唯一开发团队。')
+game('siege','彩虹六号：围攻','montreal','Rainbow Six Siege R6','战术射击','ubisoft')
+game('witcher','巫师3：狂猎','cdp','The Witcher 3','开放世界角色扮演','cdp')
+game('cyberpunk','赛博朋克 2077','cdp','Cyberpunk 2077','开放世界角色扮演','cdp')
+game('cs','反恐精英2','valve','Counter Strike 2 CS2','战术射击','valve')
+game('dota','Dota 2','valve','刀塔','多人在线战术竞技','valve')
+game('portal','传送门2','valve','Portal 2','解谜','valve')
+game('fortnite','堡垒之夜','epic','Fortnite','多人在线游戏','epic')
+game('bg3','博德之门3','larian','Baldur Gate 3 BG3','回合制角色扮演','larian')
+game('divinity','神界：原罪2','larian','Divinity Original Sin 2','回合制角色扮演','larian')
+
+exec(compile((ROOT/'catalog_extension.py').read_text(encoding='utf-8'),str(ROOT/'catalog_extension.py'),'exec'))
+exec(compile((ROOT/'enrichment.py').read_text(encoding='utf-8'),str(ROOT/'enrichment.py'),'exec'))
+
+data = dict(meta=dict(title='游戏厂商图谱',edition='精选关系集 · 2026.10',checked='2026-10-11',
+    provenance=dict(repo='https://github.com/Essie363/MusicalGraph',commit='84e5440b837156e1ba6511307d62f32e33309447'),
+    note='精选样本，不是完整产业或实时股权数据库。组织归属包括内部团队和子公司，并可能省略中间主体。开发和发行按作品/系列口径记录；历史来源在关系详情标注。'),
+    sources=sources,nodes=nodes,edges=edges)
+dist=ROOT/'dist'
+dist.mkdir(exist_ok=True)
+payload=json.dumps(data,ensure_ascii=False,indent=2)
+(dist/'data.json').write_text(payload,encoding='utf-8')
+(dist/'data.js').write_text('window.GAME_GRAPH = '+payload+';\n',encoding='utf-8')
+with (ROOT/'location-correspondence.csv').open('w',encoding='utf-8-sig',newline='') as f:
+    writer=csv.writer(f)
+    writer.writerow(['ID','机构名称','类型','国家','城市','纬度','经度','地点口径','精度','地点依据','坐标来源','说明'])
+    for n in nodes:
+        if n['kind']=='game' or not n.get('geo'): continue
+        g=n['geo']
+        writer.writerow([n['id'],n['name'],n['kind'],g['country'],g['city'],g['lat'],g['lon'],g['basis'],g['precision'],sources[g['source']]['url'],g['coordinateSource'],g['note']])
+print(f'{len(nodes)} nodes, {len(edges)} edges, {len(sources)} sources')

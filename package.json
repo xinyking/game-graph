@@ -1,0 +1,11 @@
+{
+  "name": "game-graph",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Game industry knowledge graph and world map",
+  "scripts": {
+    "start": "node server.cjs",
+    "test": "node verify.cjs"
+  },
+  "engines": { "node": ">=20" }
+}

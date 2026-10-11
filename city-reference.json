@@ -1,0 +1,281 @@
+{
+  "2797656": {
+    "name": "Gent",
+    "countryCode": "BE",
+    "admin": "VLG",
+    "lat": 51.05,
+    "lon": 3.71667,
+    "url": "https://www.geonames.org/2797656/"
+  },
+  "5946768": {
+    "name": "Edmonton",
+    "countryCode": "CA",
+    "admin": "01",
+    "lat": 53.55014,
+    "lon": -113.46871,
+    "url": "https://www.geonames.org/5946768/"
+  },
+  "6058560": {
+    "name": "London",
+    "countryCode": "CA",
+    "admin": "08",
+    "lat": 42.98339,
+    "lon": -81.23304,
+    "url": "https://www.geonames.org/6058560/"
+  },
+  "6077243": {
+    "name": "Montreal",
+    "countryCode": "CA",
+    "admin": "10",
+    "lat": 45.50884,
+    "lon": -73.58781,
+    "url": "https://www.geonames.org/6077243/"
+  },
+  "1795565": {
+    "name": "Shenzhen",
+    "countryCode": "CN",
+    "admin": "30",
+    "lat": 22.54554,
+    "lon": 114.0683,
+    "url": "https://www.geonames.org/1795565/"
+  },
+  "1796236": {
+    "name": "Shanghai",
+    "countryCode": "CN",
+    "admin": "23",
+    "lat": 31.22222,
+    "lon": 121.45806,
+    "url": "https://www.geonames.org/1796236/"
+  },
+  "1808926": {
+    "name": "Hangzhou",
+    "countryCode": "CN",
+    "admin": "02",
+    "lat": 30.29365,
+    "lon": 120.16142,
+    "url": "https://www.geonames.org/1808926/"
+  },
+  "1809858": {
+    "name": "Guangzhou",
+    "countryCode": "CN",
+    "admin": "30",
+    "lat": 23.11667,
+    "lon": 113.25,
+    "url": "https://www.geonames.org/1809858/"
+  },
+  "658225": {
+    "name": "Helsinki",
+    "countryCode": "FI",
+    "admin": "01",
+    "lat": 60.16952,
+    "lon": 24.93545,
+    "url": "https://www.geonames.org/658225/"
+  },
+  "660158": {
+    "name": "Espoo",
+    "countryCode": "FI",
+    "admin": "01",
+    "lat": 60.2052,
+    "lon": 24.6522,
+    "url": "https://www.geonames.org/660158/"
+  },
+  "2978621": {
+    "name": "Saint-Mande",
+    "countryCode": "FR",
+    "admin": "11",
+    "lat": 48.83864,
+    "lon": 2.41579,
+    "url": "https://www.geonames.org/2978621/"
+  },
+  "2647793": {
+    "name": "Guildford",
+    "countryCode": "GB",
+    "admin": "ENG",
+    "lat": 51.23536,
+    "lon": -0.57427,
+    "url": "https://www.geonames.org/2647793/"
+  },
+  "1848354": {
+    "name": "Yokohama",
+    "countryCode": "JP",
+    "admin": "19",
+    "lat": 35.43333,
+    "lon": 139.65,
+    "url": "https://www.geonames.org/1848354/"
+  },
+  "1850147": {
+    "name": "Tokyo",
+    "countryCode": "JP",
+    "admin": "40",
+    "lat": 35.6895,
+    "lon": 139.69171,
+    "url": "https://www.geonames.org/1850147/"
+  },
+  "1853909": {
+    "name": "Osaka",
+    "countryCode": "JP",
+    "admin": "32",
+    "lat": 34.69379,
+    "lon": 135.50107,
+    "url": "https://www.geonames.org/1853909/"
+  },
+  "1857910": {
+    "name": "Kyoto",
+    "countryCode": "JP",
+    "admin": "22",
+    "lat": 35.02107,
+    "lon": 135.75385,
+    "url": "https://www.geonames.org/1857910/"
+  },
+  "1835848": {
+    "name": "Seoul",
+    "countryCode": "KR",
+    "admin": "11",
+    "lat": 37.566,
+    "lon": 126.9784,
+    "url": "https://www.geonames.org/1835848/"
+  },
+  "2759794": {
+    "name": "Amsterdam",
+    "countryCode": "NL",
+    "admin": "07",
+    "lat": 52.37403,
+    "lon": 4.88969,
+    "url": "https://www.geonames.org/2759794/"
+  },
+  "756135": {
+    "name": "Warsaw",
+    "countryCode": "PL",
+    "admin": "78",
+    "lat": 52.22977,
+    "lon": 21.01178,
+    "url": "https://www.geonames.org/756135/"
+  },
+  "2673730": {
+    "name": "Stockholm",
+    "countryCode": "SE",
+    "admin": "26",
+    "lat": 59.32938,
+    "lon": 18.06871,
+    "url": "https://www.geonames.org/2673730/"
+  },
+  "1880252": {
+    "name": "Singapore",
+    "countryCode": "SG",
+    "admin": "",
+    "lat": 1.28967,
+    "lon": 103.85007,
+    "url": "https://www.geonames.org/1880252/"
+  },
+  "4367175": {
+    "name": "Rockville",
+    "countryCode": "US",
+    "admin": "MD",
+    "lat": 39.084,
+    "lon": -77.15276,
+    "url": "https://www.geonames.org/4367175/"
+  },
+  "4459467": {
+    "name": "Cary",
+    "countryCode": "US",
+    "admin": "NC",
+    "lat": 35.79154,
+    "lon": -78.78112,
+    "url": "https://www.geonames.org/4459467/"
+  },
+  "4671654": {
+    "name": "Austin",
+    "countryCode": "US",
+    "admin": "TX",
+    "lat": 30.26715,
+    "lon": -97.74306,
+    "url": "https://www.geonames.org/4671654/"
+  },
+  "5128581": {
+    "name": "New York City",
+    "countryCode": "US",
+    "admin": "NY",
+    "lat": 40.71427,
+    "lon": -74.00597,
+    "url": "https://www.geonames.org/5128581/"
+  },
+  "5331835": {
+    "name": "Burbank",
+    "countryCode": "US",
+    "admin": "CA",
+    "lat": 34.18084,
+    "lon": -118.30897,
+    "url": "https://www.geonames.org/5331835/"
+  },
+  "5359777": {
+    "name": "Irvine",
+    "countryCode": "US",
+    "admin": "CA",
+    "lat": 33.66946,
+    "lon": -117.82311,
+    "url": "https://www.geonames.org/5359777/"
+  },
+  "5368361": {
+    "name": "Los Angeles",
+    "countryCode": "US",
+    "admin": "CA",
+    "lat": 34.05223,
+    "lon": -118.24368,
+    "url": "https://www.geonames.org/5368361/"
+  },
+  "5386834": {
+    "name": "Redwood City",
+    "countryCode": "US",
+    "admin": "CA",
+    "lat": 37.48522,
+    "lon": -122.23635,
+    "url": "https://www.geonames.org/5386834/"
+  },
+  "5391959": {
+    "name": "San Francisco",
+    "countryCode": "US",
+    "admin": "CA",
+    "lat": 37.77493,
+    "lon": -122.41942,
+    "url": "https://www.geonames.org/5391959/"
+  },
+  "5392423": {
+    "name": "San Mateo",
+    "countryCode": "US",
+    "admin": "CA",
+    "lat": 37.56299,
+    "lon": -122.32553,
+    "url": "https://www.geonames.org/5392423/"
+  },
+  "5393212": {
+    "name": "Santa Monica",
+    "countryCode": "US",
+    "admin": "CA",
+    "lat": 34.01949,
+    "lon": -118.49138,
+    "url": "https://www.geonames.org/5393212/"
+  },
+  "5786882": {
+    "name": "Bellevue",
+    "countryCode": "US",
+    "admin": "WA",
+    "lat": 47.61038,
+    "lon": -122.20068,
+    "url": "https://www.geonames.org/5786882/"
+  },
+  "5808079": {
+    "name": "Redmond",
+    "countryCode": "US",
+    "admin": "WA",
+    "lat": 47.67399,
+    "lon": -122.12151,
+    "url": "https://www.geonames.org/5808079/"
+  },
+  "gwacheon": {
+    "name": "Gwacheon",
+    "countryCode": "KR",
+    "lat": 37.43,
+    "lon": 126.99,
+    "url": "https://www.fallingrain.com/world/KS/a/G/w/a/c/index.html"
+  }
+}
