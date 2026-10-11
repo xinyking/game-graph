@@ -2,7 +2,7 @@
 
 仓库包含完整网页、数据编辑源、地图原始数据和验证脚本。运行 `npm start` 本地预览，`npm test` 验证。Cloudflare Pages 自动部署配置见 [DEPLOY.md](DEPLOY.md)。`assets/source/world-land.geojson` 用于离线重建地图；截图、临时下载和其他任务文件不进入仓库。
 
-基于 [Essie363/MusicalGraph](https://github.com/Essie363/MusicalGraph) 的游戏产业适配版。
+视觉与交互灵感来自 [Essie363/MusicalGraph](https://github.com/Essie363/MusicalGraph)，游戏领域的页面、数据与布局在本项目实现。
 
 直接打开 `dist/index.html` 即可离线使用；若要 HTTP 预览，在本目录运行 `node server.cjs`，访问 http://127.0.0.1:4173。
 
@@ -36,9 +36,7 @@ HoYoverse（新加坡）与米哈游（上海）分别展示；微软 / Xbox 作
 
 阅读的上游版本：`84e5440b837156e1ba6511307d62f32e33309447`。
 
-沿用其零依赖 Canvas 星图、搜索聚焦、侧栏详情和静态数据架构。`dist/graph-engine.js` 的斥力、弹簧、阻尼步骤适配自上游 `web/app.js` 的 `physicsStep`。新版按实际关系形成连通分量，所有关系（包括跨公司开发与发行）参与布局，公司点位不再固定为独立岛屿。没有已记录关系的分量紧凑排列，不增加虚构连线。全景显示团队和作品名称，选中后展示关系文字和方向。其他页面与交互为游戏领域重新编写。
-
-没有连接原项目 Supabase、认证、反馈服务或音乐剧数据。上游未发现许可证文件；本交付为本地适配版本，没有向公共站点或原仓库推送。
+采用零依赖 Canvas、搜索聚焦、侧栏详情和静态数据架构。当前布局使用本项目编写的图距离应力松弛与连通分量排列，已替换早期适配自上游的 physicsStep。上游未发现许可证，本次上线版本不包含该适配步骤。没有连接原项目的后端、认证或音乐剧数据。字体 Geist 使用 SIL Open Font License，完整许可证随 dist/fonts/OFL.txt 一并提供。
 
 ## 维护与验证
 
