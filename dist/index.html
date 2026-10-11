@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="探索游戏厂商、开发工作室和代表作品之间有来源的关系。"><title>游戏厂商图谱 · Game Atlas</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<link rel="stylesheet" href="theme.css">
+<header>
+  <a class="brand" href="#" aria-label="返回图谱全景"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M7 9L23 7L25 24L7 9L8 25L23 7" fill="none" stroke="currentColor" stroke-width="1"/><circle cx="7" cy="9" r="3"/><circle cx="23" cy="7" r="2"/><circle cx="25" cy="24" r="3"/><circle cx="8" cy="25" r="2"/></svg><span>GAME ATLAS<small>游戏厂商关系图谱</small></span></a>
+  <nav aria-label="主视图"><button id="home-tab">首页</button><button class="active" id="graph-tab" aria-pressed="true">关系图谱</button><button id="path-tab" aria-pressed="false">关系路径</button><button id="sources-tab" aria-pressed="false">数据说明</button></nav>
+  <span class="edition">精选关系集 <b>2026.10</b></span>
+</header>
+<section id="landing" class="landing">
+  <div class="hero-orbit" aria-hidden="true"><svg viewBox="0 0 1200 800"><g fill="none" stroke="#d2b36c" stroke-opacity=".22"><path d="M680 140L920 270L760 460L1060 580L920 270L1110 110M760 460L620 670L1060 580M680 140L540 330L760 460M540 330L620 670"/></g><g fill="#e8c578"><circle cx="680" cy="140" r="5"/><circle cx="920" cy="270" r="8"/><circle cx="760" cy="460" r="6"/><circle cx="1060" cy="580" r="4"/><circle cx="1110" cy="110" r="3"/><circle cx="540" cy="330" r="3"/><circle cx="620" cy="670" r="4"/></g></svg></div>
+  <div class="hero-copy"><div class="hero-kicker"><i></i> GAME ATLAS · 游戏厂商关系图谱</div><h1>BEHIND<br><span>THE GAME.</span></h1><p class="hero-cn">每一款游戏，都有一个更大的世界。</p><p class="hero-description">从你喜爱的作品出发，探索开发团队、发行厂商，<br>以及连接它们的故事。</p><div class="hero-choices" aria-label="选择展示方式"><button id="enter-graph" class="hero-enter">Game Graph <span>↗</span></button><button id="enter-map" class="hero-enter hero-map">世界地图 <span>↗</span></button></div></div>
+  <div class="hero-foot"><span id="hero-stats"></span><span>探索游戏背后的连接 ↓</span></div>
+</section>
+<main>
+<aside class="explorer" aria-label="搜索与筛选">
+  <div class="explorer-heading"><span class="eyebrow">EXPLORE THE INDUSTRY</span><h1>从一个名字出发。</h1><p>找到厂商、团队与作品的连接。</p></div>
+  <label class="search-label" for="search">搜索图谱</label><div class="search-box"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="腾讯、顽皮狗、Elden Ring…" autocomplete="off"></div>
+  <div class="filter-block"><label for="region">办公地区</label><select id="region"><option value="all">全部地区</option><option>中国</option><option>日本</option><option>韩国</option><option>新加坡</option><option>北美</option><option>欧洲</option></select></div>
+  <fieldset class="kinds"><legend>节点类型</legend><label><input type="checkbox" value="company" checked><i class="dot company"></i>厂商 / 品牌</label><label><input type="checkbox" value="studio" checked><i class="dot studio"></i>工作室 / 团队</label><label><input type="checkbox" value="game" checked><i class="dot game"></i>游戏 / 系列</label><label><input type="checkbox" value="investor" checked><i class="dot investor"></i>股东 / 控股主体</label></fieldset>
+  <div class="directory-head"><span id="list-title">厂商目录</span><span id="list-count"></span></div><div id="directory" role="list" aria-label="匹配的节点"></div>
+  <div class="explorer-footer"><a href="https://github.com/Essie363/MusicalGraph" target="_blank" rel="noopener noreferrer">基于 MusicalGraph ↗</a><span>陆地 Natural Earth · 坐标 <a href="https://www.geonames.org/" target="_blank" rel="noopener noreferrer">GeoNames · CC BY ↗</a></span></div>
+</aside>
+<section class="map-area" aria-label="游戏厂商关系图">
+  <div class="map-heading"><div><span class="eyebrow">THE CONNECTIONS BEHIND GAMES</span><h2 id="map-title">全球游戏版图</h2></div><button id="clear-focus" class="quiet hidden">返回全景 ↗</button></div>
+  <div class="counts" id="counts"></div>
+  <div class="view-switch" aria-label="展示方式"><button id="stars-mode" class="active" aria-pressed="true">Game Graph</button><button id="map-mode" aria-pressed="false">世界地图</button><button id="locations">地点对照 ↗</button></div>
+  <canvas id="graph" tabindex="0" aria-label="可拖动和缩放的关系图；也可通过左侧目录选择节点，方向键平移，加减键缩放"></canvas>
+  <div id="tooltip" class="tooltip hidden" role="tooltip"></div>
+  <div class="map-bottom"><div class="relations" aria-label="关系筛选"><label><input type="checkbox" value="member" checked><i class="line member"></i>组织归属</label><label><input type="checkbox" value="develop" checked><i class="line develop"></i>开发</label><label><input type="checkbox" value="publish" checked><i class="line publish"></i>发行</label><label><input type="checkbox" value="control" checked><i class="line control"></i>控制</label><label><input type="checkbox" value="invest" checked><i class="line invest"></i>参股</label></div><div class="zoom-controls"><button id="zoom-out" aria-label="缩小">−</button><output id="zoom-level">100%</output><button id="zoom-in" aria-label="放大">+</button><button id="fit" aria-label="适配画布" title="适配画布">⤢</button></div></div>
+  <div class="map-help" id="map-help">点击节点查看连接 · 拖动平移 · 滚轮或双指缩放</div><div id="empty" class="empty hidden">没有符合筛选条件的节点。<button id="reset">重置筛选</button></div>
+</section>
+<aside class="details" aria-label="节点与关系详情"><button id="mobile-close" aria-label="关闭详情">×</button><div id="detail-content"></div><div class="export-bar"><button id="export-svg">导出 SVG ↗</button><button id="export-data">导出数据 ↗</button></div></aside>
+</main>
+<div id="announce" class="sr-only" aria-live="polite"></div>
+<script src="data.js"></script><script src="graph-engine.js"></script><script src="world-map.js"></script><script src="map-layout.js"></script><script src="app.js"></script>
+</body></html>
