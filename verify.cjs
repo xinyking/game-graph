@@ -2,6 +2,12 @@ const fs=require('node:fs'),path=require('node:path'),assert=require('node:asser
 const D=JSON.parse(fs.readFileSync(path.join(__dirname,'dist/data.json'),'utf8'));
 const engine=require('./dist/graph-engine.js');
 const mapEngine=require('./dist/map-layout.js');
+// Zooming separates nearby cities while colocated organizations stay together.
+const sample=[{id:'a'},{id:'b'},{id:'c'}],samplePositions=new Map([['a',{x:0,y:0}],['b',{x:0,y:0}],['c',{x:60,y:0}]]);
+assert.equal(mapEngine.clusters(sample,samplePositions,.2).length,1);
+assert.equal(mapEngine.clusters(sample,samplePositions,2).length,2);
+assert.equal(mapEngine.clusters(sample,samplePositions,12)[0].members.length,2);
+assert.deepEqual(samplePositions.get('a'),{x:0,y:0},'clustering must preserve geographic points');
 const byId=new Map(D.nodes.map(n=>[n.id,n]));
 const geographic=mapEngine.layout(D),cities=new Map();
 for(const n of D.nodes){
