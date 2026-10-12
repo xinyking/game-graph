@@ -12,7 +12,7 @@ const byId=new Map(D.nodes.map(n=>[n.id,n]));
 const geographic=mapEngine.layout(D),cities=new Map();
 for(const n of D.nodes){
   assert(n.attributes?.length>=5,'every node has structured attributes');
-  if(!n.geo){assert.equal(n.kind,'investor');assert(n.locationNote);continue;}
+  if(!n.geo){assert(n.kind==='investor'||n.steamImported);assert(n.locationNote);continue;}
   assert(n.geo,'every node has explicit geographic basis');
   assert(Number.isFinite(n.geo.lat)&&Math.abs(n.geo.lat)<=90);
   assert(Number.isFinite(n.geo.lon)&&Math.abs(n.geo.lon)<=180);
@@ -51,4 +51,5 @@ assert.equal(capitalEdges.find(e=>e.a==='kadokawa'&&e.b==='from').kind,'control'
 assert(!D.edges.some(e=>e.kind==='member'&&e.a==='sony'&&e.b==='from'),'minority shareholding does not imply ownership');
 assert(D.nodes.filter(n=>n.kind==='game').length>=110);
 assert(D.nodes.filter(n=>n.kind==='game').every(n=>n.genre&&n.description.length>10&&D.sources[n.descriptionSource]));
-console.log(`PASS: ${D.nodes.length} nodes / ${D.edges.length} edges / ${Object.keys(D.sources).length} sources; all node attributes, game descriptions, dated capital edges, common-shareholder paths, geographic references, deterministic layout and path regressions.`);
+const chart=D.meta.steamChart;if(chart){assert.equal(chart.entries.length,100);assert.equal(new Set(chart.entries.map(e=>e.appid)).size,100);for(const entry of chart.entries){assert(byId.has(entry.nodeId));assert.equal(byId.get(entry.nodeId).steam.appid,entry.appid);assert(entry.currentPlayers>=0);}}
+console.log(`PASS: ${D.nodes.length} nodes / ${D.edges.length} edges / ${Object.keys(D.sources).length} sources; ${chart?chart.entries.length+' chart entries, ':''}all node attributes, game descriptions, dated capital edges, common-shareholder paths, geographic references, deterministic layout and path regressions.`);

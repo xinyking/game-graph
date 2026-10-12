@@ -147,10 +147,13 @@ game('divinity','神界：原罪2','larian','Divinity Original Sin 2','回合制
 exec(compile((ROOT/'catalog_extension.py').read_text(encoding='utf-8'),str(ROOT/'catalog_extension.py'),'exec'))
 exec(compile((ROOT/'enrichment.py').read_text(encoding='utf-8'),str(ROOT/'enrichment.py'),'exec'))
 
+exec(compile((ROOT/'steam_extension.py').read_text(encoding='utf-8'),str(ROOT/'steam_extension.py'),'exec'))
+
 data = dict(meta=dict(title='游戏厂商图谱',edition='精选关系集 · 2026.10',checked='2026-10-11',
     provenance=dict(repo='https://github.com/Essie363/MusicalGraph',commit='84e5440b837156e1ba6511307d62f32e33309447'),
     note='精选样本，不是完整产业或实时股权数据库。组织归属包括内部团队和子公司，并可能省略中间主体。开发和发行按作品/系列口径记录；历史来源在关系详情标注。'),
     sources=sources,nodes=nodes,edges=edges)
+data['meta']['steamChart']=chart
 dist=ROOT/'dist'
 dist.mkdir(exist_ok=True)
 payload=json.dumps(data,ensure_ascii=False,indent=2)
