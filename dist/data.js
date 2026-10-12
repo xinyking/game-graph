@@ -7,7 +7,915 @@ window.GAME_GRAPH = {
       "repo": "https://github.com/Essie363/MusicalGraph",
       "commit": "84e5440b837156e1ba6511307d62f32e33309447"
     },
-    "note": "精选样本，不是完整产业或实时股权数据库。组织归属包括内部团队和子公司，并可能省略中间主体。开发和发行按作品/系列口径记录；历史来源在关系详情标注。"
+    "note": "精选样本，不是完整产业或实时股权数据库。组织归属包括内部团队和子公司，并可能省略中间主体。开发和发行按作品/系列口径记录；历史来源在关系详情标注。",
+    "steamChart": {
+      "title": "Steam 当前在线人数 Top 100",
+      "url": "https://store.steampowered.com/charts/mostplayed",
+      "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+      "metric": "current_players",
+      "entries": [
+        {
+          "rank": 1,
+          "appid": 730,
+          "name": "Counter-Strike 2",
+          "currentPlayers": 519833,
+          "peakToday": 1404227,
+          "nodeId": "cs",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 2,
+          "appid": 570,
+          "name": "Dota 2",
+          "currentPlayers": 485525,
+          "peakToday": 1034502,
+          "nodeId": "dota",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 3,
+          "appid": 578080,
+          "name": "PUBG: BATTLEGROUNDS",
+          "currentPlayers": 252343,
+          "peakToday": 713683,
+          "nodeId": "pubg",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 4,
+          "appid": 3393110,
+          "name": "AION 2",
+          "currentPlayers": 211687,
+          "peakToday": 392300,
+          "nodeId": "steam_3393110",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 5,
+          "appid": 3419430,
+          "name": "Bongo Cat",
+          "currentPlayers": 153671,
+          "peakToday": 186709,
+          "nodeId": "steam_3419430",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 6,
+          "appid": 1422450,
+          "name": "Deadlock",
+          "currentPlayers": 92720,
+          "peakToday": 220575,
+          "nodeId": "steam_1422450",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 7,
+          "appid": 1172470,
+          "name": "Apex Legends™",
+          "currentPlayers": 88961,
+          "peakToday": 233682,
+          "nodeId": "apex",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 8,
+          "appid": 2676230,
+          "name": "FiveM",
+          "currentPlayers": 76948,
+          "peakToday": 203101,
+          "nodeId": "steam_2676230",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 9,
+          "appid": 1867240,
+          "name": "WARDOGS",
+          "currentPlayers": 69558,
+          "peakToday": 199487,
+          "nodeId": "steam_1867240",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 10,
+          "appid": 431960,
+          "name": "Wallpaper Engine",
+          "currentPlayers": 69230,
+          "peakToday": 118092,
+          "nodeId": "steam_431960",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 11,
+          "appid": 1808500,
+          "name": "ARC Raiders",
+          "currentPlayers": 65181,
+          "peakToday": 185443,
+          "nodeId": "steam_1808500",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 12,
+          "appid": 2507950,
+          "name": "Delta Force",
+          "currentPlayers": 61920,
+          "peakToday": 135722,
+          "nodeId": "steam_2507950",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 13,
+          "appid": 3678970,
+          "name": "TBH: Task Bar Hero",
+          "currentPlayers": 59954,
+          "peakToday": 71156,
+          "nodeId": "steam_3678970",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 14,
+          "appid": 440,
+          "name": "Team Fortress 2",
+          "currentPlayers": 59751,
+          "peakToday": 84627,
+          "nodeId": "tf2",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 15,
+          "appid": 892970,
+          "name": "Valheim",
+          "currentPlayers": 53635,
+          "peakToday": 189547,
+          "nodeId": "steam_892970",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 16,
+          "appid": 252490,
+          "name": "Rust",
+          "currentPlayers": 49530,
+          "peakToday": 122967,
+          "nodeId": "steam_252490",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 17,
+          "appid": 2868840,
+          "name": "Slay the Spire 2",
+          "currentPlayers": 48721,
+          "peakToday": 102550,
+          "nodeId": "steam_2868840",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 18,
+          "appid": 2357570,
+          "name": "Overwatch®",
+          "currentPlayers": 48052,
+          "peakToday": 90004,
+          "nodeId": "steam_2357570",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 19,
+          "appid": 230410,
+          "name": "Warframe",
+          "currentPlayers": 46041,
+          "peakToday": 78597,
+          "nodeId": "warframe",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 20,
+          "appid": 438100,
+          "name": "VRChat",
+          "currentPlayers": 45159,
+          "peakToday": 60544,
+          "nodeId": "steam_438100",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 21,
+          "appid": 4623570,
+          "name": "Deskrawl: Idle ARPG",
+          "currentPlayers": 44245,
+          "peakToday": 47728,
+          "nodeId": "steam_4623570",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 22,
+          "appid": 413150,
+          "name": "Stardew Valley",
+          "currentPlayers": 39481,
+          "peakToday": 105300,
+          "nodeId": "steam_413150",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 23,
+          "appid": 4126040,
+          "name": "Aniimo",
+          "currentPlayers": 39093,
+          "peakToday": 78003,
+          "nodeId": "steam_4126040",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 24,
+          "appid": 2767030,
+          "name": "Marvel Rivals",
+          "currentPlayers": 38905,
+          "peakToday": 79953,
+          "nodeId": "marvel",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 25,
+          "appid": 292030,
+          "name": "The Witcher 3: Wild Hunt — Remastered",
+          "currentPlayers": 37794,
+          "peakToday": 121041,
+          "nodeId": "witcher",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 26,
+          "appid": 108600,
+          "name": "Project Zomboid",
+          "currentPlayers": 36497,
+          "peakToday": 82545,
+          "nodeId": "steam_108600",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 27,
+          "appid": 359550,
+          "name": "Tom Clancy's Rainbow Six Siege",
+          "currentPlayers": 34643,
+          "peakToday": 93174,
+          "nodeId": "siege",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 28,
+          "appid": 1623730,
+          "name": "Palworld",
+          "currentPlayers": 34634,
+          "peakToday": 77274,
+          "nodeId": "steam_1623730",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 29,
+          "appid": 3240220,
+          "name": "Grand Theft Auto V Enhanced",
+          "currentPlayers": 31880,
+          "peakToday": 78748,
+          "nodeId": "steam_3240220",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 30,
+          "appid": 381210,
+          "name": "Dead by Daylight",
+          "currentPlayers": 31173,
+          "peakToday": 70739,
+          "nodeId": "steam_381210",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 31,
+          "appid": 271590,
+          "name": "Grand Theft Auto V Legacy",
+          "currentPlayers": 31091,
+          "peakToday": 80147,
+          "nodeId": "gta5",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 32,
+          "appid": 236390,
+          "name": "War Thunder",
+          "currentPlayers": 30677,
+          "peakToday": 91100,
+          "nodeId": "steam_236390",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 33,
+          "appid": 1973530,
+          "name": "Limbus Company",
+          "currentPlayers": 30674,
+          "peakToday": 50898,
+          "nodeId": "steam_1973530",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 34,
+          "appid": 250900,
+          "name": "The Binding of Isaac: Rebirth",
+          "currentPlayers": 29482,
+          "peakToday": 70742,
+          "nodeId": "steam_250900",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 35,
+          "appid": 1142710,
+          "name": "Total War: WARHAMMER III",
+          "currentPlayers": 29224,
+          "peakToday": 77600,
+          "nodeId": "steam_1142710",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 36,
+          "appid": 1181000,
+          "name": "UBERMOSH:OMEGA",
+          "currentPlayers": 28785,
+          "peakToday": 174886,
+          "nodeId": "steam_1181000",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 37,
+          "appid": 322170,
+          "name": "Geometry Dash",
+          "currentPlayers": 27670,
+          "peakToday": 80736,
+          "nodeId": "steam_322170",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 38,
+          "appid": 218620,
+          "name": "PAYDAY 2",
+          "currentPlayers": 26930,
+          "peakToday": 34119,
+          "nodeId": "steam_218620",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 39,
+          "appid": 2054970,
+          "name": "Dragon's Dogma 2",
+          "currentPlayers": 26023,
+          "peakToday": 47583,
+          "nodeId": "dd2",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 40,
+          "appid": 1086940,
+          "name": "Baldur's Gate 3",
+          "currentPlayers": 25801,
+          "peakToday": 68983,
+          "nodeId": "bg3",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 41,
+          "appid": 1091500,
+          "name": "Cyberpunk 2077",
+          "currentPlayers": 25089,
+          "peakToday": 61902,
+          "nodeId": "cyberpunk",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 42,
+          "appid": 105600,
+          "name": "Terraria",
+          "currentPlayers": 23787,
+          "peakToday": 60831,
+          "nodeId": "steam_105600",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 43,
+          "appid": 553850,
+          "name": "HELLDIVERS™ 2",
+          "currentPlayers": 23177,
+          "peakToday": 60022,
+          "nodeId": "steam_553850",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 44,
+          "appid": 1366800,
+          "name": "Crosshair X",
+          "currentPlayers": 23170,
+          "peakToday": 43505,
+          "nodeId": "steam_1366800",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 45,
+          "appid": 1203220,
+          "name": "NARAKA: BLADEPOINT",
+          "currentPlayers": 23129,
+          "peakToday": 74231,
+          "nodeId": "naraka",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 46,
+          "appid": 2246340,
+          "name": "Monster Hunter Wilds",
+          "currentPlayers": 22953,
+          "peakToday": 48231,
+          "nodeId": "steam_2246340",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 47,
+          "appid": 4891320,
+          "name": "[WoG] War of Genesis: Idle Loot",
+          "currentPlayers": 21997,
+          "peakToday": 22540,
+          "nodeId": "steam_4891320",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 48,
+          "appid": 394360,
+          "name": "Hearts of Iron IV",
+          "currentPlayers": 21613,
+          "peakToday": 60610,
+          "nodeId": "hoi4",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 49,
+          "appid": 632360,
+          "name": "Risk of Rain 2",
+          "currentPlayers": 21410,
+          "peakToday": 46161,
+          "nodeId": "steam_632360",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 50,
+          "appid": 322330,
+          "name": "Don't Starve Together",
+          "currentPlayers": 21388,
+          "peakToday": 54658,
+          "nodeId": "steam_322330",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 51,
+          "appid": 294100,
+          "name": "RimWorld",
+          "currentPlayers": 21263,
+          "peakToday": 39466,
+          "nodeId": "steam_294100",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 52,
+          "appid": 1174180,
+          "name": "Red Dead Redemption 2",
+          "currentPlayers": 21236,
+          "peakToday": 53741,
+          "nodeId": "rdr2",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 53,
+          "appid": 289070,
+          "name": "Sid Meier’s Civilization® VI",
+          "currentPlayers": 21132,
+          "peakToday": 46919,
+          "nodeId": "steam_289070",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 54,
+          "appid": 4080220,
+          "name": "EA SPORTS FC™ 27",
+          "currentPlayers": 21126,
+          "peakToday": 87490,
+          "nodeId": "steam_4080220",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 55,
+          "appid": 3932890,
+          "name": "Escape from Tarkov",
+          "currentPlayers": 20405,
+          "peakToday": 42361,
+          "nodeId": "steam_3932890",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 56,
+          "appid": 489830,
+          "name": "The Elder Scrolls V: Skyrim Special Edition",
+          "currentPlayers": 19858,
+          "peakToday": 46575,
+          "nodeId": "skyrim",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 57,
+          "appid": 1085660,
+          "name": "Destiny 2",
+          "currentPlayers": 19426,
+          "peakToday": 41119,
+          "nodeId": "destiny",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 58,
+          "appid": 221100,
+          "name": "DayZ",
+          "currentPlayers": 18500,
+          "peakToday": 52839,
+          "nodeId": "steam_221100",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 59,
+          "appid": 550,
+          "name": "Left 4 Dead 2",
+          "currentPlayers": 18489,
+          "peakToday": 45821,
+          "nodeId": "l4d2",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 60,
+          "appid": 251570,
+          "name": "7 Days to Die",
+          "currentPlayers": 18150,
+          "peakToday": 42965,
+          "nodeId": "steam_251570",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 61,
+          "appid": 1304930,
+          "name": "The Outlast Trials",
+          "currentPlayers": 18026,
+          "peakToday": 109006,
+          "nodeId": "steam_1304930",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 62,
+          "appid": 1364780,
+          "name": "Street Fighter™ 6",
+          "currentPlayers": 18023,
+          "peakToday": 37041,
+          "nodeId": "steam_1364780",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 63,
+          "appid": 2399830,
+          "name": "ARK: Survival Ascended",
+          "currentPlayers": 17942,
+          "peakToday": 33997,
+          "nodeId": "steam_2399830",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 64,
+          "appid": 1245620,
+          "name": "ELDEN RING",
+          "currentPlayers": 17589,
+          "peakToday": 40686,
+          "nodeId": "elden",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 65,
+          "appid": 261550,
+          "name": "Mount & Blade II: Bannerlord",
+          "currentPlayers": 17230,
+          "peakToday": 42781,
+          "nodeId": "steam_261550",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 66,
+          "appid": 4019220,
+          "name": "Dressmaker",
+          "currentPlayers": 16888,
+          "peakToday": 40738,
+          "nodeId": "steam_4019220",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 67,
+          "appid": 2288340,
+          "name": "ACE COMBAT 8: WINGS OF THEVE",
+          "currentPlayers": 16650,
+          "peakToday": 29681,
+          "nodeId": "steam_2288340",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 68,
+          "appid": 582660,
+          "name": "Black Desert",
+          "currentPlayers": 15645,
+          "peakToday": 21472,
+          "nodeId": "blackdesert",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 69,
+          "appid": 1905180,
+          "name": "OBS Studio",
+          "currentPlayers": 15639,
+          "peakToday": 31387,
+          "nodeId": "steam_1905180",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 70,
+          "appid": 1281930,
+          "name": "tModLoader",
+          "currentPlayers": 15369,
+          "peakToday": 39081,
+          "nodeId": "steam_1281930",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 71,
+          "appid": 2807960,
+          "name": "Battlefield™ 6",
+          "currentPlayers": 15216,
+          "peakToday": 45793,
+          "nodeId": "steam_2807960",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 72,
+          "appid": 2073620,
+          "name": "Arena Breakout: Infinite",
+          "currentPlayers": 14734,
+          "peakToday": 40386,
+          "nodeId": "steam_2073620",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 73,
+          "appid": 1222670,
+          "name": "The Sims™ 4",
+          "currentPlayers": 14705,
+          "peakToday": 35042,
+          "nodeId": "sims4",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 74,
+          "appid": 3551340,
+          "name": "Football Manager 26",
+          "currentPlayers": 14516,
+          "peakToday": 36301,
+          "nodeId": "steam_3551340",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 75,
+          "appid": 1621690,
+          "name": "Core Keeper",
+          "currentPlayers": 14306,
+          "peakToday": 29132,
+          "nodeId": "steam_1621690",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 76,
+          "appid": 1938090,
+          "name": "Call of Duty®",
+          "currentPlayers": 14041,
+          "peakToday": 41386,
+          "nodeId": "steam_1938090",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 77,
+          "appid": 227300,
+          "name": "Euro Truck Simulator 2",
+          "currentPlayers": 13996,
+          "peakToday": 58618,
+          "nodeId": "steam_227300",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 78,
+          "appid": 1158310,
+          "name": "Crusader Kings III",
+          "currentPlayers": 13941,
+          "peakToday": 34465,
+          "nodeId": "ck3",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 79,
+          "appid": 3405690,
+          "name": "EA SPORTS FC™ 26",
+          "currentPlayers": 13645,
+          "peakToday": 38781,
+          "nodeId": "steam_3405690",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 80,
+          "appid": 376210,
+          "name": "The Isle",
+          "currentPlayers": 13572,
+          "peakToday": 26429,
+          "nodeId": "steam_376210",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 81,
+          "appid": 2694490,
+          "name": "Path of Exile 2",
+          "currentPlayers": 13486,
+          "peakToday": 30095,
+          "nodeId": "steam_2694490",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 82,
+          "appid": 2300320,
+          "name": "Farming Simulator 25",
+          "currentPlayers": 13455,
+          "peakToday": 60380,
+          "nodeId": "steam_2300320",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 83,
+          "appid": 5166840,
+          "name": "Character House -Desktop Companion- Demo",
+          "currentPlayers": 13454,
+          "peakToday": 19802,
+          "nodeId": "steam_5166840",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 84,
+          "appid": 552990,
+          "name": "World of Warships",
+          "currentPlayers": 13430,
+          "peakToday": 21397,
+          "nodeId": "steam_552990",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 85,
+          "appid": 2622380,
+          "name": "ELDEN RING NIGHTREIGN",
+          "currentPlayers": 13398,
+          "peakToday": 30896,
+          "nodeId": "steam_2622380",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 86,
+          "appid": 2344520,
+          "name": "Diablo® IV",
+          "currentPlayers": 13167,
+          "peakToday": 28031,
+          "nodeId": "diablo",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 87,
+          "appid": 4000,
+          "name": "Garry's Mod",
+          "currentPlayers": 13042,
+          "peakToday": 36857,
+          "nodeId": "steam_4000",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 88,
+          "appid": 1449850,
+          "name": "Yu-Gi-Oh! Master Duel",
+          "currentPlayers": 12530,
+          "peakToday": 20938,
+          "nodeId": "steam_1449850",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 89,
+          "appid": 582010,
+          "name": "Monster Hunter: World",
+          "currentPlayers": 12405,
+          "peakToday": 31399,
+          "nodeId": "mhworld",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 90,
+          "appid": 2139460,
+          "name": "Once Human",
+          "currentPlayers": 12341,
+          "peakToday": 23004,
+          "nodeId": "once",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 91,
+          "appid": 766570,
+          "name": "Russian Fishing 4",
+          "currentPlayers": 12268,
+          "peakToday": 23908,
+          "nodeId": "steam_766570",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 92,
+          "appid": 813780,
+          "name": "Age of Empires II: Definitive Edition",
+          "currentPlayers": 11779,
+          "peakToday": 29152,
+          "nodeId": "steam_813780",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 93,
+          "appid": 2183900,
+          "name": "Warhammer 40,000: Space Marine 2",
+          "currentPlayers": 11594,
+          "peakToday": 31552,
+          "nodeId": "steam_2183900",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 94,
+          "appid": 39210,
+          "name": "FINAL FANTASY XIV Online",
+          "currentPlayers": 11556,
+          "peakToday": 23890,
+          "nodeId": "ff14",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 95,
+          "appid": 216150,
+          "name": "MapleStory",
+          "currentPlayers": 11503,
+          "peakToday": 14038,
+          "nodeId": "maple",
+          "metadataAvailable": false
+        },
+        {
+          "rank": 96,
+          "appid": 1446780,
+          "name": "MONSTER HUNTER RISE",
+          "currentPlayers": 11498,
+          "peakToday": 28289,
+          "nodeId": "mhrise",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 97,
+          "appid": 583950,
+          "name": "Artifact",
+          "currentPlayers": 11252,
+          "peakToday": 11255,
+          "nodeId": "steam_583950",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 98,
+          "appid": 4349200,
+          "name": "Probably Stolen Demo",
+          "currentPlayers": 11201,
+          "peakToday": 19816,
+          "nodeId": "steam_4349200",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 99,
+          "appid": 365670,
+          "name": "Blender",
+          "currentPlayers": 11133,
+          "peakToday": 15841,
+          "nodeId": "steam_365670",
+          "metadataAvailable": true
+        },
+        {
+          "rank": 100,
+          "appid": 1623660,
+          "name": "MIR4",
+          "currentPlayers": 11120,
+          "peakToday": 12062,
+          "nodeId": "steam_1623660",
+          "metadataAvailable": true
+        }
+      ]
+    }
   },
   "sources": {
     "sony": {
@@ -909,6 +1817,612 @@ window.GAME_GRAPH = {
       "url": "https://www.thewitcher.com/us/en/witcher2",
       "checked": "2026-10-11",
       "dated": ""
+    },
+    "steam_chart": {
+      "title": "Steam 当前在线人数 Top 100",
+      "url": "https://store.steampowered.com/charts/mostplayed",
+      "checked": "2026-10-11",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_730": {
+      "title": "Steam 商店：Counter-Strike 2",
+      "url": "https://store.steampowered.com/app/730/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_570": {
+      "title": "Steam 商店：Dota 2",
+      "url": "https://store.steampowered.com/app/570/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_578080": {
+      "title": "Steam 商店：PUBG: BATTLEGROUNDS",
+      "url": "https://store.steampowered.com/app/578080/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_3393110": {
+      "title": "Steam 商店：AION 2",
+      "url": "https://store.steampowered.com/app/3393110/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_3419430": {
+      "title": "Steam 商店：Bongo Cat",
+      "url": "https://store.steampowered.com/app/3419430/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_1422450": {
+      "title": "Steam 商店：Deadlock",
+      "url": "https://store.steampowered.com/app/1422450/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_1172470": {
+      "title": "Steam 商店：Apex Legends™",
+      "url": "https://store.steampowered.com/app/1172470/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_2676230": {
+      "title": "Steam 商店：FiveM",
+      "url": "https://store.steampowered.com/app/2676230/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_1867240": {
+      "title": "Steam 商店：WARDOGS",
+      "url": "https://store.steampowered.com/app/1867240/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_431960": {
+      "title": "Steam 商店：Wallpaper Engine",
+      "url": "https://store.steampowered.com/app/431960/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_1808500": {
+      "title": "Steam 商店：ARC Raiders",
+      "url": "https://store.steampowered.com/app/1808500/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_2507950": {
+      "title": "Steam 商店：Delta Force",
+      "url": "https://store.steampowered.com/app/2507950/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_3678970": {
+      "title": "Steam 商店：TBH: Task Bar Hero",
+      "url": "https://store.steampowered.com/app/3678970/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_440": {
+      "title": "Steam 商店：Team Fortress 2",
+      "url": "https://store.steampowered.com/app/440/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_892970": {
+      "title": "Steam 商店：Valheim",
+      "url": "https://store.steampowered.com/app/892970/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_252490": {
+      "title": "Steam 商店：Rust",
+      "url": "https://store.steampowered.com/app/252490/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_2868840": {
+      "title": "Steam 商店：Slay the Spire 2",
+      "url": "https://store.steampowered.com/app/2868840/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_2357570": {
+      "title": "Steam 商店：Overwatch®",
+      "url": "https://store.steampowered.com/app/2357570/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_230410": {
+      "title": "Steam 商店：Warframe",
+      "url": "https://store.steampowered.com/app/230410/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_438100": {
+      "title": "Steam 商店：VRChat",
+      "url": "https://store.steampowered.com/app/438100/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_4623570": {
+      "title": "Steam 商店：Deskrawl: Idle ARPG",
+      "url": "https://store.steampowered.com/app/4623570/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_413150": {
+      "title": "Steam 商店：Stardew Valley",
+      "url": "https://store.steampowered.com/app/413150/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_4126040": {
+      "title": "Steam 商店：Aniimo",
+      "url": "https://store.steampowered.com/app/4126040/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_2767030": {
+      "title": "Steam 商店：Marvel Rivals",
+      "url": "https://store.steampowered.com/app/2767030/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_292030": {
+      "title": "Steam 商店：The Witcher 3: Wild Hunt — Remastered",
+      "url": "https://store.steampowered.com/app/292030/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_108600": {
+      "title": "Steam 商店：Project Zomboid",
+      "url": "https://store.steampowered.com/app/108600/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_359550": {
+      "title": "Steam 商店：Tom Clancy's Rainbow Six Siege",
+      "url": "https://store.steampowered.com/app/359550/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_1623730": {
+      "title": "Steam 商店：Palworld",
+      "url": "https://store.steampowered.com/app/1623730/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_3240220": {
+      "title": "Steam 商店：Grand Theft Auto V Enhanced",
+      "url": "https://store.steampowered.com/app/3240220/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_381210": {
+      "title": "Steam 商店：Dead by Daylight",
+      "url": "https://store.steampowered.com/app/381210/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_271590": {
+      "title": "Steam 商店：Grand Theft Auto V Legacy",
+      "url": "https://store.steampowered.com/app/271590/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_236390": {
+      "title": "Steam 商店：War Thunder",
+      "url": "https://store.steampowered.com/app/236390/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_1973530": {
+      "title": "Steam 商店：Limbus Company",
+      "url": "https://store.steampowered.com/app/1973530/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_250900": {
+      "title": "Steam 商店：The Binding of Isaac: Rebirth",
+      "url": "https://store.steampowered.com/app/250900/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_1142710": {
+      "title": "Steam 商店：Total War: WARHAMMER III",
+      "url": "https://store.steampowered.com/app/1142710/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_1181000": {
+      "title": "Steam 商店：UBERMOSH:OMEGA",
+      "url": "https://store.steampowered.com/app/1181000/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_322170": {
+      "title": "Steam 商店：Geometry Dash",
+      "url": "https://store.steampowered.com/app/322170/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_218620": {
+      "title": "Steam 商店：PAYDAY 2",
+      "url": "https://store.steampowered.com/app/218620/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_2054970": {
+      "title": "Steam 商店：Dragon's Dogma 2",
+      "url": "https://store.steampowered.com/app/2054970/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_1086940": {
+      "title": "Steam 商店：Baldur's Gate 3",
+      "url": "https://store.steampowered.com/app/1086940/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_1091500": {
+      "title": "Steam 商店：Cyberpunk 2077",
+      "url": "https://store.steampowered.com/app/1091500/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_105600": {
+      "title": "Steam 商店：Terraria",
+      "url": "https://store.steampowered.com/app/105600/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_553850": {
+      "title": "Steam 商店：HELLDIVERS™ 2",
+      "url": "https://store.steampowered.com/app/553850/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_1366800": {
+      "title": "Steam 商店：Crosshair X",
+      "url": "https://store.steampowered.com/app/1366800/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_1203220": {
+      "title": "Steam 商店：NARAKA: BLADEPOINT",
+      "url": "https://store.steampowered.com/app/1203220/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_2246340": {
+      "title": "Steam 商店：Monster Hunter Wilds",
+      "url": "https://store.steampowered.com/app/2246340/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_4891320": {
+      "title": "Steam 商店：[WoG] War of Genesis: Idle Loot",
+      "url": "https://store.steampowered.com/app/4891320/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_394360": {
+      "title": "Steam 商店：Hearts of Iron IV",
+      "url": "https://store.steampowered.com/app/394360/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_632360": {
+      "title": "Steam 商店：Risk of Rain 2",
+      "url": "https://store.steampowered.com/app/632360/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_322330": {
+      "title": "Steam 商店：Don't Starve Together",
+      "url": "https://store.steampowered.com/app/322330/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_294100": {
+      "title": "Steam 商店：RimWorld",
+      "url": "https://store.steampowered.com/app/294100/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_1174180": {
+      "title": "Steam 商店：Red Dead Redemption 2",
+      "url": "https://store.steampowered.com/app/1174180/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_289070": {
+      "title": "Steam 商店：Sid Meier’s Civilization® VI",
+      "url": "https://store.steampowered.com/app/289070/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_4080220": {
+      "title": "Steam 商店：EA SPORTS FC™ 27",
+      "url": "https://store.steampowered.com/app/4080220/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_3932890": {
+      "title": "Steam 商店：Escape from Tarkov",
+      "url": "https://store.steampowered.com/app/3932890/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_489830": {
+      "title": "Steam 商店：The Elder Scrolls V: Skyrim Special Edition",
+      "url": "https://store.steampowered.com/app/489830/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_1085660": {
+      "title": "Steam 商店：Destiny 2",
+      "url": "https://store.steampowered.com/app/1085660/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_221100": {
+      "title": "Steam 商店：DayZ",
+      "url": "https://store.steampowered.com/app/221100/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_550": {
+      "title": "Steam 商店：Left 4 Dead 2",
+      "url": "https://store.steampowered.com/app/550/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_251570": {
+      "title": "Steam 商店：7 Days to Die",
+      "url": "https://store.steampowered.com/app/251570/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_1304930": {
+      "title": "Steam 商店：The Outlast Trials",
+      "url": "https://store.steampowered.com/app/1304930/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_1364780": {
+      "title": "Steam 商店：Street Fighter™ 6",
+      "url": "https://store.steampowered.com/app/1364780/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_2399830": {
+      "title": "Steam 商店：ARK: Survival Ascended",
+      "url": "https://store.steampowered.com/app/2399830/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_1245620": {
+      "title": "Steam 商店：ELDEN RING",
+      "url": "https://store.steampowered.com/app/1245620/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_261550": {
+      "title": "Steam 商店：Mount & Blade II: Bannerlord",
+      "url": "https://store.steampowered.com/app/261550/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_4019220": {
+      "title": "Steam 商店：Dressmaker",
+      "url": "https://store.steampowered.com/app/4019220/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_2288340": {
+      "title": "Steam 商店：ACE COMBAT 8: WINGS OF THEVE",
+      "url": "https://store.steampowered.com/app/2288340/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_582660": {
+      "title": "Steam 商店：Black Desert",
+      "url": "https://store.steampowered.com/app/582660/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_1905180": {
+      "title": "Steam 商店：OBS Studio",
+      "url": "https://store.steampowered.com/app/1905180/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_1281930": {
+      "title": "Steam 商店：tModLoader",
+      "url": "https://store.steampowered.com/app/1281930/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_2807960": {
+      "title": "Steam 商店：Battlefield™ 6",
+      "url": "https://store.steampowered.com/app/2807960/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_2073620": {
+      "title": "Steam 商店：Arena Breakout: Infinite",
+      "url": "https://store.steampowered.com/app/2073620/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_1222670": {
+      "title": "Steam 商店：The Sims™ 4",
+      "url": "https://store.steampowered.com/app/1222670/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_3551340": {
+      "title": "Steam 商店：Football Manager 26",
+      "url": "https://store.steampowered.com/app/3551340/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_1621690": {
+      "title": "Steam 商店：Core Keeper",
+      "url": "https://store.steampowered.com/app/1621690/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_1938090": {
+      "title": "Steam 商店：Call of Duty®",
+      "url": "https://store.steampowered.com/app/1938090/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_227300": {
+      "title": "Steam 商店：Euro Truck Simulator 2",
+      "url": "https://store.steampowered.com/app/227300/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_1158310": {
+      "title": "Steam 商店：Crusader Kings III",
+      "url": "https://store.steampowered.com/app/1158310/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_3405690": {
+      "title": "Steam 商店：EA SPORTS FC™ 26",
+      "url": "https://store.steampowered.com/app/3405690/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_376210": {
+      "title": "Steam 商店：The Isle",
+      "url": "https://store.steampowered.com/app/376210/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_2694490": {
+      "title": "Steam 商店：Path of Exile 2",
+      "url": "https://store.steampowered.com/app/2694490/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_2300320": {
+      "title": "Steam 商店：Farming Simulator 25",
+      "url": "https://store.steampowered.com/app/2300320/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_5166840": {
+      "title": "Steam 商店：Character House -Desktop Companion- Demo",
+      "url": "https://store.steampowered.com/app/5166840/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_552990": {
+      "title": "Steam 商店：World of Warships",
+      "url": "https://store.steampowered.com/app/552990/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_2622380": {
+      "title": "Steam 商店：ELDEN RING NIGHTREIGN",
+      "url": "https://store.steampowered.com/app/2622380/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_2344520": {
+      "title": "Steam 商店：Diablo® IV",
+      "url": "https://store.steampowered.com/app/2344520/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_4000": {
+      "title": "Steam 商店：Garry's Mod",
+      "url": "https://store.steampowered.com/app/4000/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_1449850": {
+      "title": "Steam 商店：Yu-Gi-Oh! Master Duel",
+      "url": "https://store.steampowered.com/app/1449850/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_582010": {
+      "title": "Steam 商店：Monster Hunter: World",
+      "url": "https://store.steampowered.com/app/582010/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_2139460": {
+      "title": "Steam 商店：Once Human",
+      "url": "https://store.steampowered.com/app/2139460/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_766570": {
+      "title": "Steam 商店：Russian Fishing 4",
+      "url": "https://store.steampowered.com/app/766570/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_813780": {
+      "title": "Steam 商店：Age of Empires II: Definitive Edition",
+      "url": "https://store.steampowered.com/app/813780/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_2183900": {
+      "title": "Steam 商店：Warhammer 40,000: Space Marine 2",
+      "url": "https://store.steampowered.com/app/2183900/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_39210": {
+      "title": "Steam 商店：FINAL FANTASY XIV Online",
+      "url": "https://store.steampowered.com/app/39210/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_216150": {
+      "title": "Steam 商店：MapleStory",
+      "url": "https://store.steampowered.com/app/216150/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_1446780": {
+      "title": "Steam 商店：MONSTER HUNTER RISE",
+      "url": "https://store.steampowered.com/app/1446780/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_583950": {
+      "title": "Steam 商店：Artifact",
+      "url": "https://store.steampowered.com/app/583950/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_4349200": {
+      "title": "Steam 商店：Probably Stolen Demo",
+      "url": "https://store.steampowered.com/app/4349200/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_365670": {
+      "title": "Steam 商店：Blender",
+      "url": "https://store.steampowered.com/app/365670/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
+    },
+    "steam_1623660": {
+      "title": "Steam 商店：MIR4",
+      "url": "https://store.steampowered.com/app/1623660/",
+      "checked": "2026-10-12",
+      "dated": "2026-10-12T07:17:58.479069+00:00"
     }
   },
   "nodes": [
@@ -3119,10 +4633,10 @@ window.GAME_GRAPH = {
       "name": "永劫无间",
       "kind": "game",
       "region": "中国",
-      "aliases": "NARAKA BLADEPOINT",
+      "aliases": "NARAKA BLADEPOINT NARAKA: BLADEPOINT",
       "description": "结合近战武器、远程攻击和英雄技能展开生存竞技。",
       "group": "netease",
-      "url": "https://www.yjwujian.cn/news/official/20240202/33961_1136417.html",
+      "url": "https://store.steampowered.com/app/1203220/",
       "geo": {
         "city": "杭州",
         "country": "中国",
@@ -3166,18 +4680,39 @@ window.GAME_GRAPH = {
         {
           "label": "资料口径",
           "value": "精选公开来源；股权以各条关系的报告日期为准"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "45"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "23129"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
         }
-      ]
+      ],
+      "steam": {
+        "appid": 1203220,
+        "rank": 45,
+        "currentPlayers": 23129,
+        "peakToday": 74231,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
     },
     {
       "id": "marvel",
       "name": "漫威争锋",
       "kind": "game",
       "region": "中国",
-      "aliases": "Marvel Rivals",
+      "aliases": "Marvel Rivals Marvel Rivals",
       "description": "以漫威英雄为主题，通过不同角色能力展开团队射击。",
       "group": "netease",
-      "url": "https://www.neteasegames.com/",
+      "url": "https://store.steampowered.com/app/2767030/",
       "geo": {
         "city": "杭州",
         "country": "中国",
@@ -3221,18 +4756,39 @@ window.GAME_GRAPH = {
         {
           "label": "资料口径",
           "value": "精选公开来源；股权以各条关系的报告日期为准"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "24"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "38905"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
         }
-      ]
+      ],
+      "steam": {
+        "appid": 2767030,
+        "rank": 24,
+        "currentPlayers": 38905,
+        "peakToday": 79953,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
     },
     {
       "id": "once",
       "name": "七日世界",
       "kind": "game",
       "region": "中国",
-      "aliases": "Once Human",
+      "aliases": "Once Human Once Human",
       "description": "在异常现象遍布的开放世界中探索、建造与生存。",
       "group": "netease",
-      "url": "https://www.neteasegames.com/",
+      "url": "https://store.steampowered.com/app/2139460/",
       "geo": {
         "city": "杭州",
         "country": "中国",
@@ -3276,8 +4832,29 @@ window.GAME_GRAPH = {
         {
           "label": "资料口径",
           "value": "精选公开来源；股权以各条关系的报告日期为准"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "90"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "12341"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
         }
-      ]
+      ],
+      "steam": {
+        "appid": 2139460,
+        "rank": 90,
+        "currentPlayers": 12341,
+        "peakToday": 23004,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
     },
     {
       "id": "winds",
@@ -4384,10 +5961,10 @@ window.GAME_GRAPH = {
       "name": "最终幻想 XIV",
       "kind": "game",
       "region": "日本",
-      "aliases": "Final Fantasy XIV FFXIV",
+      "aliases": "Final Fantasy XIV FFXIV FINAL FANTASY XIV Online",
       "description": "在艾欧泽亚体验剧情、职业成长与多人副本。",
       "group": "square",
-      "url": "https://www.square-enix-games.com/en_US/home",
+      "url": "https://store.steampowered.com/app/39210/",
       "geo": {
         "city": "东京",
         "country": "日本",
@@ -4431,8 +6008,29 @@ window.GAME_GRAPH = {
         {
           "label": "资料口径",
           "value": "精选公开来源；股权以各条关系的报告日期为准"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "94"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "11556"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
         }
-      ]
+      ],
+      "steam": {
+        "appid": 39210,
+        "rank": 94,
+        "currentPlayers": 11556,
+        "peakToday": 23890,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
     },
     {
       "id": "ff7",
@@ -4494,10 +6092,10 @@ window.GAME_GRAPH = {
       "name": "艾尔登法环",
       "kind": "game",
       "region": "日本",
-      "aliases": "Elden Ring 老头环",
+      "aliases": "Elden Ring 老头环 ELDEN RING",
       "description": "在交界地探索，结合角色构筑、关卡和首领战斗。",
       "group": "from",
-      "url": "https://www.bandainamco.co.jp/cgi-bin/releases/index.cgi/en/press/10707?entry_id=7473",
+      "url": "https://store.steampowered.com/app/1245620/",
       "geo": {
         "city": "东京",
         "country": "日本",
@@ -4541,18 +6139,39 @@ window.GAME_GRAPH = {
         {
           "label": "资料口径",
           "value": "精选公开来源；股权以各条关系的报告日期为准"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "64"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "17589"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
         }
-      ]
+      ],
+      "steam": {
+        "appid": 1245620,
+        "rank": 64,
+        "currentPlayers": 17589,
+        "peakToday": 40686,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
     },
     {
       "id": "skyrim",
       "name": "上古卷轴 V：天际",
       "kind": "game",
       "region": "北美",
-      "aliases": "The Elder Scrolls Skyrim",
+      "aliases": "The Elder Scrolls Skyrim The Elder Scrolls V: Skyrim Special Edition",
       "description": "在天际省探索，发展技能、完成任务并塑造角色。",
       "group": "xbox",
-      "url": "https://bethesdagamestudios.com/",
+      "url": "https://store.steampowered.com/app/489830/",
       "geo": {
         "city": "罗克维尔",
         "country": "美国",
@@ -4596,8 +6215,29 @@ window.GAME_GRAPH = {
         {
           "label": "资料口径",
           "value": "精选公开来源；股权以各条关系的报告日期为准"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "56"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "19858"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
         }
-      ]
+      ],
+      "steam": {
+        "appid": 489830,
+        "rank": 56,
+        "currentPlayers": 19858,
+        "peakToday": 46575,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
     },
     {
       "id": "starfield",
@@ -4824,10 +6464,10 @@ window.GAME_GRAPH = {
       "name": "Apex 英雄",
       "kind": "game",
       "region": "北美",
-      "aliases": "Apex Legends",
+      "aliases": "Apex Legends Apex Legends™",
       "description": "以英雄能力与枪械配合展开多人小队生存对战。",
       "group": "ea",
-      "url": "https://www.ea.com/careers/teams/ea-studios",
+      "url": "https://store.steampowered.com/app/1172470/",
       "geo": {
         "city": "洛杉矶",
         "country": "美国",
@@ -4871,8 +6511,29 @@ window.GAME_GRAPH = {
         {
           "label": "资料口径",
           "value": "精选公开来源；股权以各条关系的报告日期为准"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "7"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "88961"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
         }
-      ]
+      ],
+      "steam": {
+        "appid": 1172470,
+        "rank": 7,
+        "currentPlayers": 88961,
+        "peakToday": 233682,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
     },
     {
       "id": "ac",
@@ -4934,10 +6595,10 @@ window.GAME_GRAPH = {
       "name": "彩虹六号：围攻",
       "kind": "game",
       "region": "北美",
-      "aliases": "Rainbow Six Siege R6",
+      "aliases": "Rainbow Six Siege R6 Tom Clancy's Rainbow Six Siege",
       "description": "通过攻防分工、战术装备与可破坏环境完成团队目标。",
       "group": "ubisoft",
-      "url": "https://static-wordpressv2.ubisoft.com/quebec.ubisoft.com/wp-content/uploads/2022/12/Press_KIT_2022-EN.pdf",
+      "url": "https://store.steampowered.com/app/359550/",
       "geo": {
         "city": "蒙特利尔",
         "country": "加拿大",
@@ -4981,18 +6642,39 @@ window.GAME_GRAPH = {
         {
           "label": "资料口径",
           "value": "精选公开来源；股权以各条关系的报告日期为准"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "27"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "34643"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
         }
-      ]
+      ],
+      "steam": {
+        "appid": 359550,
+        "rank": 27,
+        "currentPlayers": 34643,
+        "peakToday": 93174,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
     },
     {
       "id": "witcher",
       "name": "巫师3：狂猎",
       "kind": "game",
       "region": "欧洲",
-      "aliases": "The Witcher 3",
+      "aliases": "The Witcher 3 The Witcher 3: Wild Hunt — Remastered",
       "description": "杰洛特在开放世界追踪线索、处理委托并作出故事选择。",
       "group": "cdp",
-      "url": "https://www.cdprojekt.com/en/core-business/",
+      "url": "https://store.steampowered.com/app/292030/",
       "geo": {
         "city": "华沙",
         "country": "波兰",
@@ -5036,18 +6718,39 @@ window.GAME_GRAPH = {
         {
           "label": "资料口径",
           "value": "精选公开来源；股权以各条关系的报告日期为准"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "25"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "37794"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
         }
-      ]
+      ],
+      "steam": {
+        "appid": 292030,
+        "rank": 25,
+        "currentPlayers": 37794,
+        "peakToday": 121041,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
     },
     {
       "id": "cyberpunk",
       "name": "赛博朋克 2077",
       "kind": "game",
       "region": "欧洲",
-      "aliases": "Cyberpunk 2077",
+      "aliases": "Cyberpunk 2077 Cyberpunk 2077",
       "description": "在夜之城探索，结合义体、技能和剧情选择塑造角色。",
       "group": "cdp",
-      "url": "https://www.cdprojekt.com/en/core-business/",
+      "url": "https://store.steampowered.com/app/1091500/",
       "geo": {
         "city": "华沙",
         "country": "波兰",
@@ -5091,18 +6794,39 @@ window.GAME_GRAPH = {
         {
           "label": "资料口径",
           "value": "精选公开来源；股权以各条关系的报告日期为准"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "41"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "25089"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
         }
-      ]
+      ],
+      "steam": {
+        "appid": 1091500,
+        "rank": 41,
+        "currentPlayers": 25089,
+        "peakToday": 61902,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
     },
     {
       "id": "cs",
       "name": "反恐精英2",
       "kind": "game",
       "region": "北美",
-      "aliases": "Counter Strike 2 CS2",
+      "aliases": "Counter Strike 2 CS2 Counter-Strike 2",
       "description": "围绕回合制攻防目标，强调枪械、经济管理与团队战术。",
       "group": "valve",
-      "url": "https://www.valvesoftware.com/en/about",
+      "url": "https://store.steampowered.com/app/730/",
       "geo": {
         "city": "贝尔维尤",
         "country": "美国",
@@ -5146,18 +6870,39 @@ window.GAME_GRAPH = {
         {
           "label": "资料口径",
           "value": "精选公开来源；股权以各条关系的报告日期为准"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "1"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "519833"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
         }
-      ]
+      ],
+      "steam": {
+        "appid": 730,
+        "rank": 1,
+        "currentPlayers": 519833,
+        "peakToday": 1404227,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
     },
     {
       "id": "dota",
       "name": "Dota 2",
       "kind": "game",
       "region": "北美",
-      "aliases": "刀塔",
+      "aliases": "刀塔 Dota 2",
       "description": "两队操纵英雄争夺地图资源，发展装备并进攻敌方基地。",
       "group": "valve",
-      "url": "https://www.valvesoftware.com/en/about",
+      "url": "https://store.steampowered.com/app/570/",
       "geo": {
         "city": "贝尔维尤",
         "country": "美国",
@@ -5201,8 +6946,29 @@ window.GAME_GRAPH = {
         {
           "label": "资料口径",
           "value": "精选公开来源；股权以各条关系的报告日期为准"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "2"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "485525"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
         }
-      ]
+      ],
+      "steam": {
+        "appid": 570,
+        "rank": 2,
+        "currentPlayers": 485525,
+        "peakToday": 1034502,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
     },
     {
       "id": "portal",
@@ -5319,10 +7085,10 @@ window.GAME_GRAPH = {
       "name": "博德之门3",
       "kind": "game",
       "region": "欧洲",
-      "aliases": "Baldur Gate 3 BG3",
+      "aliases": "Baldur Gate 3 BG3 Baldur's Gate 3",
       "description": "以队伍探索和回合制战斗展开故事，选择影响角色与剧情。",
       "group": "larian",
-      "url": "https://larian.com/",
+      "url": "https://store.steampowered.com/app/1086940/",
       "geo": {
         "city": "根特",
         "country": "比利时",
@@ -5366,8 +7132,29 @@ window.GAME_GRAPH = {
         {
           "label": "资料口径",
           "value": "精选公开来源；股权以各条关系的报告日期为准"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "40"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "25801"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
         }
-      ]
+      ],
+      "steam": {
+        "appid": 1086940,
+        "rank": 40,
+        "currentPlayers": 25801,
+        "peakToday": 68983,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
     },
     {
       "id": "divinity",
@@ -6313,10 +8100,10 @@ window.GAME_GRAPH = {
       "name": "冒险岛",
       "kind": "game",
       "region": "日本",
-      "aliases": "MapleStory",
+      "aliases": "MapleStory MapleStory",
       "description": "在横向卷轴世界中发展职业、完成任务并参与多人活动。",
       "group": "nexon",
-      "url": "https://www.nexon.co.jp/en/about/",
+      "url": "https://store.steampowered.com/app/216150/",
       "geo": {
         "city": "东京",
         "country": "日本",
@@ -6360,8 +8147,29 @@ window.GAME_GRAPH = {
         {
           "label": "资料口径",
           "value": "精选公开来源；股权以各条关系的报告日期为准"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "95"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "11503"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
         }
-      ]
+      ],
+      "steam": {
+        "appid": 216150,
+        "rank": 95,
+        "currentPlayers": 11503,
+        "peakToday": 14038,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "unknown",
+        "metadataAvailable": false
+      }
     },
     {
       "id": "mabinogi",
@@ -6478,10 +8286,10 @@ window.GAME_GRAPH = {
       "name": "PUBG：绝地求生",
       "kind": "game",
       "region": "韩国",
-      "aliases": "PUBG Battlegrounds 吃鸡",
+      "aliases": "PUBG Battlegrounds 吃鸡 PUBG: BATTLEGROUNDS",
       "description": "在不断缩小的战场中搜集装备，以枪械与战术争取生存。",
       "group": "krafton",
-      "url": "https://www.krafton.com/wp-content/uploads/2021/07/PUBG_BG_Brand_Guidelines_2021_External.pdf",
+      "url": "https://store.steampowered.com/app/578080/",
       "geo": {
         "city": "首尔",
         "country": "韩国",
@@ -6525,8 +8333,29 @@ window.GAME_GRAPH = {
         {
           "label": "资料口径",
           "value": "精选公开来源；股权以各条关系的报告日期为准"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "3"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "252343"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
         }
-      ]
+      ],
+      "steam": {
+        "appid": 578080,
+        "rank": 3,
+        "currentPlayers": 252343,
+        "peakToday": 713683,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
     },
     {
       "id": "metalgear",
@@ -6808,10 +8637,10 @@ window.GAME_GRAPH = {
       "name": "侠盗猎车手 V",
       "kind": "game",
       "region": "北美",
-      "aliases": "Grand Theft Auto V GTA5 GTA V",
+      "aliases": "Grand Theft Auto V GTA5 GTA V Grand Theft Auto V Legacy",
       "description": "在洛圣都体验多角色故事、开放世界任务与城市活动。",
       "group": "rockstar",
-      "url": "https://store.rockstargames.com/view-all-games",
+      "url": "https://store.steampowered.com/app/271590/",
       "geo": {
         "city": "纽约",
         "country": "美国",
@@ -6855,18 +8684,39 @@ window.GAME_GRAPH = {
         {
           "label": "资料口径",
           "value": "精选公开来源；股权以各条关系的报告日期为准"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "31"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "31091"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
         }
-      ]
+      ],
+      "steam": {
+        "appid": 271590,
+        "rank": 31,
+        "currentPlayers": 31091,
+        "peakToday": 80147,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
     },
     {
       "id": "rdr2",
       "name": "荒野大镖客：救赎2",
       "kind": "game",
       "region": "北美",
-      "aliases": "Red Dead Redemption 2 RDR2",
+      "aliases": "Red Dead Redemption 2 RDR2 Red Dead Redemption 2",
       "description": "围绕西部帮派的经历展开开放世界探索与故事任务。",
       "group": "rockstar",
-      "url": "https://store.rockstargames.com/view-all-games",
+      "url": "https://store.steampowered.com/app/1174180/",
       "geo": {
         "city": "纽约",
         "country": "美国",
@@ -6910,8 +8760,29 @@ window.GAME_GRAPH = {
         {
           "label": "资料口径",
           "value": "精选公开来源；股权以各条关系的报告日期为准"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "52"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "21236"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
         }
-      ]
+      ],
+      "steam": {
+        "appid": 1174180,
+        "rank": 52,
+        "currentPlayers": 21236,
+        "peakToday": 53741,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
     },
     {
       "id": "wow",
@@ -6973,10 +8844,10 @@ window.GAME_GRAPH = {
       "name": "暗黑破坏神 IV",
       "kind": "game",
       "region": "北美",
-      "aliases": "Diablo IV Diablo4",
+      "aliases": "Diablo IV Diablo4 Diablo® IV",
       "description": "在暗黑奇幻世界中挑战敌人，通过战利品与技能塑造角色。",
       "group": "blizzard",
-      "url": "https://www.blizzard.com/en-us/games",
+      "url": "https://store.steampowered.com/app/2344520/",
       "geo": {
         "city": "尔湾",
         "country": "美国",
@@ -7020,8 +8891,29 @@ window.GAME_GRAPH = {
         {
           "label": "资料口径",
           "value": "精选公开来源；股权以各条关系的报告日期为准"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "86"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "13167"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
         }
-      ]
+      ],
+      "steam": {
+        "appid": 2344520,
+        "rank": 86,
+        "currentPlayers": 13167,
+        "peakToday": 28031,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
     },
     {
       "id": "stellaris",
@@ -7083,10 +8975,10 @@ window.GAME_GRAPH = {
       "name": "十字军之王 III",
       "kind": "game",
       "region": "欧洲",
-      "aliases": "Crusader Kings III CK3",
+      "aliases": "Crusader Kings III CK3 Crusader Kings III",
       "description": "围绕中世纪家族的传承、婚姻与权力斗争展开策略。",
       "group": "paradox",
-      "url": "https://www.paradoxinteractive.com/our-company",
+      "url": "https://store.steampowered.com/app/1158310/",
       "geo": {
         "city": "斯德哥尔摩",
         "country": "瑞典",
@@ -7130,18 +9022,39 @@ window.GAME_GRAPH = {
         {
           "label": "资料口径",
           "value": "精选公开来源；股权以各条关系的报告日期为准"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "78"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "13941"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
         }
-      ]
+      ],
+      "steam": {
+        "appid": 1158310,
+        "rank": 78,
+        "currentPlayers": 13941,
+        "peakToday": 34465,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
     },
     {
       "id": "blackdesert",
       "name": "黑色沙漠",
       "kind": "game",
       "region": "韩国",
-      "aliases": "Black Desert",
+      "aliases": "Black Desert Black Desert",
       "description": "在开放世界中发展角色，结合动作战斗与生活技能。",
       "group": "pearl",
-      "url": "https://www.pearlabyss.com/en-us/Company/About/Games",
+      "url": "https://store.steampowered.com/app/582660/",
       "geo": {
         "city": "果川",
         "country": "韩国",
@@ -7185,18 +9098,39 @@ window.GAME_GRAPH = {
         {
           "label": "资料口径",
           "value": "精选公开来源；股权以各条关系的报告日期为准"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "68"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "15645"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
         }
-      ]
+      ],
+      "steam": {
+        "appid": 582660,
+        "rank": 68,
+        "currentPlayers": 15645,
+        "peakToday": 21472,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
     },
     {
       "id": "destiny",
       "name": "命运2",
       "kind": "game",
       "region": "北美",
-      "aliases": "Destiny 2",
+      "aliases": "Destiny 2 Destiny 2",
       "description": "结合守护者能力、装备与合作任务展开科幻射击。",
       "group": "bungie",
-      "url": "https://help.bungie.net/hc/en-us/articles/44229874536468--1-Getting-Started-with-Destiny-2",
+      "url": "https://store.steampowered.com/app/1085660/",
       "geo": {
         "city": "贝尔维尤",
         "country": "美国",
@@ -7240,8 +9174,29 @@ window.GAME_GRAPH = {
         {
           "label": "资料口径",
           "value": "精选公开来源；股权以各条关系的报告日期为准"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "57"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "19426"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
         }
-      ]
+      ],
+      "steam": {
+        "appid": 1085660,
+        "rank": 57,
+        "currentPlayers": 19426,
+        "peakToday": 41119,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
     },
     {
       "id": "alanwake",
@@ -7633,10 +9588,10 @@ window.GAME_GRAPH = {
       "name": "星际战甲",
       "kind": "game",
       "region": "北美",
-      "aliases": "Warframe",
+      "aliases": "Warframe Warframe",
       "description": "操作战甲执行合作任务，收集装备并组合不同能力。",
       "group": "digital",
-      "url": "https://www.digitalextremes.com/about",
+      "url": "https://store.steampowered.com/app/230410/",
       "geo": {
         "city": "伦敦（安大略省）",
         "country": "加拿大",
@@ -7680,8 +9635,29 @@ window.GAME_GRAPH = {
         {
           "label": "资料口径",
           "value": "精选公开来源；股权以各条关系的报告日期为准"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "19"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "46041"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
         }
-      ]
+      ],
+      "steam": {
+        "appid": 230410,
+        "rank": 19,
+        "currentPlayers": 46041,
+        "peakToday": 78597,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
     },
     {
       "id": "mihoyo",
@@ -8484,10 +10460,10 @@ window.GAME_GRAPH = {
       "name": "怪物猎人：世界",
       "kind": "game",
       "region": "日本",
-      "aliases": "Monster Hunter World MHW",
+      "aliases": "Monster Hunter World MHW Monster Hunter: World",
       "description": "探索生态环境，狩猎大型怪物并制作装备。",
       "group": "capcom",
-      "url": "https://www.monsterhunter.com/world/",
+      "url": "https://store.steampowered.com/app/582010/",
       "genre": "动作角色扮演",
       "descriptionSource": "game_mhworld",
       "geo": {
@@ -8531,18 +10507,39 @@ window.GAME_GRAPH = {
         {
           "label": "资料口径",
           "value": "精选公开来源；股权以各条关系的报告日期为准"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "89"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "12405"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
         }
-      ]
+      ],
+      "steam": {
+        "appid": 582010,
+        "rank": 89,
+        "currentPlayers": 12405,
+        "peakToday": 31399,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
     },
     {
       "id": "mhrise",
       "name": "怪物猎人：崛起",
       "kind": "game",
       "region": "日本",
-      "aliases": "Monster Hunter Rise",
+      "aliases": "Monster Hunter Rise MONSTER HUNTER RISE",
       "description": "以翔虫机动和御龙机制展开狩猎。",
       "group": "capcom",
-      "url": "https://www.monsterhunter.com/rise/",
+      "url": "https://store.steampowered.com/app/1446780/",
       "genre": "动作角色扮演",
       "descriptionSource": "game_mhrise",
       "geo": {
@@ -8586,18 +10583,39 @@ window.GAME_GRAPH = {
         {
           "label": "资料口径",
           "value": "精选公开来源；股权以各条关系的报告日期为准"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "96"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "11498"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
         }
-      ]
+      ],
+      "steam": {
+        "appid": 1446780,
+        "rank": 96,
+        "currentPlayers": 11498,
+        "peakToday": 28289,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
     },
     {
       "id": "dd2",
       "name": "龙之信条2",
       "kind": "game",
       "region": "日本",
-      "aliases": "Dragon Dogma 2 Dragon’s Dogma 2",
+      "aliases": "Dragon Dogma 2 Dragon’s Dogma 2 Dragon's Dogma 2",
       "description": "以觉醒者与追随者为核心，探索奇幻世界。",
       "group": "capcom",
-      "url": "https://www.dragonsdogma.com/2/",
+      "url": "https://store.steampowered.com/app/2054970/",
       "genre": "动作角色扮演",
       "descriptionSource": "game_dd2",
       "geo": {
@@ -8641,8 +10659,29 @@ window.GAME_GRAPH = {
         {
           "label": "资料口径",
           "value": "精选公开来源；股权以各条关系的报告日期为准"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "39"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "26023"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
         }
-      ]
+      ],
+      "steam": {
+        "appid": 2054970,
+        "rank": 39,
+        "currentPlayers": 26023,
+        "peakToday": 47583,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
     },
     {
       "id": "dmc5",
@@ -9144,10 +11183,10 @@ window.GAME_GRAPH = {
       "name": "求生之路2",
       "kind": "game",
       "region": "北美",
-      "aliases": "Left 4 Dead 2",
+      "aliases": "Left 4 Dead 2 Left 4 Dead 2",
       "description": "四名幸存者协作穿越感染者占据的区域。",
       "group": "valve",
-      "url": "https://store.steampowered.com/app/550/Left_4_Dead_2/",
+      "url": "https://store.steampowered.com/app/550/",
       "genre": "合作射击",
       "descriptionSource": "game_l4d2",
       "geo": {
@@ -9191,18 +11230,39 @@ window.GAME_GRAPH = {
         {
           "label": "资料口径",
           "value": "精选公开来源；股权以各条关系的报告日期为准"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "59"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "18489"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
         }
-      ]
+      ],
+      "steam": {
+        "appid": 550,
+        "rank": 59,
+        "currentPlayers": 18489,
+        "peakToday": 45821,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
     },
     {
       "id": "tf2",
       "name": "军团要塞2",
       "kind": "game",
       "region": "北美",
-      "aliases": "Team Fortress 2",
+      "aliases": "Team Fortress 2 Team Fortress 2",
       "description": "通过九种职业的分工进行团队目标对战。",
       "group": "valve",
-      "url": "https://store.steampowered.com/app/440/Team_Fortress_2/",
+      "url": "https://store.steampowered.com/app/440/",
       "genre": "团队射击",
       "descriptionSource": "game_tf2",
       "geo": {
@@ -9246,8 +11306,29 @@ window.GAME_GRAPH = {
         {
           "label": "资料口径",
           "value": "精选公开来源；股权以各条关系的报告日期为准"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "14"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "59751"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
         }
-      ]
+      ],
+      "steam": {
+        "appid": 440,
+        "rank": 14,
+        "currentPlayers": 59751,
+        "peakToday": 84627,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
     },
     {
       "id": "gta4",
@@ -9969,10 +12050,10 @@ window.GAME_GRAPH = {
       "name": "钢铁雄心 IV",
       "kind": "game",
       "region": "欧洲",
-      "aliases": "Hearts of Iron IV",
+      "aliases": "Hearts of Iron IV Hearts of Iron IV",
       "description": "以战争时期的工业、外交与军队调度为核心。",
       "group": "paradox",
-      "url": "https://www.paradoxinteractive.com/games/hearts-of-iron-iv/about",
+      "url": "https://store.steampowered.com/app/394360/",
       "genre": "大战略",
       "descriptionSource": "game_hoi4",
       "geo": {
@@ -10016,8 +12097,29 @@ window.GAME_GRAPH = {
         {
           "label": "资料口径",
           "value": "精选公开来源；股权以各条关系的报告日期为准"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "48"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "21613"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
         }
-      ]
+      ],
+      "steam": {
+        "appid": 394360,
+        "rank": 48,
+        "currentPlayers": 21613,
+        "peakToday": 60610,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
     },
     {
       "id": "eu4",
@@ -10244,10 +12346,10 @@ window.GAME_GRAPH = {
       "name": "模拟人生4",
       "kind": "game",
       "region": "北美",
-      "aliases": "The Sims 4",
+      "aliases": "The Sims 4 The Sims™ 4",
       "description": "创建角色、建造住宅并安排模拟市民的生活。",
       "group": "ea",
-      "url": "https://www.ea.com/games/the-sims/the-sims-4",
+      "url": "https://store.steampowered.com/app/1222670/",
       "genre": "生活模拟",
       "descriptionSource": "game_sims4",
       "geo": {
@@ -10291,8 +12393,29 @@ window.GAME_GRAPH = {
         {
           "label": "资料口径",
           "value": "精选公开来源；股权以各条关系的报告日期为准"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "73"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "14705"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
         }
-      ]
+      ],
+      "steam": {
+        "appid": 1222670,
+        "rank": 73,
+        "currentPlayers": 14705,
+        "peakToday": 35042,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
     },
     {
       "id": "witcher2",
@@ -10348,6 +12471,8182 @@ window.GAME_GRAPH = {
           "value": "精选公开来源；股权以各条关系的报告日期为准"
         }
       ]
+    },
+    {
+      "id": "steam_org_e04227249fdf",
+      "name": "NC",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "NC",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_e04227249fdf",
+      "url": "https://store.steampowered.com/app/3393110/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "NC"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_3393110",
+      "name": "AION 2",
+      "kind": "game",
+      "region": "未核对",
+      "aliases": "AION 2 AION 2",
+      "description": "类型：动作 / 冒险 / 大型多人在线 / 角色扮演 / 免费游玩。Steam 英文简介节选：AION 2 is the only MMORPG built around a world where the sky is the battlefield. Choose your faction, ascend as a Daeva, and fight…",
+      "group": "steam_org_e04227249fdf",
+      "url": "https://store.steampowered.com/app/3393110/",
+      "genre": "动作 / 冒险 / 大型多人在线 / 角色扮演 / 免费游玩",
+      "descriptionSource": "steam_3393110",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "关联开发组织的城市尚未核对；不定位作品。",
+      "attributes": [
+        {
+          "label": "条目类型",
+          "value": "game"
+        },
+        {
+          "label": "游戏 / 软件类型",
+          "value": "动作 / 冒险 / 大型多人在线 / 角色扮演 / 免费游玩"
+        },
+        {
+          "label": "开发方",
+          "value": "NC"
+        },
+        {
+          "label": "发行方",
+          "value": "NC"
+        },
+        {
+          "label": "作品口径",
+          "value": "Steam app 3393110"
+        },
+        {
+          "label": "说明来源",
+          "value": "Steam 商店官方简介（原文）"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "4"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "211687"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
+        }
+      ],
+      "steam": {
+        "appid": 3393110,
+        "rank": 4,
+        "currentPlayers": 211687,
+        "peakToday": 392300,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
+    },
+    {
+      "id": "steam_org_8860b7242553",
+      "name": "Irox Games",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "Irox Games",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_8860b7242553",
+      "url": "https://store.steampowered.com/app/3419430/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "Irox Games"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_3419430",
+      "name": "Bongo Cat",
+      "kind": "game",
+      "region": "未核对",
+      "aliases": "Bongo Cat Bongo Cat",
+      "description": "类型：休闲 / 独立 / 大型多人在线 / 模拟 / 免费游玩。Steam 英文简介节选：Bongo cat needs your help. Bongo cat needz more hatz!!! Every time you press a key, Bongo cat will punch your taskbar. Type, click, play,…",
+      "group": "steam_org_8860b7242553",
+      "url": "https://store.steampowered.com/app/3419430/",
+      "genre": "休闲 / 独立 / 大型多人在线 / 模拟 / 免费游玩",
+      "descriptionSource": "steam_3419430",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "关联开发组织的城市尚未核对；不定位作品。",
+      "attributes": [
+        {
+          "label": "条目类型",
+          "value": "game"
+        },
+        {
+          "label": "游戏 / 软件类型",
+          "value": "休闲 / 独立 / 大型多人在线 / 模拟 / 免费游玩"
+        },
+        {
+          "label": "开发方",
+          "value": "Irox Games"
+        },
+        {
+          "label": "发行方",
+          "value": "Irox Games"
+        },
+        {
+          "label": "作品口径",
+          "value": "Steam app 3419430"
+        },
+        {
+          "label": "说明来源",
+          "value": "Steam 商店官方简介（原文）"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "5"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "153671"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
+        }
+      ],
+      "steam": {
+        "appid": 3419430,
+        "rank": 5,
+        "currentPlayers": 153671,
+        "peakToday": 186709,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
+    },
+    {
+      "id": "steam_1422450",
+      "name": "Deadlock",
+      "kind": "game",
+      "region": "北美",
+      "aliases": "Deadlock Deadlock",
+      "description": "类型：动作。Steam 英文简介节选：Deadlock is a multiplayer game in early development.…",
+      "group": "valve",
+      "url": "https://store.steampowered.com/app/1422450/",
+      "genre": "动作",
+      "descriptionSource": "steam_1422450",
+      "geo": {
+        "city": "贝尔维尤",
+        "country": "美国",
+        "cityId": "5786882",
+        "lat": 47.61038,
+        "lon": -122.20068,
+        "basis": "关联开发或发行组织城市；游戏不是地理机构",
+        "precision": "城市参考点，非楼宇定位",
+        "source": "geo_valve",
+        "coordinateSource": "https://www.geonames.org/5786882/",
+        "note": "官方员工手册列示城市；不定位具体楼宇。",
+        "relatedOrganization": "valve"
+      },
+      "steamImported": true,
+      "locationNote": "关联开发组织的城市尚未核对；不定位作品。",
+      "attributes": [
+        {
+          "label": "条目类型",
+          "value": "game"
+        },
+        {
+          "label": "游戏 / 软件类型",
+          "value": "动作"
+        },
+        {
+          "label": "开发方",
+          "value": "Valve"
+        },
+        {
+          "label": "发行方",
+          "value": "Valve"
+        },
+        {
+          "label": "作品口径",
+          "value": "Steam app 1422450"
+        },
+        {
+          "label": "说明来源",
+          "value": "Steam 商店官方简介（原文）"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "6"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "92720"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
+        }
+      ],
+      "steam": {
+        "appid": 1422450,
+        "rank": 6,
+        "currentPlayers": 92720,
+        "peakToday": 220575,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
+    },
+    {
+      "id": "steam_2676230",
+      "name": "FiveM",
+      "kind": "game",
+      "region": "未核对",
+      "aliases": "FiveM FiveM",
+      "description": "FiveM：已收录在 Steam 官方当前在线人数榜单；商店资料受地区限制，开发与发行署名暂未取得。",
+      "group": "steam_2676230",
+      "url": "https://store.steampowered.com/app/2676230/",
+      "genre": "商店资料受地区限制",
+      "descriptionSource": "steam_2676230",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "关联开发组织的城市尚未核对；不定位作品。",
+      "attributes": [
+        {
+          "label": "条目类型",
+          "value": "advertising"
+        },
+        {
+          "label": "游戏 / 软件类型",
+          "value": "商店资料受地区限制"
+        },
+        {
+          "label": "开发方",
+          "value": "资料暂缺"
+        },
+        {
+          "label": "发行方",
+          "value": "资料暂缺"
+        },
+        {
+          "label": "作品口径",
+          "value": "Steam app 2676230"
+        },
+        {
+          "label": "说明来源",
+          "value": "Steam 商店官方简介（原文）"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "8"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "76948"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
+        }
+      ],
+      "steam": {
+        "appid": 2676230,
+        "rank": 8,
+        "currentPlayers": 76948,
+        "peakToday": 203101,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "advertising",
+        "metadataAvailable": true
+      }
+    },
+    {
+      "id": "steam_org_f79994969213",
+      "name": "BULKHEAD",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "BULKHEAD",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_f79994969213",
+      "url": "https://store.steampowered.com/app/1867240/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "BULKHEAD"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_org_1c505d40a9fc",
+      "name": "Team17",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "Team17",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_1c505d40a9fc",
+      "url": "https://store.steampowered.com/app/1867240/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "Team17"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_1867240",
+      "name": "WARDOGS",
+      "kind": "game",
+      "region": "未核对",
+      "aliases": "WARDOGS WARDOGS",
+      "description": "类型：动作 / 独立 / 大型多人在线 / 模拟 / 抢先体验。Steam 英文简介节选：WARDOGS is a TACTICAL ALL OUT WARFARE FPS where one hundred players split across three teams fight over the control zone. Set in the derelict…",
+      "group": "steam_org_f79994969213",
+      "url": "https://store.steampowered.com/app/1867240/",
+      "genre": "动作 / 独立 / 大型多人在线 / 模拟 / 抢先体验",
+      "descriptionSource": "steam_1867240",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "关联开发组织的城市尚未核对；不定位作品。",
+      "attributes": [
+        {
+          "label": "条目类型",
+          "value": "game"
+        },
+        {
+          "label": "游戏 / 软件类型",
+          "value": "动作 / 独立 / 大型多人在线 / 模拟 / 抢先体验"
+        },
+        {
+          "label": "开发方",
+          "value": "BULKHEAD"
+        },
+        {
+          "label": "发行方",
+          "value": "Team17"
+        },
+        {
+          "label": "作品口径",
+          "value": "Steam app 1867240"
+        },
+        {
+          "label": "说明来源",
+          "value": "Steam 商店官方简介（原文）"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "9"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "69558"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
+        }
+      ],
+      "steam": {
+        "appid": 1867240,
+        "rank": 9,
+        "currentPlayers": 69558,
+        "peakToday": 199487,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
+    },
+    {
+      "id": "steam_org_956ca380d767",
+      "name": "Wallpaper Engine Team",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "Wallpaper Engine Team",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_956ca380d767",
+      "url": "https://store.steampowered.com/app/431960/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "Wallpaper Engine Team"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_431960",
+      "name": "Wallpaper Engine",
+      "kind": "game",
+      "region": "未核对",
+      "aliases": "Wallpaper Engine Wallpaper Engine",
+      "description": "类型：休闲 / 独立 / 动画与建模 / 设计与绘画 / Photo Editing / 实用工具。Steam 英文简介节选：Use stunning live wallpapers on your desktop. Animate your own images to create new wallpapers or import videos/websites and share them on the Steam Workshop!…",
+      "group": "steam_org_956ca380d767",
+      "url": "https://store.steampowered.com/app/431960/",
+      "genre": "休闲 / 独立 / 动画与建模 / 设计与绘画 / Photo Editing / 实用工具",
+      "descriptionSource": "steam_431960",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "关联开发组织的城市尚未核对；不定位作品。",
+      "attributes": [
+        {
+          "label": "条目类型",
+          "value": "game"
+        },
+        {
+          "label": "游戏 / 软件类型",
+          "value": "休闲 / 独立 / 动画与建模 / 设计与绘画 / Photo Editing / 实用工具"
+        },
+        {
+          "label": "开发方",
+          "value": "Wallpaper Engine Team"
+        },
+        {
+          "label": "发行方",
+          "value": "Wallpaper Engine Team"
+        },
+        {
+          "label": "作品口径",
+          "value": "Steam app 431960"
+        },
+        {
+          "label": "说明来源",
+          "value": "Steam 商店官方简介（原文）"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "10"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "69230"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
+        }
+      ],
+      "steam": {
+        "appid": 431960,
+        "rank": 10,
+        "currentPlayers": 69230,
+        "peakToday": 118092,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
+    },
+    {
+      "id": "steam_org_3e7c1c85cc96",
+      "name": "Embark Studios",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "Embark Studios",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_3e7c1c85cc96",
+      "url": "https://store.steampowered.com/app/1808500/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "Embark Studios"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_1808500",
+      "name": "ARC Raiders",
+      "kind": "game",
+      "region": "未核对",
+      "aliases": "ARC Raiders ARC Raiders",
+      "description": "类型：动作。Steam 英文简介节选：ARC Raiders is a multiplayer extraction adventure, set in a lethal future earth, ravaged by a mysterious mechanized threat known as ARC.…",
+      "group": "steam_org_3e7c1c85cc96",
+      "url": "https://store.steampowered.com/app/1808500/",
+      "genre": "动作",
+      "descriptionSource": "steam_1808500",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "关联开发组织的城市尚未核对；不定位作品。",
+      "attributes": [
+        {
+          "label": "条目类型",
+          "value": "game"
+        },
+        {
+          "label": "游戏 / 软件类型",
+          "value": "动作"
+        },
+        {
+          "label": "开发方",
+          "value": "Embark Studios"
+        },
+        {
+          "label": "发行方",
+          "value": "Embark Studios"
+        },
+        {
+          "label": "作品口径",
+          "value": "Steam app 1808500"
+        },
+        {
+          "label": "说明来源",
+          "value": "Steam 商店官方简介（原文）"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "11"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "65181"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
+        }
+      ],
+      "steam": {
+        "appid": 1808500,
+        "rank": 11,
+        "currentPlayers": 65181,
+        "peakToday": 185443,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
+    },
+    {
+      "id": "steam_org_d684d8f99bfe",
+      "name": "Team Jade",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "Team Jade",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_d684d8f99bfe",
+      "url": "https://store.steampowered.com/app/2507950/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "Team Jade"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_2507950",
+      "name": "Delta Force",
+      "kind": "game",
+      "region": "中国",
+      "aliases": "Delta Force Delta Force",
+      "description": "类型：动作 / 冒险 / 大型多人在线 / 免费游玩。Steam 英文简介节选：Play for free in operator-based extraction and full-scale combined arms warfare. Become elite Operators, customize an ever-expanding arsenal of weapons, and deploy into thrill-packed missions…",
+      "group": "steam_org_d684d8f99bfe",
+      "url": "https://store.steampowered.com/app/2507950/",
+      "genre": "动作 / 冒险 / 大型多人在线 / 免费游玩",
+      "descriptionSource": "steam_2507950",
+      "geo": {
+        "city": "深圳",
+        "country": "中国",
+        "cityId": "1795565",
+        "lat": 22.54554,
+        "lon": 114.0683,
+        "basis": "关联开发或发行组织城市；游戏不是地理机构",
+        "precision": "城市参考点，非楼宇定位",
+        "source": "geo_timi",
+        "coordinateSource": "https://www.geonames.org/1795565/",
+        "note": "官方 2021 年公告；多地工作室。",
+        "relatedOrganization": "timi"
+      },
+      "steamImported": true,
+      "locationNote": "关联开发组织的城市尚未核对；不定位作品。",
+      "attributes": [
+        {
+          "label": "条目类型",
+          "value": "game"
+        },
+        {
+          "label": "游戏 / 软件类型",
+          "value": "动作 / 冒险 / 大型多人在线 / 免费游玩"
+        },
+        {
+          "label": "开发方",
+          "value": "Team Jade"
+        },
+        {
+          "label": "发行方",
+          "value": "TiMi Studio Group"
+        },
+        {
+          "label": "作品口径",
+          "value": "Steam app 2507950"
+        },
+        {
+          "label": "说明来源",
+          "value": "Steam 商店官方简介（原文）"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "12"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "61920"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
+        }
+      ],
+      "steam": {
+        "appid": 2507950,
+        "rank": 12,
+        "currentPlayers": 61920,
+        "peakToday": 135722,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
+    },
+    {
+      "id": "steam_org_a6bd0a7154ab",
+      "name": "Nugem Studio",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "Nugem Studio",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_a6bd0a7154ab",
+      "url": "https://store.steampowered.com/app/3678970/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "Nugem Studio"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_org_b49eddb56f2f",
+      "name": "Tesseract Studio",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "Tesseract Studio",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_b49eddb56f2f",
+      "url": "https://store.steampowered.com/app/3678970/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "Tesseract Studio"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_3678970",
+      "name": "TBH: Task Bar Hero",
+      "kind": "game",
+      "region": "未核对",
+      "aliases": "TBH: Task Bar Hero TBH: Task Bar Hero",
+      "description": "类型：休闲 / 独立 / 角色扮演 / 免费游玩。Steam 英文简介节选：The ultimate tiny idle RPG! Adorable pixel heroes are waiting to join your adventure — from your taskbar. Fight off the boredom of work and…",
+      "group": "steam_org_a6bd0a7154ab",
+      "url": "https://store.steampowered.com/app/3678970/",
+      "genre": "休闲 / 独立 / 角色扮演 / 免费游玩",
+      "descriptionSource": "steam_3678970",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "关联开发组织的城市尚未核对；不定位作品。",
+      "attributes": [
+        {
+          "label": "条目类型",
+          "value": "game"
+        },
+        {
+          "label": "游戏 / 软件类型",
+          "value": "休闲 / 独立 / 角色扮演 / 免费游玩"
+        },
+        {
+          "label": "开发方",
+          "value": "Nugem Studio、Tesseract Studio"
+        },
+        {
+          "label": "发行方",
+          "value": "Nugem Studio"
+        },
+        {
+          "label": "作品口径",
+          "value": "Steam app 3678970"
+        },
+        {
+          "label": "说明来源",
+          "value": "Steam 商店官方简介（原文）"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "13"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "59954"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
+        }
+      ],
+      "steam": {
+        "appid": 3678970,
+        "rank": 13,
+        "currentPlayers": 59954,
+        "peakToday": 71156,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
+    },
+    {
+      "id": "steam_org_524e07d4de4f",
+      "name": "Iron Gate AB",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "Iron Gate AB",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_524e07d4de4f",
+      "url": "https://store.steampowered.com/app/892970/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "Iron Gate AB"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_org_49c43429e0d6",
+      "name": "Coffee Stain Publishing",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "Coffee Stain Publishing",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_49c43429e0d6",
+      "url": "https://store.steampowered.com/app/892970/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "Coffee Stain Publishing"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_892970",
+      "name": "Valheim",
+      "kind": "game",
+      "region": "未核对",
+      "aliases": "Valheim Valheim",
+      "description": "类型：动作 / 冒险 / 独立 / 角色扮演。Steam 英文简介节选：A collaborative exploration and survival game for 1-10 players, set in a procedurally generated afterlife inspired by Viking culture. Battle, build, and conquer your way…",
+      "group": "steam_org_524e07d4de4f",
+      "url": "https://store.steampowered.com/app/892970/",
+      "genre": "动作 / 冒险 / 独立 / 角色扮演",
+      "descriptionSource": "steam_892970",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "关联开发组织的城市尚未核对；不定位作品。",
+      "attributes": [
+        {
+          "label": "条目类型",
+          "value": "game"
+        },
+        {
+          "label": "游戏 / 软件类型",
+          "value": "动作 / 冒险 / 独立 / 角色扮演"
+        },
+        {
+          "label": "开发方",
+          "value": "Iron Gate AB"
+        },
+        {
+          "label": "发行方",
+          "value": "Coffee Stain Publishing"
+        },
+        {
+          "label": "作品口径",
+          "value": "Steam app 892970"
+        },
+        {
+          "label": "说明来源",
+          "value": "Steam 商店官方简介（原文）"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "15"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "53635"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
+        }
+      ],
+      "steam": {
+        "appid": 892970,
+        "rank": 15,
+        "currentPlayers": 53635,
+        "peakToday": 189547,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
+    },
+    {
+      "id": "steam_org_cc9ac015720f",
+      "name": "Facepunch Studios",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "Facepunch Studios",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_cc9ac015720f",
+      "url": "https://store.steampowered.com/app/252490/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "Facepunch Studios"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_252490",
+      "name": "Rust",
+      "kind": "game",
+      "region": "未核对",
+      "aliases": "Rust Rust",
+      "description": "类型：动作 / 冒险 / 独立 / 大型多人在线 / 角色扮演。Steam 英文简介节选：The only aim in Rust is to survive. Everything wants you to die - the island’s wildlife, other inhabitants, the environment, and other survivors. Do…",
+      "group": "steam_org_cc9ac015720f",
+      "url": "https://store.steampowered.com/app/252490/",
+      "genre": "动作 / 冒险 / 独立 / 大型多人在线 / 角色扮演",
+      "descriptionSource": "steam_252490",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "关联开发组织的城市尚未核对；不定位作品。",
+      "attributes": [
+        {
+          "label": "条目类型",
+          "value": "game"
+        },
+        {
+          "label": "游戏 / 软件类型",
+          "value": "动作 / 冒险 / 独立 / 大型多人在线 / 角色扮演"
+        },
+        {
+          "label": "开发方",
+          "value": "Facepunch Studios"
+        },
+        {
+          "label": "发行方",
+          "value": "Facepunch Studios"
+        },
+        {
+          "label": "作品口径",
+          "value": "Steam app 252490"
+        },
+        {
+          "label": "说明来源",
+          "value": "Steam 商店官方简介（原文）"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "16"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "49530"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
+        }
+      ],
+      "steam": {
+        "appid": 252490,
+        "rank": 16,
+        "currentPlayers": 49530,
+        "peakToday": 122967,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
+    },
+    {
+      "id": "steam_org_76e66d3d1e14",
+      "name": "Mega Crit",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "Mega Crit",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_76e66d3d1e14",
+      "url": "https://store.steampowered.com/app/2868840/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "Mega Crit"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_2868840",
+      "name": "Slay the Spire 2",
+      "kind": "game",
+      "region": "未核对",
+      "aliases": "Slay the Spire 2 Slay the Spire 2",
+      "description": "类型：独立 / 策略 / 抢先体验。Steam 英文简介节选：The iconic roguelike deckbuilder returns. Craft a unique deck, encounter bizarre creatures, and discover relics of immense power in Slay the Spire 2!…",
+      "group": "steam_org_76e66d3d1e14",
+      "url": "https://store.steampowered.com/app/2868840/",
+      "genre": "独立 / 策略 / 抢先体验",
+      "descriptionSource": "steam_2868840",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "关联开发组织的城市尚未核对；不定位作品。",
+      "attributes": [
+        {
+          "label": "条目类型",
+          "value": "game"
+        },
+        {
+          "label": "游戏 / 软件类型",
+          "value": "独立 / 策略 / 抢先体验"
+        },
+        {
+          "label": "开发方",
+          "value": "Mega Crit"
+        },
+        {
+          "label": "发行方",
+          "value": "Mega Crit"
+        },
+        {
+          "label": "作品口径",
+          "value": "Steam app 2868840"
+        },
+        {
+          "label": "说明来源",
+          "value": "Steam 商店官方简介（原文）"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "17"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "48721"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
+        }
+      ],
+      "steam": {
+        "appid": 2868840,
+        "rank": 17,
+        "currentPlayers": 48721,
+        "peakToday": 102550,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
+    },
+    {
+      "id": "steam_2357570",
+      "name": "Overwatch®",
+      "kind": "game",
+      "region": "北美",
+      "aliases": "Overwatch® Overwatch®",
+      "description": "类型：团队英雄射击。在近未来世界里选择不同英雄，通过团队协作进行多人对抗，结合各角色的技能与定位争夺目标。",
+      "group": "blizzard",
+      "url": "https://store.steampowered.com/app/2357570/",
+      "genre": "团队英雄射击",
+      "descriptionSource": "steam_2357570",
+      "geo": {
+        "city": "尔湾",
+        "country": "美国",
+        "cityId": "5359777",
+        "lat": 33.66946,
+        "lon": -117.82311,
+        "basis": "关联开发或发行组织城市；游戏不是地理机构",
+        "precision": "城市参考点，非楼宇定位",
+        "source": "geo_blizzard",
+        "coordinateSource": "https://www.geonames.org/5359777/",
+        "note": "",
+        "relatedOrganization": "blizzard"
+      },
+      "steamImported": true,
+      "locationNote": "关联开发组织的城市尚未核对；不定位作品。",
+      "attributes": [
+        {
+          "label": "条目类型",
+          "value": "game"
+        },
+        {
+          "label": "游戏 / 软件类型",
+          "value": "团队英雄射击"
+        },
+        {
+          "label": "开发方",
+          "value": "Blizzard Entertainment, Inc."
+        },
+        {
+          "label": "发行方",
+          "value": "Blizzard Entertainment, Inc."
+        },
+        {
+          "label": "作品口径",
+          "value": "Steam app 2357570"
+        },
+        {
+          "label": "说明来源",
+          "value": "Steam 商店官方简介（原文）"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "18"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "48052"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
+        }
+      ],
+      "steam": {
+        "appid": 2357570,
+        "rank": 18,
+        "currentPlayers": 48052,
+        "peakToday": 90004,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
+    },
+    {
+      "id": "steam_org_96befdc47ad3",
+      "name": "VRChat Inc.",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "VRChat Inc.",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_96befdc47ad3",
+      "url": "https://store.steampowered.com/app/438100/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "VRChat Inc."
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_438100",
+      "name": "VRChat",
+      "kind": "game",
+      "region": "未核对",
+      "aliases": "VRChat VRChat",
+      "description": "类型：冒险 / 休闲 / 大型多人在线 / 模拟 / 体育 / 免费游玩 / 抢先体验。Steam 英文简介节选：Join our growing community as you explore, play, and help craft the future of social VR. Create worlds and custom avatars. Welcome to VRChat.…",
+      "group": "steam_org_96befdc47ad3",
+      "url": "https://store.steampowered.com/app/438100/",
+      "genre": "冒险 / 休闲 / 大型多人在线 / 模拟 / 体育 / 免费游玩 / 抢先体验",
+      "descriptionSource": "steam_438100",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "关联开发组织的城市尚未核对；不定位作品。",
+      "attributes": [
+        {
+          "label": "条目类型",
+          "value": "game"
+        },
+        {
+          "label": "游戏 / 软件类型",
+          "value": "冒险 / 休闲 / 大型多人在线 / 模拟 / 体育 / 免费游玩 / 抢先体验"
+        },
+        {
+          "label": "开发方",
+          "value": "VRChat Inc."
+        },
+        {
+          "label": "发行方",
+          "value": "VRChat Inc."
+        },
+        {
+          "label": "作品口径",
+          "value": "Steam app 438100"
+        },
+        {
+          "label": "说明来源",
+          "value": "Steam 商店官方简介（原文）"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "20"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "45159"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
+        }
+      ],
+      "steam": {
+        "appid": 438100,
+        "rank": 20,
+        "currentPlayers": 45159,
+        "peakToday": 60544,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
+    },
+    {
+      "id": "steam_org_88bc7770c5d8",
+      "name": "First Day Games",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "First Day Games",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_88bc7770c5d8",
+      "url": "https://store.steampowered.com/app/4623570/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "First Day Games"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_org_3b3edde61bc9",
+      "name": "Gamersky Games",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "Gamersky Games",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_3b3edde61bc9",
+      "url": "https://store.steampowered.com/app/4623570/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "Gamersky Games"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_4623570",
+      "name": "Deskrawl: Idle ARPG",
+      "kind": "game",
+      "region": "未核对",
+      "aliases": "Deskrawl: Idle ARPG Deskrawl: Idle ARPG",
+      "description": "类型：动作 / 冒险 / 休闲 / 独立 / 角色扮演。Steam 英文简介节选：Grind mobs, farm loot and capture enemies to serve you. Deskrawl is an epic idle ARPG that plays at the bottom of your desktop. Farm…",
+      "group": "steam_org_88bc7770c5d8",
+      "url": "https://store.steampowered.com/app/4623570/",
+      "genre": "动作 / 冒险 / 休闲 / 独立 / 角色扮演",
+      "descriptionSource": "steam_4623570",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "关联开发组织的城市尚未核对；不定位作品。",
+      "attributes": [
+        {
+          "label": "条目类型",
+          "value": "game"
+        },
+        {
+          "label": "游戏 / 软件类型",
+          "value": "动作 / 冒险 / 休闲 / 独立 / 角色扮演"
+        },
+        {
+          "label": "开发方",
+          "value": "First Day Games"
+        },
+        {
+          "label": "发行方",
+          "value": "First Day Games、Gamersky Games"
+        },
+        {
+          "label": "作品口径",
+          "value": "Steam app 4623570"
+        },
+        {
+          "label": "说明来源",
+          "value": "Steam 商店官方简介（原文）"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "21"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "44245"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
+        }
+      ],
+      "steam": {
+        "appid": 4623570,
+        "rank": 21,
+        "currentPlayers": 44245,
+        "peakToday": 47728,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
+    },
+    {
+      "id": "steam_org_93c53b1bf338",
+      "name": "ConcernedApe",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "ConcernedApe",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_93c53b1bf338",
+      "url": "https://store.steampowered.com/app/413150/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "ConcernedApe"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_413150",
+      "name": "Stardew Valley",
+      "kind": "game",
+      "region": "未核对",
+      "aliases": "Stardew Valley Stardew Valley",
+      "description": "类型：独立 / 角色扮演 / 模拟。Steam 英文简介节选：You've inherited your grandfather's old farm plot in Stardew Valley. Armed with hand-me-down tools and a few coins, you set out to begin your new…",
+      "group": "steam_org_93c53b1bf338",
+      "url": "https://store.steampowered.com/app/413150/",
+      "genre": "独立 / 角色扮演 / 模拟",
+      "descriptionSource": "steam_413150",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "关联开发组织的城市尚未核对；不定位作品。",
+      "attributes": [
+        {
+          "label": "条目类型",
+          "value": "game"
+        },
+        {
+          "label": "游戏 / 软件类型",
+          "value": "独立 / 角色扮演 / 模拟"
+        },
+        {
+          "label": "开发方",
+          "value": "ConcernedApe"
+        },
+        {
+          "label": "发行方",
+          "value": "ConcernedApe"
+        },
+        {
+          "label": "作品口径",
+          "value": "Steam app 413150"
+        },
+        {
+          "label": "说明来源",
+          "value": "Steam 商店官方简介（原文）"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "22"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "39481"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
+        }
+      ],
+      "steam": {
+        "appid": 413150,
+        "rank": 22,
+        "currentPlayers": 39481,
+        "peakToday": 105300,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
+    },
+    {
+      "id": "steam_org_55fe8e6edc72",
+      "name": "Pawprint Studio",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "Pawprint Studio",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_55fe8e6edc72",
+      "url": "https://store.steampowered.com/app/4126040/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "Pawprint Studio"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_4126040",
+      "name": "Aniimo",
+      "kind": "game",
+      "region": "未核对",
+      "aliases": "Aniimo Aniimo",
+      "description": "类型：动作 / 冒险 / 大型多人在线 / 角色扮演 / 模拟 / 策略 / 免费游玩。Steam 英文简介节选：Aniimo is a free-to-play, next-gen creature-catching open-world RPG. Explore the vast continent of Idyll, Twine with unique Aniimo, unlock new abilities. Travel to a sky-floating…",
+      "group": "steam_org_55fe8e6edc72",
+      "url": "https://store.steampowered.com/app/4126040/",
+      "genre": "动作 / 冒险 / 大型多人在线 / 角色扮演 / 模拟 / 策略 / 免费游玩",
+      "descriptionSource": "steam_4126040",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "关联开发组织的城市尚未核对；不定位作品。",
+      "attributes": [
+        {
+          "label": "条目类型",
+          "value": "game"
+        },
+        {
+          "label": "游戏 / 软件类型",
+          "value": "动作 / 冒险 / 大型多人在线 / 角色扮演 / 模拟 / 策略 / 免费游玩"
+        },
+        {
+          "label": "开发方",
+          "value": "Pawprint Studio"
+        },
+        {
+          "label": "发行方",
+          "value": "Pawprint Studio"
+        },
+        {
+          "label": "作品口径",
+          "value": "Steam app 4126040"
+        },
+        {
+          "label": "说明来源",
+          "value": "Steam 商店官方简介（原文）"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "23"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "39093"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
+        }
+      ],
+      "steam": {
+        "appid": 4126040,
+        "rank": 23,
+        "currentPlayers": 39093,
+        "peakToday": 78003,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
+    },
+    {
+      "id": "steam_org_a89e203bc6ac",
+      "name": "The Indie Stone",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "The Indie Stone",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_a89e203bc6ac",
+      "url": "https://store.steampowered.com/app/108600/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "The Indie Stone"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_108600",
+      "name": "Project Zomboid",
+      "kind": "game",
+      "region": "未核对",
+      "aliases": "Project Zomboid Project Zomboid",
+      "description": "类型：独立 / 角色扮演 / 模拟 / 抢先体验。Steam 英文简介节选：Project Zomboid is the ultimate in zombie survival. Alone or in MP: you loot, build, craft, fight, farm and fish in a struggle to survive.…",
+      "group": "steam_org_a89e203bc6ac",
+      "url": "https://store.steampowered.com/app/108600/",
+      "genre": "独立 / 角色扮演 / 模拟 / 抢先体验",
+      "descriptionSource": "steam_108600",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "关联开发组织的城市尚未核对；不定位作品。",
+      "attributes": [
+        {
+          "label": "条目类型",
+          "value": "game"
+        },
+        {
+          "label": "游戏 / 软件类型",
+          "value": "独立 / 角色扮演 / 模拟 / 抢先体验"
+        },
+        {
+          "label": "开发方",
+          "value": "The Indie Stone"
+        },
+        {
+          "label": "发行方",
+          "value": "The Indie Stone"
+        },
+        {
+          "label": "作品口径",
+          "value": "Steam app 108600"
+        },
+        {
+          "label": "说明来源",
+          "value": "Steam 商店官方简介（原文）"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "26"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "36497"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
+        }
+      ],
+      "steam": {
+        "appid": 108600,
+        "rank": 26,
+        "currentPlayers": 36497,
+        "peakToday": 82545,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
+    },
+    {
+      "id": "steam_org_f5741b04acc2",
+      "name": "Pocketpair",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "Pocketpair",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_f5741b04acc2",
+      "url": "https://store.steampowered.com/app/1623730/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "Pocketpair"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_1623730",
+      "name": "Palworld",
+      "kind": "game",
+      "region": "未核对",
+      "aliases": "Palworld Palworld",
+      "description": "类型：动作 / 冒险 / 独立 / 角色扮演。Steam 英文简介节选：Fight, farm, build and work alongside mysterious creatures called \"Pals\" in this completely new multiplayer, open world survival and crafting game!…",
+      "group": "steam_org_f5741b04acc2",
+      "url": "https://store.steampowered.com/app/1623730/",
+      "genre": "动作 / 冒险 / 独立 / 角色扮演",
+      "descriptionSource": "steam_1623730",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "关联开发组织的城市尚未核对；不定位作品。",
+      "attributes": [
+        {
+          "label": "条目类型",
+          "value": "game"
+        },
+        {
+          "label": "游戏 / 软件类型",
+          "value": "动作 / 冒险 / 独立 / 角色扮演"
+        },
+        {
+          "label": "开发方",
+          "value": "Pocketpair"
+        },
+        {
+          "label": "发行方",
+          "value": "Pocketpair"
+        },
+        {
+          "label": "作品口径",
+          "value": "Steam app 1623730"
+        },
+        {
+          "label": "说明来源",
+          "value": "Steam 商店官方简介（原文）"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "28"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "34634"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
+        }
+      ],
+      "steam": {
+        "appid": 1623730,
+        "rank": 28,
+        "currentPlayers": 34634,
+        "peakToday": 77274,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
+    },
+    {
+      "id": "steam_org_3fe60900eb6e",
+      "name": "Rockstar North",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "Rockstar North",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_3fe60900eb6e",
+      "url": "https://store.steampowered.com/app/3240220/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "Rockstar North"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_3240220",
+      "name": "Grand Theft Auto V Enhanced",
+      "kind": "game",
+      "region": "北美",
+      "aliases": "Grand Theft Auto V Enhanced Grand Theft Auto V Enhanced",
+      "description": "类型：动作 / 冒险 / 竞速。Steam 英文简介节选：Experience entertainment blockbusters Grand Theft Auto V and Grand Theft Auto Online — now upgraded for a new generation with stunning visuals, faster loading, 3D…",
+      "group": "steam_org_3fe60900eb6e",
+      "url": "https://store.steampowered.com/app/3240220/",
+      "genre": "动作 / 冒险 / 竞速",
+      "descriptionSource": "steam_3240220",
+      "geo": {
+        "city": "纽约",
+        "country": "美国",
+        "cityId": "5128581",
+        "lat": 40.71427,
+        "lon": -74.00597,
+        "basis": "关联开发或发行组织城市；游戏不是地理机构",
+        "precision": "城市参考点，非楼宇定位",
+        "source": "geo_rockstar",
+        "coordinateSource": "https://www.geonames.org/5128581/",
+        "note": "不代表 GTA 或 RDR 所有开发者所在地。",
+        "relatedOrganization": "rockstar"
+      },
+      "steamImported": true,
+      "locationNote": "关联开发组织的城市尚未核对；不定位作品。",
+      "attributes": [
+        {
+          "label": "条目类型",
+          "value": "game"
+        },
+        {
+          "label": "游戏 / 软件类型",
+          "value": "动作 / 冒险 / 竞速"
+        },
+        {
+          "label": "开发方",
+          "value": "Rockstar North"
+        },
+        {
+          "label": "发行方",
+          "value": "Rockstar Games"
+        },
+        {
+          "label": "作品口径",
+          "value": "Steam app 3240220"
+        },
+        {
+          "label": "说明来源",
+          "value": "Steam 商店官方简介（原文）"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "29"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "31880"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
+        }
+      ],
+      "steam": {
+        "appid": 3240220,
+        "rank": 29,
+        "currentPlayers": 31880,
+        "peakToday": 78748,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
+    },
+    {
+      "id": "steam_org_0aadd801dda0",
+      "name": "Behaviour Interactive Inc.",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "Behaviour Interactive Inc.",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_0aadd801dda0",
+      "url": "https://store.steampowered.com/app/381210/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "Behaviour Interactive Inc."
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_381210",
+      "name": "Dead by Daylight",
+      "kind": "game",
+      "region": "未核对",
+      "aliases": "Dead by Daylight Dead by Daylight",
+      "description": "类型：动作。Steam 英文简介节选：10 years of horror. 10 years of jump scares and close calls. 10 years of brutal sacrifices and thrilling escapes. Trapped forever in a realm…",
+      "group": "steam_org_0aadd801dda0",
+      "url": "https://store.steampowered.com/app/381210/",
+      "genre": "动作",
+      "descriptionSource": "steam_381210",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "关联开发组织的城市尚未核对；不定位作品。",
+      "attributes": [
+        {
+          "label": "条目类型",
+          "value": "game"
+        },
+        {
+          "label": "游戏 / 软件类型",
+          "value": "动作"
+        },
+        {
+          "label": "开发方",
+          "value": "Behaviour Interactive Inc."
+        },
+        {
+          "label": "发行方",
+          "value": "Behaviour Interactive Inc."
+        },
+        {
+          "label": "作品口径",
+          "value": "Steam app 381210"
+        },
+        {
+          "label": "说明来源",
+          "value": "Steam 商店官方简介（原文）"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "30"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "31173"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
+        }
+      ],
+      "steam": {
+        "appid": 381210,
+        "rank": 30,
+        "currentPlayers": 31173,
+        "peakToday": 70739,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
+    },
+    {
+      "id": "steam_org_613b037e9403",
+      "name": "Gaijin Entertainment",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "Gaijin Entertainment",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_613b037e9403",
+      "url": "https://store.steampowered.com/app/236390/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "Gaijin Entertainment"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_org_797692dd51e8",
+      "name": "Gaijin Network Ltd",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "Gaijin Network Ltd",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_797692dd51e8",
+      "url": "https://store.steampowered.com/app/236390/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "Gaijin Network Ltd"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_236390",
+      "name": "War Thunder",
+      "kind": "game",
+      "region": "未核对",
+      "aliases": "War Thunder War Thunder",
+      "description": "类型：动作 / 大型多人在线 / 模拟 / 免费游玩。Steam 英文简介节选：War Thunder is the most comprehensive free-to-play, cross-platform, MMO military game dedicated to aviation, armoured vehicles, and naval craft, from the early 20th century to…",
+      "group": "steam_org_613b037e9403",
+      "url": "https://store.steampowered.com/app/236390/",
+      "genre": "动作 / 大型多人在线 / 模拟 / 免费游玩",
+      "descriptionSource": "steam_236390",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "关联开发组织的城市尚未核对；不定位作品。",
+      "attributes": [
+        {
+          "label": "条目类型",
+          "value": "game"
+        },
+        {
+          "label": "游戏 / 软件类型",
+          "value": "动作 / 大型多人在线 / 模拟 / 免费游玩"
+        },
+        {
+          "label": "开发方",
+          "value": "Gaijin Entertainment"
+        },
+        {
+          "label": "发行方",
+          "value": "Gaijin Network Ltd"
+        },
+        {
+          "label": "作品口径",
+          "value": "Steam app 236390"
+        },
+        {
+          "label": "说明来源",
+          "value": "Steam 商店官方简介（原文）"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "32"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "30677"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
+        }
+      ],
+      "steam": {
+        "appid": 236390,
+        "rank": 32,
+        "currentPlayers": 30677,
+        "peakToday": 91100,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
+    },
+    {
+      "id": "steam_org_f83f70955dcd",
+      "name": "ProjectMoon",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "ProjectMoon",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_f83f70955dcd",
+      "url": "https://store.steampowered.com/app/1973530/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "ProjectMoon"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_1973530",
+      "name": "Limbus Company",
+      "kind": "game",
+      "region": "未核对",
+      "aliases": "Limbus Company Limbus Company",
+      "description": "类型：免费游玩。Steam 英文简介节选：As the Executive Manager of Limbus Company, lead your group of twelve Sinners, venture into the buried facilities of Lobotomy Corporation, and lay claim on…",
+      "group": "steam_org_f83f70955dcd",
+      "url": "https://store.steampowered.com/app/1973530/",
+      "genre": "免费游玩",
+      "descriptionSource": "steam_1973530",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "关联开发组织的城市尚未核对；不定位作品。",
+      "attributes": [
+        {
+          "label": "条目类型",
+          "value": "game"
+        },
+        {
+          "label": "游戏 / 软件类型",
+          "value": "免费游玩"
+        },
+        {
+          "label": "开发方",
+          "value": "ProjectMoon"
+        },
+        {
+          "label": "发行方",
+          "value": "ProjectMoon"
+        },
+        {
+          "label": "作品口径",
+          "value": "Steam app 1973530"
+        },
+        {
+          "label": "说明来源",
+          "value": "Steam 商店官方简介（原文）"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "33"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "30674"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
+        }
+      ],
+      "steam": {
+        "appid": 1973530,
+        "rank": 33,
+        "currentPlayers": 30674,
+        "peakToday": 50898,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
+    },
+    {
+      "id": "steam_org_68b490085b7e",
+      "name": "Nicalis, Inc.",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "Nicalis, Inc.",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_68b490085b7e",
+      "url": "https://store.steampowered.com/app/250900/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "Nicalis, Inc."
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_org_53cab240f3e9",
+      "name": "Edmund McMillen",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "Edmund McMillen",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_53cab240f3e9",
+      "url": "https://store.steampowered.com/app/250900/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "Edmund McMillen"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_250900",
+      "name": "The Binding of Isaac: Rebirth",
+      "kind": "game",
+      "region": "未核对",
+      "aliases": "The Binding of Isaac: Rebirth The Binding of Isaac: Rebirth",
+      "description": "类型：动作。Steam 英文简介节选：The Binding of Isaac: Rebirth is a randomly generated action RPG shooter with heavy Rogue-like elements. Following Isaac on his journey players will find bizarre…",
+      "group": "steam_org_68b490085b7e",
+      "url": "https://store.steampowered.com/app/250900/",
+      "genre": "动作",
+      "descriptionSource": "steam_250900",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "关联开发组织的城市尚未核对；不定位作品。",
+      "attributes": [
+        {
+          "label": "条目类型",
+          "value": "game"
+        },
+        {
+          "label": "游戏 / 软件类型",
+          "value": "动作"
+        },
+        {
+          "label": "开发方",
+          "value": "Nicalis, Inc.、Edmund McMillen"
+        },
+        {
+          "label": "发行方",
+          "value": "Nicalis, Inc."
+        },
+        {
+          "label": "作品口径",
+          "value": "Steam app 250900"
+        },
+        {
+          "label": "说明来源",
+          "value": "Steam 商店官方简介（原文）"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "34"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "29482"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
+        }
+      ],
+      "steam": {
+        "appid": 250900,
+        "rank": 34,
+        "currentPlayers": 29482,
+        "peakToday": 70742,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
+    },
+    {
+      "id": "steam_org_613b47225818",
+      "name": "CREATIVE ASSEMBLY",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "CREATIVE ASSEMBLY",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_613b47225818",
+      "url": "https://store.steampowered.com/app/1142710/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "CREATIVE ASSEMBLY"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_org_4ae8c026f071",
+      "name": "Feral Interactive",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "Feral Interactive",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_4ae8c026f071",
+      "url": "https://store.steampowered.com/app/1142710/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "Feral Interactive"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_1142710",
+      "name": "Total War: WARHAMMER III",
+      "kind": "game",
+      "region": "日本",
+      "aliases": "Total War: WARHAMMER III Total War: WARHAMMER III",
+      "description": "类型：动作 / 策略。Steam 英文简介节选：The cataclysmic conclusion to the Total War: WARHAMMER trilogy is here. Rally your forces and step into the Realm of Chaos, a dimension of mind-bending…",
+      "group": "steam_org_613b47225818",
+      "url": "https://store.steampowered.com/app/1142710/",
+      "genre": "动作 / 策略",
+      "descriptionSource": "steam_1142710",
+      "geo": {
+        "city": "东京",
+        "country": "日本",
+        "cityId": "1850147",
+        "lat": 35.6895,
+        "lon": 139.69171,
+        "basis": "关联开发或发行组织城市；游戏不是地理机构",
+        "precision": "城市参考点，非楼宇定位",
+        "source": "geo_sega",
+        "coordinateSource": "https://www.geonames.org/1850147/",
+        "note": "",
+        "relatedOrganization": "sega"
+      },
+      "steamImported": true,
+      "locationNote": "关联开发组织的城市尚未核对；不定位作品。",
+      "attributes": [
+        {
+          "label": "条目类型",
+          "value": "game"
+        },
+        {
+          "label": "游戏 / 软件类型",
+          "value": "动作 / 策略"
+        },
+        {
+          "label": "开发方",
+          "value": "CREATIVE ASSEMBLY、Feral Interactive"
+        },
+        {
+          "label": "发行方",
+          "value": "SEGA、Feral Interactive"
+        },
+        {
+          "label": "作品口径",
+          "value": "Steam app 1142710"
+        },
+        {
+          "label": "说明来源",
+          "value": "Steam 商店官方简介（原文）"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "35"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "29224"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
+        }
+      ],
+      "steam": {
+        "appid": 1142710,
+        "rank": 35,
+        "currentPlayers": 29224,
+        "peakToday": 77600,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
+    },
+    {
+      "id": "steam_org_6e499775f134",
+      "name": "Walter Machado",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "Walter Machado",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_6e499775f134",
+      "url": "https://store.steampowered.com/app/1181000/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "Walter Machado"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_1181000",
+      "name": "UBERMOSH:OMEGA",
+      "kind": "game",
+      "region": "未核对",
+      "aliases": "UBERMOSH:OMEGA UBERMOSH:OMEGA",
+      "description": "类型：动作 / 独立。Steam 英文简介节选：UBERMOSH:OMEGA, the apex of Walter Machado's Cult Classic series UBERMOSH.…",
+      "group": "steam_org_6e499775f134",
+      "url": "https://store.steampowered.com/app/1181000/",
+      "genre": "动作 / 独立",
+      "descriptionSource": "steam_1181000",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "关联开发组织的城市尚未核对；不定位作品。",
+      "attributes": [
+        {
+          "label": "条目类型",
+          "value": "game"
+        },
+        {
+          "label": "游戏 / 软件类型",
+          "value": "动作 / 独立"
+        },
+        {
+          "label": "开发方",
+          "value": "Walter Machado"
+        },
+        {
+          "label": "发行方",
+          "value": "Walter Machado"
+        },
+        {
+          "label": "作品口径",
+          "value": "Steam app 1181000"
+        },
+        {
+          "label": "说明来源",
+          "value": "Steam 商店官方简介（原文）"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "36"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "28785"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
+        }
+      ],
+      "steam": {
+        "appid": 1181000,
+        "rank": 36,
+        "currentPlayers": 28785,
+        "peakToday": 174886,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
+    },
+    {
+      "id": "steam_org_fd760ea377d9",
+      "name": "RobTop Games",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "RobTop Games",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_fd760ea377d9",
+      "url": "https://store.steampowered.com/app/322170/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "RobTop Games"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_322170",
+      "name": "Geometry Dash",
+      "kind": "game",
+      "region": "未核对",
+      "aliases": "Geometry Dash Geometry Dash",
+      "description": "类型：动作 / 独立。Steam 英文简介节选：Jump and fly your way through danger in this rhythm-based action platformer!…",
+      "group": "steam_org_fd760ea377d9",
+      "url": "https://store.steampowered.com/app/322170/",
+      "genre": "动作 / 独立",
+      "descriptionSource": "steam_322170",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "关联开发组织的城市尚未核对；不定位作品。",
+      "attributes": [
+        {
+          "label": "条目类型",
+          "value": "game"
+        },
+        {
+          "label": "游戏 / 软件类型",
+          "value": "动作 / 独立"
+        },
+        {
+          "label": "开发方",
+          "value": "RobTop Games"
+        },
+        {
+          "label": "发行方",
+          "value": "RobTop Games"
+        },
+        {
+          "label": "作品口径",
+          "value": "Steam app 322170"
+        },
+        {
+          "label": "说明来源",
+          "value": "Steam 商店官方简介（原文）"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "37"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "27670"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
+        }
+      ],
+      "steam": {
+        "appid": 322170,
+        "rank": 37,
+        "currentPlayers": 27670,
+        "peakToday": 80736,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
+    },
+    {
+      "id": "steam_org_cc992aecee71",
+      "name": "OVERKILL - a Starbreeze Studio.",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "OVERKILL - a Starbreeze Studio.",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_cc992aecee71",
+      "url": "https://store.steampowered.com/app/218620/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "OVERKILL - a Starbreeze Studio."
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_org_da0c9bcf1f15",
+      "name": "Sidetrack Games",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "Sidetrack Games",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_da0c9bcf1f15",
+      "url": "https://store.steampowered.com/app/218620/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "Sidetrack Games"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_org_3f28e9cf26ba",
+      "name": "Starbreeze Entertainment",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "Starbreeze Entertainment",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_3f28e9cf26ba",
+      "url": "https://store.steampowered.com/app/218620/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "Starbreeze Entertainment"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_218620",
+      "name": "PAYDAY 2",
+      "kind": "game",
+      "region": "未核对",
+      "aliases": "PAYDAY 2 PAYDAY 2",
+      "description": "类型：动作 / 角色扮演。Steam 英文简介节选：PAYDAY 2 is an action-packed, four-player co-op shooter that once again lets gamers don the masks of the original PAYDAY crew - Dallas, Hoxton, Wolf…",
+      "group": "steam_org_cc992aecee71",
+      "url": "https://store.steampowered.com/app/218620/",
+      "genre": "动作 / 角色扮演",
+      "descriptionSource": "steam_218620",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "关联开发组织的城市尚未核对；不定位作品。",
+      "attributes": [
+        {
+          "label": "条目类型",
+          "value": "game"
+        },
+        {
+          "label": "游戏 / 软件类型",
+          "value": "动作 / 角色扮演"
+        },
+        {
+          "label": "开发方",
+          "value": "OVERKILL - a Starbreeze Studio.、Sidetrack Games"
+        },
+        {
+          "label": "发行方",
+          "value": "Starbreeze Entertainment"
+        },
+        {
+          "label": "作品口径",
+          "value": "Steam app 218620"
+        },
+        {
+          "label": "说明来源",
+          "value": "Steam 商店官方简介（原文）"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "38"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "26930"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
+        }
+      ],
+      "steam": {
+        "appid": 218620,
+        "rank": 38,
+        "currentPlayers": 26930,
+        "peakToday": 34119,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
+    },
+    {
+      "id": "steam_org_a097d7bceea1",
+      "name": "Re-Logic",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "Re-Logic",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_a097d7bceea1",
+      "url": "https://store.steampowered.com/app/105600/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "Re-Logic"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_105600",
+      "name": "Terraria",
+      "kind": "game",
+      "region": "未核对",
+      "aliases": "Terraria Terraria",
+      "description": "类型：动作 / 冒险 / 独立 / 角色扮演。Steam 英文简介节选：Dig, fight, explore, build! Nothing is impossible in this action-packed adventure game. Four Pack also available!…",
+      "group": "steam_org_a097d7bceea1",
+      "url": "https://store.steampowered.com/app/105600/",
+      "genre": "动作 / 冒险 / 独立 / 角色扮演",
+      "descriptionSource": "steam_105600",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "关联开发组织的城市尚未核对；不定位作品。",
+      "attributes": [
+        {
+          "label": "条目类型",
+          "value": "game"
+        },
+        {
+          "label": "游戏 / 软件类型",
+          "value": "动作 / 冒险 / 独立 / 角色扮演"
+        },
+        {
+          "label": "开发方",
+          "value": "Re-Logic"
+        },
+        {
+          "label": "发行方",
+          "value": "Re-Logic"
+        },
+        {
+          "label": "作品口径",
+          "value": "Steam app 105600"
+        },
+        {
+          "label": "说明来源",
+          "value": "Steam 商店官方简介（原文）"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "42"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "23787"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
+        }
+      ],
+      "steam": {
+        "appid": 105600,
+        "rank": 42,
+        "currentPlayers": 23787,
+        "peakToday": 60831,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
+    },
+    {
+      "id": "steam_org_9a799b08738c",
+      "name": "Arrowhead Game Studios",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "Arrowhead Game Studios",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_9a799b08738c",
+      "url": "https://store.steampowered.com/app/553850/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "Arrowhead Game Studios"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_org_dd606a32c132",
+      "name": "PlayStation Publishing LLC",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "PlayStation Publishing LLC",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_dd606a32c132",
+      "url": "https://store.steampowered.com/app/553850/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "PlayStation Publishing LLC"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_553850",
+      "name": "HELLDIVERS™ 2",
+      "kind": "game",
+      "region": "未核对",
+      "aliases": "HELLDIVERS™ 2 HELLDIVERS™ 2",
+      "description": "类型：动作。Steam 英文简介节选：The Galaxy’s Last Line of Offence. Enlist in the Helldivers and join the fight for freedom across a hostile galaxy in a fast, frantic, and…",
+      "group": "steam_org_9a799b08738c",
+      "url": "https://store.steampowered.com/app/553850/",
+      "genre": "动作",
+      "descriptionSource": "steam_553850",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "关联开发组织的城市尚未核对；不定位作品。",
+      "attributes": [
+        {
+          "label": "条目类型",
+          "value": "game"
+        },
+        {
+          "label": "游戏 / 软件类型",
+          "value": "动作"
+        },
+        {
+          "label": "开发方",
+          "value": "Arrowhead Game Studios"
+        },
+        {
+          "label": "发行方",
+          "value": "PlayStation Publishing LLC"
+        },
+        {
+          "label": "作品口径",
+          "value": "Steam app 553850"
+        },
+        {
+          "label": "说明来源",
+          "value": "Steam 商店官方简介（原文）"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "43"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "23177"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
+        }
+      ],
+      "steam": {
+        "appid": 553850,
+        "rank": 43,
+        "currentPlayers": 23177,
+        "peakToday": 60022,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
+    },
+    {
+      "id": "steam_org_adc16e9a5938",
+      "name": "CenterPoint Gaming",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "CenterPoint Gaming",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_adc16e9a5938",
+      "url": "https://store.steampowered.com/app/1366800/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "CenterPoint Gaming"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_1366800",
+      "name": "Crosshair X",
+      "kind": "game",
+      "region": "未核对",
+      "aliases": "Crosshair X Crosshair X",
+      "description": "类型：动作 / 冒险 / 独立 / 软件教学 / 实用工具。Steam 英文简介节选：Improve your aim and accuracy in every shooter you play. Crosshair X overlays a custom crosshair on top of any game, even games that do…",
+      "group": "steam_org_adc16e9a5938",
+      "url": "https://store.steampowered.com/app/1366800/",
+      "genre": "动作 / 冒险 / 独立 / 软件教学 / 实用工具",
+      "descriptionSource": "steam_1366800",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "关联开发组织的城市尚未核对；不定位作品。",
+      "attributes": [
+        {
+          "label": "条目类型",
+          "value": "game"
+        },
+        {
+          "label": "游戏 / 软件类型",
+          "value": "动作 / 冒险 / 独立 / 软件教学 / 实用工具"
+        },
+        {
+          "label": "开发方",
+          "value": "CenterPoint Gaming"
+        },
+        {
+          "label": "发行方",
+          "value": "CenterPoint Gaming"
+        },
+        {
+          "label": "作品口径",
+          "value": "Steam app 1366800"
+        },
+        {
+          "label": "说明来源",
+          "value": "Steam 商店官方简介（原文）"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "44"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "23170"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
+        }
+      ],
+      "steam": {
+        "appid": 1366800,
+        "rank": 44,
+        "currentPlayers": 23170,
+        "peakToday": 43505,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
+    },
+    {
+      "id": "steam_2246340",
+      "name": "Monster Hunter Wilds",
+      "kind": "game",
+      "region": "日本",
+      "aliases": "Monster Hunter Wilds Monster Hunter Wilds",
+      "description": "类型：动作 / 冒险 / 角色扮演。Steam 英文简介节选：The unbridled force of nature runs wild and relentless, with environments transforming drastically from one moment to the next. This is a story of monsters…",
+      "group": "capcom",
+      "url": "https://store.steampowered.com/app/2246340/",
+      "genre": "动作 / 冒险 / 角色扮演",
+      "descriptionSource": "steam_2246340",
+      "geo": {
+        "city": "大阪",
+        "country": "日本",
+        "cityId": "1853909",
+        "lat": 34.69379,
+        "lon": 135.50107,
+        "basis": "关联开发或发行组织城市；游戏不是地理机构",
+        "precision": "城市参考点，非楼宇定位",
+        "source": "geo_capcom",
+        "coordinateSource": "https://www.geonames.org/1853909/",
+        "note": "",
+        "relatedOrganization": "capcom"
+      },
+      "steamImported": true,
+      "locationNote": "关联开发组织的城市尚未核对；不定位作品。",
+      "attributes": [
+        {
+          "label": "条目类型",
+          "value": "game"
+        },
+        {
+          "label": "游戏 / 软件类型",
+          "value": "动作 / 冒险 / 角色扮演"
+        },
+        {
+          "label": "开发方",
+          "value": "CAPCOM Co., Ltd."
+        },
+        {
+          "label": "发行方",
+          "value": "CAPCOM Co., Ltd."
+        },
+        {
+          "label": "作品口径",
+          "value": "Steam app 2246340"
+        },
+        {
+          "label": "说明来源",
+          "value": "Steam 商店官方简介（原文）"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "46"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "22953"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
+        }
+      ],
+      "steam": {
+        "appid": 2246340,
+        "rank": 46,
+        "currentPlayers": 22953,
+        "peakToday": 48231,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
+    },
+    {
+      "id": "steam_org_3767d4171c3a",
+      "name": "New Normal Soft Inc.",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "New Normal Soft Inc.",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_3767d4171c3a",
+      "url": "https://store.steampowered.com/app/4891320/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "New Normal Soft Inc."
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_4891320",
+      "name": "[WoG] War of Genesis: Idle Loot",
+      "kind": "game",
+      "region": "未核对",
+      "aliases": "[WoG] War of Genesis: Idle Loot [WoG] War of Genesis: Idle Loot",
+      "description": "类型：动作 / 休闲 / 角色扮演 / 免费游玩。Steam 英文简介节选：Just leave it running. The rest takes care of itself. In a small corner of your desktop, a 3D character fights and loots all on…",
+      "group": "steam_org_3767d4171c3a",
+      "url": "https://store.steampowered.com/app/4891320/",
+      "genre": "动作 / 休闲 / 角色扮演 / 免费游玩",
+      "descriptionSource": "steam_4891320",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "关联开发组织的城市尚未核对；不定位作品。",
+      "attributes": [
+        {
+          "label": "条目类型",
+          "value": "game"
+        },
+        {
+          "label": "游戏 / 软件类型",
+          "value": "动作 / 休闲 / 角色扮演 / 免费游玩"
+        },
+        {
+          "label": "开发方",
+          "value": "New Normal Soft Inc."
+        },
+        {
+          "label": "发行方",
+          "value": "New Normal Soft Inc."
+        },
+        {
+          "label": "作品口径",
+          "value": "Steam app 4891320"
+        },
+        {
+          "label": "说明来源",
+          "value": "Steam 商店官方简介（原文）"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "47"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "21997"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
+        }
+      ],
+      "steam": {
+        "appid": 4891320,
+        "rank": 47,
+        "currentPlayers": 21997,
+        "peakToday": 22540,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
+    },
+    {
+      "id": "steam_org_540aece58e70",
+      "name": "Paradox Development Studio",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "Paradox Development Studio",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_540aece58e70",
+      "url": "https://store.steampowered.com/app/394360/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "Paradox Development Studio"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_org_560f91fe3684",
+      "name": "Hopoo Games",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "Hopoo Games",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_560f91fe3684",
+      "url": "https://store.steampowered.com/app/632360/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "Hopoo Games"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_org_11ed1d42b7af",
+      "name": "Gearbox Publishing",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "Gearbox Publishing",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_11ed1d42b7af",
+      "url": "https://store.steampowered.com/app/632360/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "Gearbox Publishing"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_org_9636c122dddb",
+      "name": "2K",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "2K",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_9636c122dddb",
+      "url": "https://store.steampowered.com/app/632360/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "2K"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_632360",
+      "name": "Risk of Rain 2",
+      "kind": "game",
+      "region": "未核对",
+      "aliases": "Risk of Rain 2 Risk of Rain 2",
+      "description": "类型：动作 / 独立。Steam 英文简介节选：Escape a chaotic alien planet by fighting through hordes of frenzied monsters – with your friends, or on your own. Combine loot in surprising ways…",
+      "group": "steam_org_560f91fe3684",
+      "url": "https://store.steampowered.com/app/632360/",
+      "genre": "动作 / 独立",
+      "descriptionSource": "steam_632360",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "关联开发组织的城市尚未核对；不定位作品。",
+      "attributes": [
+        {
+          "label": "条目类型",
+          "value": "game"
+        },
+        {
+          "label": "游戏 / 软件类型",
+          "value": "动作 / 独立"
+        },
+        {
+          "label": "开发方",
+          "value": "Hopoo Games"
+        },
+        {
+          "label": "发行方",
+          "value": "Gearbox Publishing、2K"
+        },
+        {
+          "label": "作品口径",
+          "value": "Steam app 632360"
+        },
+        {
+          "label": "说明来源",
+          "value": "Steam 商店官方简介（原文）"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "49"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "21410"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
+        }
+      ],
+      "steam": {
+        "appid": 632360,
+        "rank": 49,
+        "currentPlayers": 21410,
+        "peakToday": 46161,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
+    },
+    {
+      "id": "steam_org_4464ee855a26",
+      "name": "Klei Entertainment",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "Klei Entertainment",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_4464ee855a26",
+      "url": "https://store.steampowered.com/app/322330/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "Klei Entertainment"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_322330",
+      "name": "Don't Starve Together",
+      "kind": "game",
+      "region": "未核对",
+      "aliases": "Don't Starve Together Don't Starve Together",
+      "description": "类型：动作 / 冒险 / 独立 / 角色扮演 / 模拟 / 策略。Steam 英文简介节选：Fight, Farm, Build and Explore Together in the standalone multiplayer expansion to the uncompromising wilderness survival game, Don't Starve.…",
+      "group": "steam_org_4464ee855a26",
+      "url": "https://store.steampowered.com/app/322330/",
+      "genre": "动作 / 冒险 / 独立 / 角色扮演 / 模拟 / 策略",
+      "descriptionSource": "steam_322330",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "关联开发组织的城市尚未核对；不定位作品。",
+      "attributes": [
+        {
+          "label": "条目类型",
+          "value": "game"
+        },
+        {
+          "label": "游戏 / 软件类型",
+          "value": "动作 / 冒险 / 独立 / 角色扮演 / 模拟 / 策略"
+        },
+        {
+          "label": "开发方",
+          "value": "Klei Entertainment"
+        },
+        {
+          "label": "发行方",
+          "value": "Klei Entertainment"
+        },
+        {
+          "label": "作品口径",
+          "value": "Steam app 322330"
+        },
+        {
+          "label": "说明来源",
+          "value": "Steam 商店官方简介（原文）"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "50"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "21388"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
+        }
+      ],
+      "steam": {
+        "appid": 322330,
+        "rank": 50,
+        "currentPlayers": 21388,
+        "peakToday": 54658,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
+    },
+    {
+      "id": "steam_org_b6fadd55b14e",
+      "name": "Ludeon Studios",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "Ludeon Studios",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_b6fadd55b14e",
+      "url": "https://store.steampowered.com/app/294100/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "Ludeon Studios"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_294100",
+      "name": "RimWorld",
+      "kind": "game",
+      "region": "未核对",
+      "aliases": "RimWorld RimWorld",
+      "description": "类型：独立 / 模拟 / 策略。Steam 英文简介节选：A sci-fi colony sim driven by an intelligent AI storyteller. Generates stories by simulating psychology, ecology, gunplay, melee combat, climate, biomes, diplomacy, interpersonal relationships, art,…",
+      "group": "steam_org_b6fadd55b14e",
+      "url": "https://store.steampowered.com/app/294100/",
+      "genre": "独立 / 模拟 / 策略",
+      "descriptionSource": "steam_294100",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "关联开发组织的城市尚未核对；不定位作品。",
+      "attributes": [
+        {
+          "label": "条目类型",
+          "value": "game"
+        },
+        {
+          "label": "游戏 / 软件类型",
+          "value": "独立 / 模拟 / 策略"
+        },
+        {
+          "label": "开发方",
+          "value": "Ludeon Studios"
+        },
+        {
+          "label": "发行方",
+          "value": "Ludeon Studios"
+        },
+        {
+          "label": "作品口径",
+          "value": "Steam app 294100"
+        },
+        {
+          "label": "说明来源",
+          "value": "Steam 商店官方简介（原文）"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "51"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "21263"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
+        }
+      ],
+      "steam": {
+        "appid": 294100,
+        "rank": 51,
+        "currentPlayers": 21263,
+        "peakToday": 39466,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
+    },
+    {
+      "id": "steam_org_b1f3367ec169",
+      "name": "Firaxis Games",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "Firaxis Games",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_b1f3367ec169",
+      "url": "https://store.steampowered.com/app/289070/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "Firaxis Games"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_org_c9f6a5224cbe",
+      "name": "Aspyr (Mac)",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "Aspyr (Mac)",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_c9f6a5224cbe",
+      "url": "https://store.steampowered.com/app/289070/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "Aspyr (Mac)"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_org_3c13d9a27632",
+      "name": "Aspyr (Linux)",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "Aspyr (Linux)",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_3c13d9a27632",
+      "url": "https://store.steampowered.com/app/289070/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "Aspyr (Linux)"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_289070",
+      "name": "Sid Meier’s Civilization® VI",
+      "kind": "game",
+      "region": "未核对",
+      "aliases": "Sid Meier’s Civilization® VI Sid Meier’s Civilization® VI",
+      "description": "类型：策略。Steam 英文简介节选：Expand your empire, advance your culture and go head-to-head against history’s greatest leaders. Will your civilization stand the test of time?…",
+      "group": "steam_org_b1f3367ec169",
+      "url": "https://store.steampowered.com/app/289070/",
+      "genre": "策略",
+      "descriptionSource": "steam_289070",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "关联开发组织的城市尚未核对；不定位作品。",
+      "attributes": [
+        {
+          "label": "条目类型",
+          "value": "game"
+        },
+        {
+          "label": "游戏 / 软件类型",
+          "value": "策略"
+        },
+        {
+          "label": "开发方",
+          "value": "Firaxis Games、Aspyr (Mac)、Aspyr (Linux)"
+        },
+        {
+          "label": "发行方",
+          "value": "2K、Aspyr (Mac)、Aspyr (Linux)"
+        },
+        {
+          "label": "作品口径",
+          "value": "Steam app 289070"
+        },
+        {
+          "label": "说明来源",
+          "value": "Steam 商店官方简介（原文）"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "53"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "21132"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
+        }
+      ],
+      "steam": {
+        "appid": 289070,
+        "rank": 53,
+        "currentPlayers": 21132,
+        "peakToday": 46919,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
+    },
+    {
+      "id": "steam_org_5fe88e07dbbc",
+      "name": "EA CANADA",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "EA CANADA",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_5fe88e07dbbc",
+      "url": "https://store.steampowered.com/app/4080220/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "EA CANADA"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_org_44105903f98f",
+      "name": "EA Romania",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "EA Romania",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_44105903f98f",
+      "url": "https://store.steampowered.com/app/4080220/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "EA Romania"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_4080220",
+      "name": "EA SPORTS FC™ 27",
+      "kind": "game",
+      "region": "北美",
+      "aliases": "EA SPORTS FC™ 27 EA SPORTS FC™ 27",
+      "description": "类型：模拟 / 体育。Steam 英文简介节选：Welcome to The World’s Game in EA SPORTS FC™ 27. Step into The Grounds to experience a football playground where the streets meet the stadium,…",
+      "group": "steam_org_5fe88e07dbbc",
+      "url": "https://store.steampowered.com/app/4080220/",
+      "genre": "模拟 / 体育",
+      "descriptionSource": "steam_4080220",
+      "geo": {
+        "city": "雷德伍德城",
+        "country": "美国",
+        "cityId": "5386834",
+        "lat": 37.48522,
+        "lon": -122.23635,
+        "basis": "关联开发或发行组织城市；游戏不是地理机构",
+        "precision": "城市参考点，非楼宇定位",
+        "source": "geo_ea",
+        "coordinateSource": "https://www.geonames.org/5386834/",
+        "note": "",
+        "relatedOrganization": "ea"
+      },
+      "steamImported": true,
+      "locationNote": "关联开发组织的城市尚未核对；不定位作品。",
+      "attributes": [
+        {
+          "label": "条目类型",
+          "value": "game"
+        },
+        {
+          "label": "游戏 / 软件类型",
+          "value": "模拟 / 体育"
+        },
+        {
+          "label": "开发方",
+          "value": "EA CANADA、EA Romania"
+        },
+        {
+          "label": "发行方",
+          "value": "Electronic Arts"
+        },
+        {
+          "label": "作品口径",
+          "value": "Steam app 4080220"
+        },
+        {
+          "label": "说明来源",
+          "value": "Steam 商店官方简介（原文）"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "54"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "21126"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
+        }
+      ],
+      "steam": {
+        "appid": 4080220,
+        "rank": 54,
+        "currentPlayers": 21126,
+        "peakToday": 87490,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
+    },
+    {
+      "id": "steam_org_5c03f91c8041",
+      "name": "Battlestate Games",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "Battlestate Games",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_5c03f91c8041",
+      "url": "https://store.steampowered.com/app/3932890/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "Battlestate Games"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_3932890",
+      "name": "Escape from Tarkov",
+      "kind": "game",
+      "region": "未核对",
+      "aliases": "Escape from Tarkov Escape from Tarkov",
+      "description": "类型：动作 / 大型多人在线 / 角色扮演 / 模拟。Steam 英文简介节选：Escape from Tarkov is the original extraction FPS where every raid is a gamble with death. Prep your raid, bleed, endure and fight through ruthless…",
+      "group": "steam_org_5c03f91c8041",
+      "url": "https://store.steampowered.com/app/3932890/",
+      "genre": "动作 / 大型多人在线 / 角色扮演 / 模拟",
+      "descriptionSource": "steam_3932890",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "关联开发组织的城市尚未核对；不定位作品。",
+      "attributes": [
+        {
+          "label": "条目类型",
+          "value": "game"
+        },
+        {
+          "label": "游戏 / 软件类型",
+          "value": "动作 / 大型多人在线 / 角色扮演 / 模拟"
+        },
+        {
+          "label": "开发方",
+          "value": "Battlestate Games"
+        },
+        {
+          "label": "发行方",
+          "value": "Battlestate Games"
+        },
+        {
+          "label": "作品口径",
+          "value": "Steam app 3932890"
+        },
+        {
+          "label": "说明来源",
+          "value": "Steam 商店官方简介（原文）"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "55"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "20405"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
+        }
+      ],
+      "steam": {
+        "appid": 3932890,
+        "rank": 55,
+        "currentPlayers": 20405,
+        "peakToday": 42361,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
+    },
+    {
+      "id": "steam_org_c1efd463f5f7",
+      "name": "Bethesda Softworks",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "Bethesda Softworks",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_c1efd463f5f7",
+      "url": "https://store.steampowered.com/app/489830/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "Bethesda Softworks"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_org_8a06a56098b9",
+      "name": "Bohemia Interactive",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "Bohemia Interactive",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_8a06a56098b9",
+      "url": "https://store.steampowered.com/app/221100/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "Bohemia Interactive"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_221100",
+      "name": "DayZ",
+      "kind": "game",
+      "region": "未核对",
+      "aliases": "DayZ DayZ",
+      "description": "类型：动作 / 冒险 / 大型多人在线。Steam 英文简介节选：How long can you survive a post-apocalyptic world? A land overrun with an infected \"zombie\" population, where you compete with other survivors for limited resources.…",
+      "group": "steam_org_8a06a56098b9",
+      "url": "https://store.steampowered.com/app/221100/",
+      "genre": "动作 / 冒险 / 大型多人在线",
+      "descriptionSource": "steam_221100",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "关联开发组织的城市尚未核对；不定位作品。",
+      "attributes": [
+        {
+          "label": "条目类型",
+          "value": "game"
+        },
+        {
+          "label": "游戏 / 软件类型",
+          "value": "动作 / 冒险 / 大型多人在线"
+        },
+        {
+          "label": "开发方",
+          "value": "Bohemia Interactive"
+        },
+        {
+          "label": "发行方",
+          "value": "Bohemia Interactive"
+        },
+        {
+          "label": "作品口径",
+          "value": "Steam app 221100"
+        },
+        {
+          "label": "说明来源",
+          "value": "Steam 商店官方简介（原文）"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "58"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "18500"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
+        }
+      ],
+      "steam": {
+        "appid": 221100,
+        "rank": 58,
+        "currentPlayers": 18500,
+        "peakToday": 52839,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
+    },
+    {
+      "id": "steam_org_83cfdc3b917b",
+      "name": "The Fun Pimps",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "The Fun Pimps",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_83cfdc3b917b",
+      "url": "https://store.steampowered.com/app/251570/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "The Fun Pimps"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_org_b151029816d8",
+      "name": "The Fun Pimps Entertainment LLC",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "The Fun Pimps Entertainment LLC",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_b151029816d8",
+      "url": "https://store.steampowered.com/app/251570/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "The Fun Pimps Entertainment LLC"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_251570",
+      "name": "7 Days to Die",
+      "kind": "game",
+      "region": "未核对",
+      "aliases": "7 Days to Die 7 Days to Die",
+      "description": "类型：动作 / 冒险 / 独立 / 角色扮演 / 模拟 / 策略。Steam 英文简介节选：7 Days to Die is an open-world game that is a unique combination of first-person shooter, survival horror, tower defense, and role-playing games. Play the…",
+      "group": "steam_org_83cfdc3b917b",
+      "url": "https://store.steampowered.com/app/251570/",
+      "genre": "动作 / 冒险 / 独立 / 角色扮演 / 模拟 / 策略",
+      "descriptionSource": "steam_251570",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "关联开发组织的城市尚未核对；不定位作品。",
+      "attributes": [
+        {
+          "label": "条目类型",
+          "value": "game"
+        },
+        {
+          "label": "游戏 / 软件类型",
+          "value": "动作 / 冒险 / 独立 / 角色扮演 / 模拟 / 策略"
+        },
+        {
+          "label": "开发方",
+          "value": "The Fun Pimps"
+        },
+        {
+          "label": "发行方",
+          "value": "The Fun Pimps Entertainment LLC"
+        },
+        {
+          "label": "作品口径",
+          "value": "Steam app 251570"
+        },
+        {
+          "label": "说明来源",
+          "value": "Steam 商店官方简介（原文）"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "60"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "18150"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
+        }
+      ],
+      "steam": {
+        "appid": 251570,
+        "rank": 60,
+        "currentPlayers": 18150,
+        "peakToday": 42965,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
+    },
+    {
+      "id": "steam_org_b8fd5895f097",
+      "name": "Red Barrels",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "Red Barrels",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_b8fd5895f097",
+      "url": "https://store.steampowered.com/app/1304930/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "Red Barrels"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_1304930",
+      "name": "The Outlast Trials",
+      "kind": "game",
+      "region": "未核对",
+      "aliases": "The Outlast Trials The Outlast Trials",
+      "description": "类型：动作 / 冒险 / 独立。Steam 英文简介节选：Red Barrels invites you to experience mind-numbing terror, this time with friends. Whether you go through the trials alone or in teams, if you survive…",
+      "group": "steam_org_b8fd5895f097",
+      "url": "https://store.steampowered.com/app/1304930/",
+      "genre": "动作 / 冒险 / 独立",
+      "descriptionSource": "steam_1304930",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "关联开发组织的城市尚未核对；不定位作品。",
+      "attributes": [
+        {
+          "label": "条目类型",
+          "value": "game"
+        },
+        {
+          "label": "游戏 / 软件类型",
+          "value": "动作 / 冒险 / 独立"
+        },
+        {
+          "label": "开发方",
+          "value": "Red Barrels"
+        },
+        {
+          "label": "发行方",
+          "value": "Red Barrels"
+        },
+        {
+          "label": "作品口径",
+          "value": "Steam app 1304930"
+        },
+        {
+          "label": "说明来源",
+          "value": "Steam 商店官方简介（原文）"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "61"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "18026"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
+        }
+      ],
+      "steam": {
+        "appid": 1304930,
+        "rank": 61,
+        "currentPlayers": 18026,
+        "peakToday": 109006,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
+    },
+    {
+      "id": "steam_1364780",
+      "name": "Street Fighter™ 6",
+      "kind": "game",
+      "region": "日本",
+      "aliases": "Street Fighter™ 6 Street Fighter™ 6",
+      "description": "类型：动作 / 冒险。Steam 英文简介节选：Here comes Capcom’s newest challenger! Street Fighter™ 6 launches worldwide on June 2nd, 2023 and represents the next evolution of the Street Fighter™ series! Street…",
+      "group": "capcom",
+      "url": "https://store.steampowered.com/app/1364780/",
+      "genre": "动作 / 冒险",
+      "descriptionSource": "steam_1364780",
+      "geo": {
+        "city": "大阪",
+        "country": "日本",
+        "cityId": "1853909",
+        "lat": 34.69379,
+        "lon": 135.50107,
+        "basis": "关联开发或发行组织城市；游戏不是地理机构",
+        "precision": "城市参考点，非楼宇定位",
+        "source": "geo_capcom",
+        "coordinateSource": "https://www.geonames.org/1853909/",
+        "note": "",
+        "relatedOrganization": "capcom"
+      },
+      "steamImported": true,
+      "locationNote": "关联开发组织的城市尚未核对；不定位作品。",
+      "attributes": [
+        {
+          "label": "条目类型",
+          "value": "game"
+        },
+        {
+          "label": "游戏 / 软件类型",
+          "value": "动作 / 冒险"
+        },
+        {
+          "label": "开发方",
+          "value": "CAPCOM Co., Ltd."
+        },
+        {
+          "label": "发行方",
+          "value": "CAPCOM Co., Ltd."
+        },
+        {
+          "label": "作品口径",
+          "value": "Steam app 1364780"
+        },
+        {
+          "label": "说明来源",
+          "value": "Steam 商店官方简介（原文）"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "62"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "18023"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
+        }
+      ],
+      "steam": {
+        "appid": 1364780,
+        "rank": 62,
+        "currentPlayers": 18023,
+        "peakToday": 37041,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
+    },
+    {
+      "id": "steam_org_766a33f2cad3",
+      "name": "Studio Wildcard",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "Studio Wildcard",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_766a33f2cad3",
+      "url": "https://store.steampowered.com/app/2399830/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "Studio Wildcard"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_org_d798334331a6",
+      "name": "Grove Street Games",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "Grove Street Games",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_d798334331a6",
+      "url": "https://store.steampowered.com/app/2399830/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "Grove Street Games"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_org_82901112c4f3",
+      "name": "Instinct Games",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "Instinct Games",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_82901112c4f3",
+      "url": "https://store.steampowered.com/app/2399830/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "Instinct Games"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_org_a19db46c0598",
+      "name": "Snail Games USA",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "Snail Games USA",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_a19db46c0598",
+      "url": "https://store.steampowered.com/app/2399830/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "Snail Games USA"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_2399830",
+      "name": "ARK: Survival Ascended",
+      "kind": "game",
+      "region": "未核对",
+      "aliases": "ARK: Survival Ascended ARK: Survival Ascended",
+      "description": "类型：动作 / 冒险 / 独立 / 大型多人在线 / 角色扮演 / 抢先体验。Steam 英文简介节选：ARK is reimagined from the ground-up into the next-generation of video game technology with Unreal Engine 5! Form a tribe, tame & breed hundreds of…",
+      "group": "steam_org_766a33f2cad3",
+      "url": "https://store.steampowered.com/app/2399830/",
+      "genre": "动作 / 冒险 / 独立 / 大型多人在线 / 角色扮演 / 抢先体验",
+      "descriptionSource": "steam_2399830",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "关联开发组织的城市尚未核对；不定位作品。",
+      "attributes": [
+        {
+          "label": "条目类型",
+          "value": "game"
+        },
+        {
+          "label": "游戏 / 软件类型",
+          "value": "动作 / 冒险 / 独立 / 大型多人在线 / 角色扮演 / 抢先体验"
+        },
+        {
+          "label": "开发方",
+          "value": "Studio Wildcard、Grove Street Games、Instinct Games"
+        },
+        {
+          "label": "发行方",
+          "value": "Studio Wildcard、Snail Games USA"
+        },
+        {
+          "label": "作品口径",
+          "value": "Steam app 2399830"
+        },
+        {
+          "label": "说明来源",
+          "value": "Steam 商店官方简介（原文）"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "63"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "17942"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
+        }
+      ],
+      "steam": {
+        "appid": 2399830,
+        "rank": 63,
+        "currentPlayers": 17942,
+        "peakToday": 33997,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
+    },
+    {
+      "id": "steam_org_9238f822c91a",
+      "name": "TaleWorlds Entertainment",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "TaleWorlds Entertainment",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_9238f822c91a",
+      "url": "https://store.steampowered.com/app/261550/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "TaleWorlds Entertainment"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_261550",
+      "name": "Mount & Blade II: Bannerlord",
+      "kind": "game",
+      "region": "未核对",
+      "aliases": "Mount & Blade II: Bannerlord Mount & Blade II: Bannerlord",
+      "description": "类型：动作 / 独立 / 角色扮演 / 模拟 / 策略。Steam 英文简介节选：A strategy/action RPG. Create a character, engage in diplomacy, craft, trade and conquer new lands in a vast medieval sandbox. Raise armies to lead into…",
+      "group": "steam_org_9238f822c91a",
+      "url": "https://store.steampowered.com/app/261550/",
+      "genre": "动作 / 独立 / 角色扮演 / 模拟 / 策略",
+      "descriptionSource": "steam_261550",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "关联开发组织的城市尚未核对；不定位作品。",
+      "attributes": [
+        {
+          "label": "条目类型",
+          "value": "game"
+        },
+        {
+          "label": "游戏 / 软件类型",
+          "value": "动作 / 独立 / 角色扮演 / 模拟 / 策略"
+        },
+        {
+          "label": "开发方",
+          "value": "TaleWorlds Entertainment"
+        },
+        {
+          "label": "发行方",
+          "value": "TaleWorlds Entertainment"
+        },
+        {
+          "label": "作品口径",
+          "value": "Steam app 261550"
+        },
+        {
+          "label": "说明来源",
+          "value": "Steam 商店官方简介（原文）"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "65"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "17230"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
+        }
+      ],
+      "steam": {
+        "appid": 261550,
+        "rank": 65,
+        "currentPlayers": 17230,
+        "peakToday": 42781,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
+    },
+    {
+      "id": "steam_org_e8807ddd4d2f",
+      "name": "Cozy Lives",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "Cozy Lives",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_e8807ddd4d2f",
+      "url": "https://store.steampowered.com/app/4019220/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "Cozy Lives"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_org_ed849887de37",
+      "name": "Free Lives",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "Free Lives",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_ed849887de37",
+      "url": "https://store.steampowered.com/app/4019220/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "Free Lives"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_4019220",
+      "name": "Dressmaker",
+      "kind": "game",
+      "region": "未核对",
+      "aliases": "Dressmaker Dressmaker",
+      "description": "类型：休闲 / 模拟。Steam 英文简介节选：Become a dressmaker! Choose fabric, cut out patterns, and sew them all together to satisfy (or sabotage!) townsfolk in this cozy crafting game inspired by…",
+      "group": "steam_org_e8807ddd4d2f",
+      "url": "https://store.steampowered.com/app/4019220/",
+      "genre": "休闲 / 模拟",
+      "descriptionSource": "steam_4019220",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "关联开发组织的城市尚未核对；不定位作品。",
+      "attributes": [
+        {
+          "label": "条目类型",
+          "value": "game"
+        },
+        {
+          "label": "游戏 / 软件类型",
+          "value": "休闲 / 模拟"
+        },
+        {
+          "label": "开发方",
+          "value": "Cozy Lives"
+        },
+        {
+          "label": "发行方",
+          "value": "Free Lives"
+        },
+        {
+          "label": "作品口径",
+          "value": "Steam app 4019220"
+        },
+        {
+          "label": "说明来源",
+          "value": "Steam 商店官方简介（原文）"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "66"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "16888"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
+        }
+      ],
+      "steam": {
+        "appid": 4019220,
+        "rank": 66,
+        "currentPlayers": 16888,
+        "peakToday": 40738,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
+    },
+    {
+      "id": "steam_org_55eb0ad88284",
+      "name": "Bandai Namco Aces Inc.",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "Bandai Namco Aces Inc.",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_55eb0ad88284",
+      "url": "https://store.steampowered.com/app/2288340/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "Bandai Namco Aces Inc."
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_2288340",
+      "name": "ACE COMBAT 8: WINGS OF THEVE",
+      "kind": "game",
+      "region": "日本",
+      "aliases": "ACE COMBAT 8: WINGS OF THEVE ACE COMBAT 8: WINGS OF THEVE",
+      "description": "类型：动作。Steam 英文简介节选：Soar through the skies and rise above every challenge to earn your place among the elite. Engage in intense aerial combat to dominate the battlefield…",
+      "group": "steam_org_55eb0ad88284",
+      "url": "https://store.steampowered.com/app/2288340/",
+      "genre": "动作",
+      "descriptionSource": "steam_2288340",
+      "geo": {
+        "city": "东京",
+        "country": "日本",
+        "cityId": "1850147",
+        "lat": 35.6895,
+        "lon": 139.69171,
+        "basis": "关联开发或发行组织城市；游戏不是地理机构",
+        "precision": "城市参考点，非楼宇定位",
+        "source": "geo_bandai",
+        "coordinateSource": "https://www.geonames.org/1850147/",
+        "note": "",
+        "relatedOrganization": "bandai"
+      },
+      "steamImported": true,
+      "locationNote": "关联开发组织的城市尚未核对；不定位作品。",
+      "attributes": [
+        {
+          "label": "条目类型",
+          "value": "game"
+        },
+        {
+          "label": "游戏 / 软件类型",
+          "value": "动作"
+        },
+        {
+          "label": "开发方",
+          "value": "Bandai Namco Aces Inc."
+        },
+        {
+          "label": "发行方",
+          "value": "Bandai Namco Entertainment Inc."
+        },
+        {
+          "label": "作品口径",
+          "value": "Steam app 2288340"
+        },
+        {
+          "label": "说明来源",
+          "value": "Steam 商店官方简介（原文）"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "67"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "16650"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
+        }
+      ],
+      "steam": {
+        "appid": 2288340,
+        "rank": 67,
+        "currentPlayers": 16650,
+        "peakToday": 29681,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
+    },
+    {
+      "id": "steam_org_0e18fb884fda",
+      "name": "OBS Project",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "OBS Project",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_0e18fb884fda",
+      "url": "https://store.steampowered.com/app/1905180/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "OBS Project"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_1905180",
+      "name": "OBS Studio",
+      "kind": "game",
+      "region": "未核对",
+      "aliases": "OBS Studio OBS Studio",
+      "description": "类型：实用工具 / 视频制作。Steam 英文简介节选：Free and open-source software for video recording and live streaming…",
+      "group": "steam_org_0e18fb884fda",
+      "url": "https://store.steampowered.com/app/1905180/",
+      "genre": "实用工具 / 视频制作",
+      "descriptionSource": "steam_1905180",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "关联开发组织的城市尚未核对；不定位作品。",
+      "attributes": [
+        {
+          "label": "条目类型",
+          "value": "game"
+        },
+        {
+          "label": "游戏 / 软件类型",
+          "value": "实用工具 / 视频制作"
+        },
+        {
+          "label": "开发方",
+          "value": "OBS Project"
+        },
+        {
+          "label": "发行方",
+          "value": "OBS Project"
+        },
+        {
+          "label": "作品口径",
+          "value": "Steam app 1905180"
+        },
+        {
+          "label": "说明来源",
+          "value": "Steam 商店官方简介（原文）"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "69"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "15639"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
+        }
+      ],
+      "steam": {
+        "appid": 1905180,
+        "rank": 69,
+        "currentPlayers": 15639,
+        "peakToday": 31387,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
+    },
+    {
+      "id": "steam_org_e6bb0ac62bfd",
+      "name": "TML Team",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "TML Team",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_e6bb0ac62bfd",
+      "url": "https://store.steampowered.com/app/1281930/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "TML Team"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_1281930",
+      "name": "tModLoader",
+      "kind": "game",
+      "region": "未核对",
+      "aliases": "tModLoader tModLoader",
+      "description": "类型：动作 / 冒险 / 独立 / 角色扮演 / 免费游玩。Steam 英文简介节选：Dig, Fight, and Build your way through the world of player-created mods on Terraria with tModLoader - this DLC makes modding Terraria a reality!…",
+      "group": "steam_org_e6bb0ac62bfd",
+      "url": "https://store.steampowered.com/app/1281930/",
+      "genre": "动作 / 冒险 / 独立 / 角色扮演 / 免费游玩",
+      "descriptionSource": "steam_1281930",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "关联开发组织的城市尚未核对；不定位作品。",
+      "attributes": [
+        {
+          "label": "条目类型",
+          "value": "mod"
+        },
+        {
+          "label": "游戏 / 软件类型",
+          "value": "动作 / 冒险 / 独立 / 角色扮演 / 免费游玩"
+        },
+        {
+          "label": "开发方",
+          "value": "TML Team"
+        },
+        {
+          "label": "发行方",
+          "value": "Re-Logic、TML Team"
+        },
+        {
+          "label": "作品口径",
+          "value": "Steam app 1281930"
+        },
+        {
+          "label": "说明来源",
+          "value": "Steam 商店官方简介（原文）"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "70"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "15369"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
+        }
+      ],
+      "steam": {
+        "appid": 1281930,
+        "rank": 70,
+        "currentPlayers": 15369,
+        "peakToday": 39081,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "mod",
+        "metadataAvailable": true
+      }
+    },
+    {
+      "id": "steam_org_fb46efb3737b",
+      "name": "Battlefield Studios",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "Battlefield Studios",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_fb46efb3737b",
+      "url": "https://store.steampowered.com/app/2807960/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "Battlefield Studios"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_2807960",
+      "name": "Battlefield™ 6",
+      "kind": "game",
+      "region": "北美",
+      "aliases": "Battlefield™ 6 Battlefield™ 6",
+      "description": "类型：动作。Steam 英文简介节选：The ultimate all-out warfare experience. In a war of tanks, fighter jets, and massive combat arsenals, your squad is the deadliest weapon.…",
+      "group": "steam_org_fb46efb3737b",
+      "url": "https://store.steampowered.com/app/2807960/",
+      "genre": "动作",
+      "descriptionSource": "steam_2807960",
+      "geo": {
+        "city": "雷德伍德城",
+        "country": "美国",
+        "cityId": "5386834",
+        "lat": 37.48522,
+        "lon": -122.23635,
+        "basis": "关联开发或发行组织城市；游戏不是地理机构",
+        "precision": "城市参考点，非楼宇定位",
+        "source": "geo_ea",
+        "coordinateSource": "https://www.geonames.org/5386834/",
+        "note": "",
+        "relatedOrganization": "ea"
+      },
+      "steamImported": true,
+      "locationNote": "关联开发组织的城市尚未核对；不定位作品。",
+      "attributes": [
+        {
+          "label": "条目类型",
+          "value": "game"
+        },
+        {
+          "label": "游戏 / 软件类型",
+          "value": "动作"
+        },
+        {
+          "label": "开发方",
+          "value": "Battlefield Studios"
+        },
+        {
+          "label": "发行方",
+          "value": "Electronic Arts"
+        },
+        {
+          "label": "作品口径",
+          "value": "Steam app 2807960"
+        },
+        {
+          "label": "说明来源",
+          "value": "Steam 商店官方简介（原文）"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "71"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "15216"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
+        }
+      ],
+      "steam": {
+        "appid": 2807960,
+        "rank": 71,
+        "currentPlayers": 15216,
+        "peakToday": 45793,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
+    },
+    {
+      "id": "steam_org_3798504fe9f3",
+      "name": "Morefun Studios",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "Morefun Studios",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_3798504fe9f3",
+      "url": "https://store.steampowered.com/app/2073620/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "Morefun Studios"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_2073620",
+      "name": "Arena Breakout: Infinite",
+      "kind": "game",
+      "region": "未核对",
+      "aliases": "Arena Breakout: Infinite Arena Breakout: Infinite",
+      "description": "类型：动作 / 冒险 / 大型多人在线 / 角色扮演 / 策略 / 免费游玩。Steam 英文简介节选：Arena Breakout: Infinite is a high-stakes tactical extraction shooter where every decision matters. Fight, loot, and extract—or lose it all. With stunningly realistic visuals, lifelike…",
+      "group": "steam_org_3798504fe9f3",
+      "url": "https://store.steampowered.com/app/2073620/",
+      "genre": "动作 / 冒险 / 大型多人在线 / 角色扮演 / 策略 / 免费游玩",
+      "descriptionSource": "steam_2073620",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "关联开发组织的城市尚未核对；不定位作品。",
+      "attributes": [
+        {
+          "label": "条目类型",
+          "value": "game"
+        },
+        {
+          "label": "游戏 / 软件类型",
+          "value": "动作 / 冒险 / 大型多人在线 / 角色扮演 / 策略 / 免费游玩"
+        },
+        {
+          "label": "开发方",
+          "value": "Morefun Studios"
+        },
+        {
+          "label": "发行方",
+          "value": "Morefun Studios"
+        },
+        {
+          "label": "作品口径",
+          "value": "Steam app 2073620"
+        },
+        {
+          "label": "说明来源",
+          "value": "Steam 商店官方简介（原文）"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "72"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "14734"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
+        }
+      ],
+      "steam": {
+        "appid": 2073620,
+        "rank": 72,
+        "currentPlayers": 14734,
+        "peakToday": 40386,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
+    },
+    {
+      "id": "steam_org_177857d20233",
+      "name": "Maxis",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "Maxis",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_177857d20233",
+      "url": "https://store.steampowered.com/app/1222670/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "Maxis"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_org_daf9657ea744",
+      "name": "Sports Interactive",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "Sports Interactive",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_daf9657ea744",
+      "url": "https://store.steampowered.com/app/3551340/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "Sports Interactive"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_3551340",
+      "name": "Football Manager 26",
+      "kind": "game",
+      "region": "日本",
+      "aliases": "Football Manager 26 Football Manager 26",
+      "description": "类型：模拟 / 体育 / 策略。Steam 英文简介节选：Step into the dugout and experience the future of football management.…",
+      "group": "steam_org_daf9657ea744",
+      "url": "https://store.steampowered.com/app/3551340/",
+      "genre": "模拟 / 体育 / 策略",
+      "descriptionSource": "steam_3551340",
+      "geo": {
+        "city": "东京",
+        "country": "日本",
+        "cityId": "1850147",
+        "lat": 35.6895,
+        "lon": 139.69171,
+        "basis": "关联开发或发行组织城市；游戏不是地理机构",
+        "precision": "城市参考点，非楼宇定位",
+        "source": "geo_sega",
+        "coordinateSource": "https://www.geonames.org/1850147/",
+        "note": "",
+        "relatedOrganization": "sega"
+      },
+      "steamImported": true,
+      "locationNote": "关联开发组织的城市尚未核对；不定位作品。",
+      "attributes": [
+        {
+          "label": "条目类型",
+          "value": "game"
+        },
+        {
+          "label": "游戏 / 软件类型",
+          "value": "模拟 / 体育 / 策略"
+        },
+        {
+          "label": "开发方",
+          "value": "Sports Interactive"
+        },
+        {
+          "label": "发行方",
+          "value": "SEGA"
+        },
+        {
+          "label": "作品口径",
+          "value": "Steam app 3551340"
+        },
+        {
+          "label": "说明来源",
+          "value": "Steam 商店官方简介（原文）"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "74"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "14516"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
+        }
+      ],
+      "steam": {
+        "appid": 3551340,
+        "rank": 74,
+        "currentPlayers": 14516,
+        "peakToday": 36301,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
+    },
+    {
+      "id": "steam_org_7911111bb63f",
+      "name": "Pugstorm",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "Pugstorm",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_7911111bb63f",
+      "url": "https://store.steampowered.com/app/1621690/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "Pugstorm"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_org_5a1ce259b1e0",
+      "name": "Fireshine Games",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "Fireshine Games",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_5a1ce259b1e0",
+      "url": "https://store.steampowered.com/app/1621690/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "Fireshine Games"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_org_20817449c022",
+      "name": "bilibili",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "bilibili",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_20817449c022",
+      "url": "https://store.steampowered.com/app/1621690/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "bilibili"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_1621690",
+      "name": "Core Keeper",
+      "kind": "game",
+      "region": "未核对",
+      "aliases": "Core Keeper Core Keeper",
+      "description": "类型：动作 / 冒险 / 独立 / 角色扮演 / 模拟。Steam 英文简介节选：Explore a vast cavern of creatures, relics and resources in a mining sandbox adventure for 1-8 players. Mine, build, fight, craft and farm to unravel…",
+      "group": "steam_org_7911111bb63f",
+      "url": "https://store.steampowered.com/app/1621690/",
+      "genre": "动作 / 冒险 / 独立 / 角色扮演 / 模拟",
+      "descriptionSource": "steam_1621690",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "关联开发组织的城市尚未核对；不定位作品。",
+      "attributes": [
+        {
+          "label": "条目类型",
+          "value": "game"
+        },
+        {
+          "label": "游戏 / 软件类型",
+          "value": "动作 / 冒险 / 独立 / 角色扮演 / 模拟"
+        },
+        {
+          "label": "开发方",
+          "value": "Pugstorm"
+        },
+        {
+          "label": "发行方",
+          "value": "Fireshine Games、bilibili"
+        },
+        {
+          "label": "作品口径",
+          "value": "Steam app 1621690"
+        },
+        {
+          "label": "说明来源",
+          "value": "Steam 商店官方简介（原文）"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "75"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "14306"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
+        }
+      ],
+      "steam": {
+        "appid": 1621690,
+        "rank": 75,
+        "currentPlayers": 14306,
+        "peakToday": 29132,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
+    },
+    {
+      "id": "steam_org_87818a9e79d6",
+      "name": "Treyarch",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "Treyarch",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_87818a9e79d6",
+      "url": "https://store.steampowered.com/app/1938090/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "Treyarch"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_org_1862c120efed",
+      "name": "Raven Software",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "Raven Software",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_1862c120efed",
+      "url": "https://store.steampowered.com/app/1938090/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "Raven Software"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_org_27d8266bec50",
+      "name": "Beenox",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "Beenox",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_27d8266bec50",
+      "url": "https://store.steampowered.com/app/1938090/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "Beenox"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_org_9136bc543c96",
+      "name": "High Moon Studios",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "High Moon Studios",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_9136bc543c96",
+      "url": "https://store.steampowered.com/app/1938090/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "High Moon Studios"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_org_0142cd929cf5",
+      "name": "Sledgehammer Games",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "Sledgehammer Games",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_0142cd929cf5",
+      "url": "https://store.steampowered.com/app/1938090/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "Sledgehammer Games"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_org_275e0b062d56",
+      "name": "Infinity Ward",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "Infinity Ward",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_275e0b062d56",
+      "url": "https://store.steampowered.com/app/1938090/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "Infinity Ward"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_org_a5de95f508cf",
+      "name": "Activision Shanghai",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "Activision Shanghai",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_a5de95f508cf",
+      "url": "https://store.steampowered.com/app/1938090/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "Activision Shanghai"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_org_63b5da76f64c",
+      "name": "Demonware",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "Demonware",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_63b5da76f64c",
+      "url": "https://store.steampowered.com/app/1938090/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "Demonware"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_org_233b75da2586",
+      "name": "Activision",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "Activision",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_233b75da2586",
+      "url": "https://store.steampowered.com/app/1938090/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "Activision"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_1938090",
+      "name": "Call of Duty®",
+      "kind": "game",
+      "region": "未核对",
+      "aliases": "Call of Duty® Call of Duty®",
+      "description": "类型：动作。Steam 英文简介节选：The Call of Duty® experience supports Modern Warfare® 4, Black Ops 7 and Call of Duty®: Warzone™.…",
+      "group": "steam_org_87818a9e79d6",
+      "url": "https://store.steampowered.com/app/1938090/",
+      "genre": "动作",
+      "descriptionSource": "steam_1938090",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "关联开发组织的城市尚未核对；不定位作品。",
+      "attributes": [
+        {
+          "label": "条目类型",
+          "value": "game"
+        },
+        {
+          "label": "游戏 / 软件类型",
+          "value": "动作"
+        },
+        {
+          "label": "开发方",
+          "value": "Treyarch、Raven Software、Beenox、High Moon Studios、Sledgehammer Games、Infinity Ward、Activision Shanghai、Demonware"
+        },
+        {
+          "label": "发行方",
+          "value": "Activision"
+        },
+        {
+          "label": "作品口径",
+          "value": "Steam app 1938090"
+        },
+        {
+          "label": "说明来源",
+          "value": "Steam 商店官方简介（原文）"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "76"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "14041"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
+        }
+      ],
+      "steam": {
+        "appid": 1938090,
+        "rank": 76,
+        "currentPlayers": 14041,
+        "peakToday": 41386,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
+    },
+    {
+      "id": "steam_org_8c3abffcf7a7",
+      "name": "SCS Software",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "SCS Software",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_8c3abffcf7a7",
+      "url": "https://store.steampowered.com/app/227300/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "SCS Software"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_227300",
+      "name": "Euro Truck Simulator 2",
+      "kind": "game",
+      "region": "未核对",
+      "aliases": "Euro Truck Simulator 2 Euro Truck Simulator 2",
+      "description": "类型：独立 / 模拟。Steam 英文简介节选：Travel across Europe as king of the road, a trucker who delivers important cargo across impressive distances! With dozens of cities to explore, your endurance,…",
+      "group": "steam_org_8c3abffcf7a7",
+      "url": "https://store.steampowered.com/app/227300/",
+      "genre": "独立 / 模拟",
+      "descriptionSource": "steam_227300",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "关联开发组织的城市尚未核对；不定位作品。",
+      "attributes": [
+        {
+          "label": "条目类型",
+          "value": "game"
+        },
+        {
+          "label": "游戏 / 软件类型",
+          "value": "独立 / 模拟"
+        },
+        {
+          "label": "开发方",
+          "value": "SCS Software"
+        },
+        {
+          "label": "发行方",
+          "value": "SCS Software"
+        },
+        {
+          "label": "作品口径",
+          "value": "Steam app 227300"
+        },
+        {
+          "label": "说明来源",
+          "value": "Steam 商店官方简介（原文）"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "77"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "13996"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
+        }
+      ],
+      "steam": {
+        "appid": 227300,
+        "rank": 77,
+        "currentPlayers": 13996,
+        "peakToday": 58618,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
+    },
+    {
+      "id": "steam_3405690",
+      "name": "EA SPORTS FC™ 26",
+      "kind": "game",
+      "region": "北美",
+      "aliases": "EA SPORTS FC™ 26 EA SPORTS FC™ 26",
+      "description": "类型：模拟 / 体育。Steam 英文简介节选：Experience The World's Game like never before in EA SPORTS FC™ 26. Go for glory in a 48-team international tournament mode, take on themed Manager…",
+      "group": "steam_org_5fe88e07dbbc",
+      "url": "https://store.steampowered.com/app/3405690/",
+      "genre": "模拟 / 体育",
+      "descriptionSource": "steam_3405690",
+      "geo": {
+        "city": "雷德伍德城",
+        "country": "美国",
+        "cityId": "5386834",
+        "lat": 37.48522,
+        "lon": -122.23635,
+        "basis": "关联开发或发行组织城市；游戏不是地理机构",
+        "precision": "城市参考点，非楼宇定位",
+        "source": "geo_ea",
+        "coordinateSource": "https://www.geonames.org/5386834/",
+        "note": "",
+        "relatedOrganization": "ea"
+      },
+      "steamImported": true,
+      "locationNote": "关联开发组织的城市尚未核对；不定位作品。",
+      "attributes": [
+        {
+          "label": "条目类型",
+          "value": "game"
+        },
+        {
+          "label": "游戏 / 软件类型",
+          "value": "模拟 / 体育"
+        },
+        {
+          "label": "开发方",
+          "value": "EA Canada、EA Romania"
+        },
+        {
+          "label": "发行方",
+          "value": "Electronic Arts"
+        },
+        {
+          "label": "作品口径",
+          "value": "Steam app 3405690"
+        },
+        {
+          "label": "说明来源",
+          "value": "Steam 商店官方简介（原文）"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "79"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "13645"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
+        }
+      ],
+      "steam": {
+        "appid": 3405690,
+        "rank": 79,
+        "currentPlayers": 13645,
+        "peakToday": 38781,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
+    },
+    {
+      "id": "steam_org_0de09d26f061",
+      "name": "Afterthought LLC",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "Afterthought LLC",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_0de09d26f061",
+      "url": "https://store.steampowered.com/app/376210/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "Afterthought LLC"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_376210",
+      "name": "The Isle",
+      "kind": "game",
+      "region": "未核对",
+      "aliases": "The Isle The Isle",
+      "description": "类型：动作 / 冒险 / 独立 / 大型多人在线 / 模拟 / 抢先体验。Steam 英文简介节选：Experience fierce open world survival gameplay as you attempt to stay alive on an unforgiving island inhabited by dinosaurs! Hunt. Grow. Survive.…",
+      "group": "steam_org_0de09d26f061",
+      "url": "https://store.steampowered.com/app/376210/",
+      "genre": "动作 / 冒险 / 独立 / 大型多人在线 / 模拟 / 抢先体验",
+      "descriptionSource": "steam_376210",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "关联开发组织的城市尚未核对；不定位作品。",
+      "attributes": [
+        {
+          "label": "条目类型",
+          "value": "game"
+        },
+        {
+          "label": "游戏 / 软件类型",
+          "value": "动作 / 冒险 / 独立 / 大型多人在线 / 模拟 / 抢先体验"
+        },
+        {
+          "label": "开发方",
+          "value": "Afterthought LLC"
+        },
+        {
+          "label": "发行方",
+          "value": "Afterthought LLC"
+        },
+        {
+          "label": "作品口径",
+          "value": "Steam app 376210"
+        },
+        {
+          "label": "说明来源",
+          "value": "Steam 商店官方简介（原文）"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "80"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "13572"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
+        }
+      ],
+      "steam": {
+        "appid": 376210,
+        "rank": 80,
+        "currentPlayers": 13572,
+        "peakToday": 26429,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
+    },
+    {
+      "id": "steam_org_e261fa8d1488",
+      "name": "Grinding Gear Games",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "Grinding Gear Games",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_e261fa8d1488",
+      "url": "https://store.steampowered.com/app/2694490/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "Grinding Gear Games"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_2694490",
+      "name": "Path of Exile 2",
+      "kind": "game",
+      "region": "未核对",
+      "aliases": "Path of Exile 2 Path of Exile 2",
+      "description": "类型：动作 / 冒险 / 大型多人在线 / 角色扮演 / 抢先体验。Steam 英文简介节选：Path of Exile 2 is a next generation Action RPG from Grinding Gear Games, featuring co-op for up to six players. Set years after the…",
+      "group": "steam_org_e261fa8d1488",
+      "url": "https://store.steampowered.com/app/2694490/",
+      "genre": "动作 / 冒险 / 大型多人在线 / 角色扮演 / 抢先体验",
+      "descriptionSource": "steam_2694490",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "关联开发组织的城市尚未核对；不定位作品。",
+      "attributes": [
+        {
+          "label": "条目类型",
+          "value": "game"
+        },
+        {
+          "label": "游戏 / 软件类型",
+          "value": "动作 / 冒险 / 大型多人在线 / 角色扮演 / 抢先体验"
+        },
+        {
+          "label": "开发方",
+          "value": "Grinding Gear Games"
+        },
+        {
+          "label": "发行方",
+          "value": "Grinding Gear Games"
+        },
+        {
+          "label": "作品口径",
+          "value": "Steam app 2694490"
+        },
+        {
+          "label": "说明来源",
+          "value": "Steam 商店官方简介（原文）"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "81"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "13486"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
+        }
+      ],
+      "steam": {
+        "appid": 2694490,
+        "rank": 81,
+        "currentPlayers": 13486,
+        "peakToday": 30095,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
+    },
+    {
+      "id": "steam_org_3318eaa079fb",
+      "name": "GIANTS Software",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "GIANTS Software",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_3318eaa079fb",
+      "url": "https://store.steampowered.com/app/2300320/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "GIANTS Software"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_2300320",
+      "name": "Farming Simulator 25",
+      "kind": "game",
+      "region": "未核对",
+      "aliases": "Farming Simulator 25 Farming Simulator 25",
+      "description": "类型：模拟。Steam 英文简介节选：Farming Simulator 25 invites you to join the rewarding farm life, single-handedly or cooperatively in multiplayer. This Farm is Your Farm!…",
+      "group": "steam_org_3318eaa079fb",
+      "url": "https://store.steampowered.com/app/2300320/",
+      "genre": "模拟",
+      "descriptionSource": "steam_2300320",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "关联开发组织的城市尚未核对；不定位作品。",
+      "attributes": [
+        {
+          "label": "条目类型",
+          "value": "game"
+        },
+        {
+          "label": "游戏 / 软件类型",
+          "value": "模拟"
+        },
+        {
+          "label": "开发方",
+          "value": "GIANTS Software"
+        },
+        {
+          "label": "发行方",
+          "value": "GIANTS Software"
+        },
+        {
+          "label": "作品口径",
+          "value": "Steam app 2300320"
+        },
+        {
+          "label": "说明来源",
+          "value": "Steam 商店官方简介（原文）"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "82"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "13455"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
+        }
+      ],
+      "steam": {
+        "appid": 2300320,
+        "rank": 82,
+        "currentPlayers": 13455,
+        "peakToday": 60380,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
+    },
+    {
+      "id": "steam_org_a8ce374f57b0",
+      "name": "Yinengjie",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "Yinengjie",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_a8ce374f57b0",
+      "url": "https://store.steampowered.com/app/5166840/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "Yinengjie"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_5166840",
+      "name": "Character House -Desktop Companion- Demo",
+      "kind": "game",
+      "region": "未核对",
+      "aliases": "Character House -Desktop Companion- Demo Character House -Desktop Companion- Demo",
+      "description": "类型：休闲 / 模拟。Steam 英文简介节选：Character House: Desktop Companion is an idle collection game. Mix and match parts to create a companion that sits with you as you work, syncing…",
+      "group": "steam_org_a8ce374f57b0",
+      "url": "https://store.steampowered.com/app/5166840/",
+      "genre": "休闲 / 模拟",
+      "descriptionSource": "steam_5166840",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "关联开发组织的城市尚未核对；不定位作品。",
+      "attributes": [
+        {
+          "label": "条目类型",
+          "value": "demo"
+        },
+        {
+          "label": "游戏 / 软件类型",
+          "value": "休闲 / 模拟"
+        },
+        {
+          "label": "开发方",
+          "value": "Yinengjie"
+        },
+        {
+          "label": "发行方",
+          "value": "Yinengjie"
+        },
+        {
+          "label": "作品口径",
+          "value": "Steam app 5166840"
+        },
+        {
+          "label": "说明来源",
+          "value": "Steam 商店官方简介（原文）"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "83"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "13454"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
+        }
+      ],
+      "steam": {
+        "appid": 5166840,
+        "rank": 83,
+        "currentPlayers": 13454,
+        "peakToday": 19802,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "demo",
+        "metadataAvailable": true
+      }
+    },
+    {
+      "id": "steam_org_031e093d2ed4",
+      "name": "Wargaming Group Limited",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "Wargaming Group Limited",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_031e093d2ed4",
+      "url": "https://store.steampowered.com/app/552990/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "Wargaming Group Limited"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_552990",
+      "name": "World of Warships",
+      "kind": "game",
+      "region": "未核对",
+      "aliases": "World of Warships World of Warships",
+      "description": "类型：动作 / 大型多人在线 / 模拟 / 策略 / 免费游玩。Steam 英文简介节选：Immerse yourself in thrilling naval battles and assemble an armada of over 800 ships from the first half of the 20th century — from stealthy…",
+      "group": "steam_org_031e093d2ed4",
+      "url": "https://store.steampowered.com/app/552990/",
+      "genre": "动作 / 大型多人在线 / 模拟 / 策略 / 免费游玩",
+      "descriptionSource": "steam_552990",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "关联开发组织的城市尚未核对；不定位作品。",
+      "attributes": [
+        {
+          "label": "条目类型",
+          "value": "game"
+        },
+        {
+          "label": "游戏 / 软件类型",
+          "value": "动作 / 大型多人在线 / 模拟 / 策略 / 免费游玩"
+        },
+        {
+          "label": "开发方",
+          "value": "Wargaming Group Limited"
+        },
+        {
+          "label": "发行方",
+          "value": "Wargaming Group Limited"
+        },
+        {
+          "label": "作品口径",
+          "value": "Steam app 552990"
+        },
+        {
+          "label": "说明来源",
+          "value": "Steam 商店官方简介（原文）"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "84"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "13430"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
+        }
+      ],
+      "steam": {
+        "appid": 552990,
+        "rank": 84,
+        "currentPlayers": 13430,
+        "peakToday": 21397,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
+    },
+    {
+      "id": "steam_2622380",
+      "name": "ELDEN RING NIGHTREIGN",
+      "kind": "game",
+      "region": "日本",
+      "aliases": "ELDEN RING NIGHTREIGN ELDEN RING NIGHTREIGN",
+      "description": "类型：动作 / 角色扮演。Steam 英文简介节选：ELDEN RING NIGHTREIGN is a standalone adventure within the ELDEN RING universe, crafted to offer players a new gaming experience by reimagining the game’s core…",
+      "group": "from",
+      "url": "https://store.steampowered.com/app/2622380/",
+      "genre": "动作 / 角色扮演",
+      "descriptionSource": "steam_2622380",
+      "geo": {
+        "city": "东京",
+        "country": "日本",
+        "cityId": "1850147",
+        "lat": 35.6895,
+        "lon": 139.69171,
+        "basis": "关联开发或发行组织城市；游戏不是地理机构",
+        "precision": "城市参考点，非楼宇定位",
+        "source": "geo_from",
+        "coordinateSource": "https://www.geonames.org/1850147/",
+        "note": "",
+        "relatedOrganization": "from"
+      },
+      "steamImported": true,
+      "locationNote": "关联开发组织的城市尚未核对；不定位作品。",
+      "attributes": [
+        {
+          "label": "条目类型",
+          "value": "game"
+        },
+        {
+          "label": "游戏 / 软件类型",
+          "value": "动作 / 角色扮演"
+        },
+        {
+          "label": "开发方",
+          "value": "FromSoftware, Inc."
+        },
+        {
+          "label": "发行方",
+          "value": "FromSoftware, Inc.、Bandai Namco Entertainment"
+        },
+        {
+          "label": "作品口径",
+          "value": "Steam app 2622380"
+        },
+        {
+          "label": "说明来源",
+          "value": "Steam 商店官方简介（原文）"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "85"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "13398"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
+        }
+      ],
+      "steam": {
+        "appid": 2622380,
+        "rank": 85,
+        "currentPlayers": 13398,
+        "peakToday": 30896,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
+    },
+    {
+      "id": "steam_4000",
+      "name": "Garry's Mod",
+      "kind": "game",
+      "region": "北美",
+      "aliases": "Garry's Mod Garry's Mod",
+      "description": "类型：休闲 / 独立 / 模拟。Steam 英文简介节选：Garry's Mod is a physics sandbox. There aren't any predefined aims or goals. We give you the tools and leave you to play.…",
+      "group": "steam_org_cc9ac015720f",
+      "url": "https://store.steampowered.com/app/4000/",
+      "genre": "休闲 / 独立 / 模拟",
+      "descriptionSource": "steam_4000",
+      "geo": {
+        "city": "贝尔维尤",
+        "country": "美国",
+        "cityId": "5786882",
+        "lat": 47.61038,
+        "lon": -122.20068,
+        "basis": "关联开发或发行组织城市；游戏不是地理机构",
+        "precision": "城市参考点，非楼宇定位",
+        "source": "geo_valve",
+        "coordinateSource": "https://www.geonames.org/5786882/",
+        "note": "官方员工手册列示城市；不定位具体楼宇。",
+        "relatedOrganization": "valve"
+      },
+      "steamImported": true,
+      "locationNote": "关联开发组织的城市尚未核对；不定位作品。",
+      "attributes": [
+        {
+          "label": "条目类型",
+          "value": "game"
+        },
+        {
+          "label": "游戏 / 软件类型",
+          "value": "休闲 / 独立 / 模拟"
+        },
+        {
+          "label": "开发方",
+          "value": "Facepunch Studios"
+        },
+        {
+          "label": "发行方",
+          "value": "Valve"
+        },
+        {
+          "label": "作品口径",
+          "value": "Steam app 4000"
+        },
+        {
+          "label": "说明来源",
+          "value": "Steam 商店官方简介（原文）"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "87"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "13042"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
+        }
+      ],
+      "steam": {
+        "appid": 4000,
+        "rank": 87,
+        "currentPlayers": 13042,
+        "peakToday": 36857,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
+    },
+    {
+      "id": "steam_1449850",
+      "name": "Yu-Gi-Oh! Master Duel",
+      "kind": "game",
+      "region": "日本",
+      "aliases": "Yu-Gi-Oh! Master Duel Yu-Gi-Oh! Master Duel",
+      "description": "类型：模拟 / 策略 / 免费游玩。Steam 英文简介节选：Yu-Gi-Oh! MASTER DUEL is the ultimate free-to-play cross-platform strategy card game with fast-paced Duels, stunning HD graphics and a new, dynamic soundtrack! Get ready to…",
+      "group": "konami",
+      "url": "https://store.steampowered.com/app/1449850/",
+      "genre": "模拟 / 策略 / 免费游玩",
+      "descriptionSource": "steam_1449850",
+      "geo": {
+        "city": "东京",
+        "country": "日本",
+        "cityId": "1850147",
+        "lat": 35.6895,
+        "lon": 139.69171,
+        "basis": "关联开发或发行组织城市；游戏不是地理机构",
+        "precision": "城市参考点，非楼宇定位",
+        "source": "geo_konami",
+        "coordinateSource": "https://www.geonames.org/1850147/",
+        "note": "",
+        "relatedOrganization": "konami"
+      },
+      "steamImported": true,
+      "locationNote": "关联开发组织的城市尚未核对；不定位作品。",
+      "attributes": [
+        {
+          "label": "条目类型",
+          "value": "game"
+        },
+        {
+          "label": "游戏 / 软件类型",
+          "value": "模拟 / 策略 / 免费游玩"
+        },
+        {
+          "label": "开发方",
+          "value": "KONAMI"
+        },
+        {
+          "label": "发行方",
+          "value": "KONAMI"
+        },
+        {
+          "label": "作品口径",
+          "value": "Steam app 1449850"
+        },
+        {
+          "label": "说明来源",
+          "value": "Steam 商店官方简介（原文）"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "88"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "12530"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
+        }
+      ],
+      "steam": {
+        "appid": 1449850,
+        "rank": 88,
+        "currentPlayers": 12530,
+        "peakToday": 20938,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
+    },
+    {
+      "id": "steam_org_e7b9542ff99c",
+      "name": "Starry Studio",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "Starry Studio",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_e7b9542ff99c",
+      "url": "https://store.steampowered.com/app/2139460/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "Starry Studio"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_org_d6c76f2ede4a",
+      "name": "FishSoft LLC",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "FishSoft LLC",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_d6c76f2ede4a",
+      "url": "https://store.steampowered.com/app/766570/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "FishSoft LLC"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_766570",
+      "name": "Russian Fishing 4",
+      "kind": "game",
+      "region": "未核对",
+      "aliases": "Russian Fishing 4 Russian Fishing 4",
+      "description": "类型：冒险 / 休闲 / 大型多人在线 / 角色扮演 / 模拟 / 体育 / 免费游玩。Steam 英文简介节选：Russian Fishing 4 is a fishing simulator with RPG elements. There is no story line and the whole process is based on the concept of…",
+      "group": "steam_org_d6c76f2ede4a",
+      "url": "https://store.steampowered.com/app/766570/",
+      "genre": "冒险 / 休闲 / 大型多人在线 / 角色扮演 / 模拟 / 体育 / 免费游玩",
+      "descriptionSource": "steam_766570",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "关联开发组织的城市尚未核对；不定位作品。",
+      "attributes": [
+        {
+          "label": "条目类型",
+          "value": "game"
+        },
+        {
+          "label": "游戏 / 软件类型",
+          "value": "冒险 / 休闲 / 大型多人在线 / 角色扮演 / 模拟 / 体育 / 免费游玩"
+        },
+        {
+          "label": "开发方",
+          "value": "FishSoft LLC"
+        },
+        {
+          "label": "发行方",
+          "value": "FishSoft LLC"
+        },
+        {
+          "label": "作品口径",
+          "value": "Steam app 766570"
+        },
+        {
+          "label": "说明来源",
+          "value": "Steam 商店官方简介（原文）"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "91"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "12268"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
+        }
+      ],
+      "steam": {
+        "appid": 766570,
+        "rank": 91,
+        "currentPlayers": 12268,
+        "peakToday": 23908,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
+    },
+    {
+      "id": "steam_org_44e101987240",
+      "name": "World's Edge",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "World's Edge",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_44e101987240",
+      "url": "https://store.steampowered.com/app/813780/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "World's Edge"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_org_a80d33b0db8c",
+      "name": "Forgotten Empires",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "Forgotten Empires",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_a80d33b0db8c",
+      "url": "https://store.steampowered.com/app/813780/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "Forgotten Empires"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_org_489a8b7adc2c",
+      "name": "CaptureAge",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "CaptureAge",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_489a8b7adc2c",
+      "url": "https://store.steampowered.com/app/813780/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "CaptureAge"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_org_bcd5958d92c0",
+      "name": "Tantalus Media",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "Tantalus Media",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_bcd5958d92c0",
+      "url": "https://store.steampowered.com/app/813780/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "Tantalus Media"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_org_d19d735e099e",
+      "name": "Wicked Witch",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "Wicked Witch",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_d19d735e099e",
+      "url": "https://store.steampowered.com/app/813780/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "Wicked Witch"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_813780",
+      "name": "Age of Empires II: Definitive Edition",
+      "kind": "game",
+      "region": "北美",
+      "aliases": "Age of Empires II: Definitive Edition Age of Empires II: Definitive Edition",
+      "description": "类型：策略。Steam 英文简介节选：42 Civilizations, 229 Campaign Missions, Singleplayer, Co-Op, Multiplayer, In-Game Editor, Mods, Cross-play...It is good to be the king.…",
+      "group": "steam_org_44e101987240",
+      "url": "https://store.steampowered.com/app/813780/",
+      "genre": "策略",
+      "descriptionSource": "steam_813780",
+      "geo": {
+        "city": "雷德蒙德",
+        "country": "美国",
+        "cityId": "5808079",
+        "lat": 47.67399,
+        "lon": -122.12151,
+        "basis": "关联开发或发行组织城市；游戏不是地理机构",
+        "precision": "城市参考点，非楼宇定位",
+        "source": "geo_xbox",
+        "coordinateSource": "https://www.geonames.org/5808079/",
+        "note": "采用微软总部城市，不表示所有 Xbox 团队均在此办公。",
+        "relatedOrganization": "xbox"
+      },
+      "steamImported": true,
+      "locationNote": "关联开发组织的城市尚未核对；不定位作品。",
+      "attributes": [
+        {
+          "label": "条目类型",
+          "value": "game"
+        },
+        {
+          "label": "游戏 / 软件类型",
+          "value": "策略"
+        },
+        {
+          "label": "开发方",
+          "value": "World's Edge、Forgotten Empires、CaptureAge、Tantalus Media、Wicked Witch、Feral Interactive"
+        },
+        {
+          "label": "发行方",
+          "value": "Xbox Game Studios"
+        },
+        {
+          "label": "作品口径",
+          "value": "Steam app 813780"
+        },
+        {
+          "label": "说明来源",
+          "value": "Steam 商店官方简介（原文）"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "92"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "11779"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
+        }
+      ],
+      "steam": {
+        "appid": 813780,
+        "rank": 92,
+        "currentPlayers": 11779,
+        "peakToday": 29152,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
+    },
+    {
+      "id": "steam_org_9fc1b8dfcaf2",
+      "name": "Saber Interactive",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "Saber Interactive",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_9fc1b8dfcaf2",
+      "url": "https://store.steampowered.com/app/2183900/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "Saber Interactive"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_org_ac30c0eba755",
+      "name": "Focus Entertainment",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "Focus Entertainment",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_ac30c0eba755",
+      "url": "https://store.steampowered.com/app/2183900/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "Focus Entertainment"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_2183900",
+      "name": "Warhammer 40,000: Space Marine 2",
+      "kind": "game",
+      "region": "未核对",
+      "aliases": "Warhammer 40,000: Space Marine 2 Warhammer 40,000: Space Marine 2",
+      "description": "类型：动作 / 冒险 / 角色扮演。Steam 英文简介节选：Embody the superhuman skill and brutality of a Space Marine. Unleash deadly abilities and devastating weaponry to obliterate the relentless Tyranid swarms. Defend the Imperium…",
+      "group": "steam_org_9fc1b8dfcaf2",
+      "url": "https://store.steampowered.com/app/2183900/",
+      "genre": "动作 / 冒险 / 角色扮演",
+      "descriptionSource": "steam_2183900",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "关联开发组织的城市尚未核对；不定位作品。",
+      "attributes": [
+        {
+          "label": "条目类型",
+          "value": "game"
+        },
+        {
+          "label": "游戏 / 软件类型",
+          "value": "动作 / 冒险 / 角色扮演"
+        },
+        {
+          "label": "开发方",
+          "value": "Saber Interactive"
+        },
+        {
+          "label": "发行方",
+          "value": "Focus Entertainment"
+        },
+        {
+          "label": "作品口径",
+          "value": "Steam app 2183900"
+        },
+        {
+          "label": "说明来源",
+          "value": "Steam 商店官方简介（原文）"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "93"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "11594"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
+        }
+      ],
+      "steam": {
+        "appid": 2183900,
+        "rank": 93,
+        "currentPlayers": 11594,
+        "peakToday": 31552,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
+    },
+    {
+      "id": "steam_583950",
+      "name": "Artifact",
+      "kind": "game",
+      "region": "北美",
+      "aliases": "Artifact Artifact",
+      "description": "类型：策略。Steam 英文简介节选：Artifact now features two games: Artifact Classic, the original Dota 2 trading card game, and Artifact Foundry, a special edition with streamlined gameplay, new cards,…",
+      "group": "valve",
+      "url": "https://store.steampowered.com/app/583950/",
+      "genre": "策略",
+      "descriptionSource": "steam_583950",
+      "geo": {
+        "city": "贝尔维尤",
+        "country": "美国",
+        "cityId": "5786882",
+        "lat": 47.61038,
+        "lon": -122.20068,
+        "basis": "关联开发或发行组织城市；游戏不是地理机构",
+        "precision": "城市参考点，非楼宇定位",
+        "source": "geo_valve",
+        "coordinateSource": "https://www.geonames.org/5786882/",
+        "note": "官方员工手册列示城市；不定位具体楼宇。",
+        "relatedOrganization": "valve"
+      },
+      "steamImported": true,
+      "locationNote": "关联开发组织的城市尚未核对；不定位作品。",
+      "attributes": [
+        {
+          "label": "条目类型",
+          "value": "game"
+        },
+        {
+          "label": "游戏 / 软件类型",
+          "value": "策略"
+        },
+        {
+          "label": "开发方",
+          "value": "Valve"
+        },
+        {
+          "label": "发行方",
+          "value": "Valve"
+        },
+        {
+          "label": "作品口径",
+          "value": "Steam app 583950"
+        },
+        {
+          "label": "说明来源",
+          "value": "Steam 商店官方简介（原文）"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "97"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "11252"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
+        }
+      ],
+      "steam": {
+        "appid": 583950,
+        "rank": 97,
+        "currentPlayers": 11252,
+        "peakToday": 11255,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
+    },
+    {
+      "id": "steam_org_62a39a2788c8",
+      "name": "Questing Goose Studio",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "Questing Goose Studio",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_62a39a2788c8",
+      "url": "https://store.steampowered.com/app/4349200/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "Questing Goose Studio"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_org_c238ee1ff183",
+      "name": "tinyBuild",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "tinyBuild",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_c238ee1ff183",
+      "url": "https://store.steampowered.com/app/4349200/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "tinyBuild"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_4349200",
+      "name": "Probably Stolen Demo",
+      "kind": "game",
+      "region": "未核对",
+      "aliases": "Probably Stolen Demo Probably Stolen Demo",
+      "description": "类型：独立 / 角色扮演 / 模拟。Steam 英文简介节选：Probably Stolen is a cyberpunk shopkeeping simulator set in a dystopian space station. Craft, trade, and smuggle goods of questionable origin, navigate faction loyalties, and…",
+      "group": "steam_org_62a39a2788c8",
+      "url": "https://store.steampowered.com/app/4349200/",
+      "genre": "独立 / 角色扮演 / 模拟",
+      "descriptionSource": "steam_4349200",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "关联开发组织的城市尚未核对；不定位作品。",
+      "attributes": [
+        {
+          "label": "条目类型",
+          "value": "demo"
+        },
+        {
+          "label": "游戏 / 软件类型",
+          "value": "独立 / 角色扮演 / 模拟"
+        },
+        {
+          "label": "开发方",
+          "value": "Questing Goose Studio"
+        },
+        {
+          "label": "发行方",
+          "value": "tinyBuild"
+        },
+        {
+          "label": "作品口径",
+          "value": "Steam app 4349200"
+        },
+        {
+          "label": "说明来源",
+          "value": "Steam 商店官方简介（原文）"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "98"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "11201"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
+        }
+      ],
+      "steam": {
+        "appid": 4349200,
+        "rank": 98,
+        "currentPlayers": 11201,
+        "peakToday": 19816,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "demo",
+        "metadataAvailable": true
+      }
+    },
+    {
+      "id": "steam_org_e34966d3d803",
+      "name": "Blender Foundation",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "Blender Foundation",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_e34966d3d803",
+      "url": "https://store.steampowered.com/app/365670/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "Blender Foundation"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_365670",
+      "name": "Blender",
+      "kind": "game",
+      "region": "未核对",
+      "aliases": "Blender Blender",
+      "description": "类型：动画与建模 / 设计与绘画 / 视频制作。Steam 英文简介节选：Blender is the free and open source 3D creation suite. Free to use for everyone, for any purpose.…",
+      "group": "steam_org_e34966d3d803",
+      "url": "https://store.steampowered.com/app/365670/",
+      "genre": "动画与建模 / 设计与绘画 / 视频制作",
+      "descriptionSource": "steam_365670",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "关联开发组织的城市尚未核对；不定位作品。",
+      "attributes": [
+        {
+          "label": "条目类型",
+          "value": "game"
+        },
+        {
+          "label": "游戏 / 软件类型",
+          "value": "动画与建模 / 设计与绘画 / 视频制作"
+        },
+        {
+          "label": "开发方",
+          "value": "Blender Foundation"
+        },
+        {
+          "label": "发行方",
+          "value": "Blender Foundation"
+        },
+        {
+          "label": "作品口径",
+          "value": "Steam app 365670"
+        },
+        {
+          "label": "说明来源",
+          "value": "Steam 商店官方简介（原文）"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "99"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "11133"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
+        }
+      ],
+      "steam": {
+        "appid": 365670,
+        "rank": 99,
+        "currentPlayers": 11133,
+        "peakToday": 15841,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
+    },
+    {
+      "id": "steam_org_fca9f69de2cc",
+      "name": "Wemade Next",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "Wemade Next",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_fca9f69de2cc",
+      "url": "https://store.steampowered.com/app/1623660/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "Wemade Next"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_org_3f0ac7032cbd",
+      "name": "Wemade",
+      "kind": "company",
+      "region": "未核对",
+      "aliases": "Wemade",
+      "description": "Steam 商店列出的开发或发行主体；法律实体、地点及股东信息尚未核对。",
+      "group": "steam_org_3f0ac7032cbd",
+      "url": "https://store.steampowered.com/app/1623660/",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "尚未核对城市；只在关系图谱展示。",
+      "attributes": [
+        {
+          "label": "主体名称",
+          "value": "Wemade"
+        },
+        {
+          "label": "主体口径",
+          "value": "Steam 商店署名"
+        },
+        {
+          "label": "资料来源",
+          "value": "Steam 官方商店"
+        },
+        {
+          "label": "机构地点",
+          "value": "尚未核对"
+        },
+        {
+          "label": "股东信息",
+          "value": "尚未收录；不代表没有股东"
+        }
+      ]
+    },
+    {
+      "id": "steam_1623660",
+      "name": "MIR4",
+      "kind": "game",
+      "region": "未核对",
+      "aliases": "MIR4 MIR4",
+      "description": "类型：动作 / 冒险 / 大型多人在线 / 角色扮演 / 免费游玩。Steam 英文简介节选：MIR4 is a free-to-play open world K-fantasy MMORPG that can be cross-played on both PC and mobile devices. MIR4 is full of action and features…",
+      "group": "steam_org_fca9f69de2cc",
+      "url": "https://store.steampowered.com/app/1623660/",
+      "genre": "动作 / 冒险 / 大型多人在线 / 角色扮演 / 免费游玩",
+      "descriptionSource": "steam_1623660",
+      "geo": null,
+      "steamImported": true,
+      "locationNote": "关联开发组织的城市尚未核对；不定位作品。",
+      "attributes": [
+        {
+          "label": "条目类型",
+          "value": "game"
+        },
+        {
+          "label": "游戏 / 软件类型",
+          "value": "动作 / 冒险 / 大型多人在线 / 角色扮演 / 免费游玩"
+        },
+        {
+          "label": "开发方",
+          "value": "Wemade Next"
+        },
+        {
+          "label": "发行方",
+          "value": "Wemade"
+        },
+        {
+          "label": "作品口径",
+          "value": "Steam app 1623660"
+        },
+        {
+          "label": "说明来源",
+          "value": "Steam 商店官方简介（原文）"
+        },
+        {
+          "label": "Steam 榜单排名",
+          "value": "100"
+        },
+        {
+          "label": "当前在线人数（快照）",
+          "value": "11120"
+        },
+        {
+          "label": "榜单采集时间",
+          "value": "2026-10-12T07:17:58.479069+00:00"
+        }
+      ],
+      "steam": {
+        "appid": 1623660,
+        "rank": 100,
+        "currentPlayers": 11120,
+        "peakToday": 12062,
+        "capturedAt": "2026-10-12T07:17:58.479069+00:00",
+        "type": "game",
+        "metadataAvailable": true
+      }
     }
   ],
   "edges": [
@@ -11955,6 +22254,1558 @@ window.GAME_GRAPH = {
       "kind": "publish",
       "source": "game_witcher2",
       "note": ""
+    },
+    {
+      "id": "valve:publish:cs",
+      "a": "valve",
+      "b": "cs",
+      "kind": "publish",
+      "source": "steam_730",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "valve:publish:dota",
+      "a": "valve",
+      "b": "dota",
+      "kind": "publish",
+      "source": "steam_570",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "krafton:develop:pubg",
+      "a": "krafton",
+      "b": "pubg",
+      "kind": "develop",
+      "source": "steam_578080",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_e04227249fdf:develop:steam_3393110",
+      "a": "steam_org_e04227249fdf",
+      "b": "steam_3393110",
+      "kind": "develop",
+      "source": "steam_3393110",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_e04227249fdf:publish:steam_3393110",
+      "a": "steam_org_e04227249fdf",
+      "b": "steam_3393110",
+      "kind": "publish",
+      "source": "steam_3393110",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_8860b7242553:develop:steam_3419430",
+      "a": "steam_org_8860b7242553",
+      "b": "steam_3419430",
+      "kind": "develop",
+      "source": "steam_3419430",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_8860b7242553:publish:steam_3419430",
+      "a": "steam_org_8860b7242553",
+      "b": "steam_3419430",
+      "kind": "publish",
+      "source": "steam_3419430",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "valve:develop:steam_1422450",
+      "a": "valve",
+      "b": "steam_1422450",
+      "kind": "develop",
+      "source": "steam_1422450",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "valve:publish:steam_1422450",
+      "a": "valve",
+      "b": "steam_1422450",
+      "kind": "publish",
+      "source": "steam_1422450",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "ea:publish:apex",
+      "a": "ea",
+      "b": "apex",
+      "kind": "publish",
+      "source": "steam_1172470",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_f79994969213:develop:steam_1867240",
+      "a": "steam_org_f79994969213",
+      "b": "steam_1867240",
+      "kind": "develop",
+      "source": "steam_1867240",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_1c505d40a9fc:publish:steam_1867240",
+      "a": "steam_org_1c505d40a9fc",
+      "b": "steam_1867240",
+      "kind": "publish",
+      "source": "steam_1867240",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_956ca380d767:develop:steam_431960",
+      "a": "steam_org_956ca380d767",
+      "b": "steam_431960",
+      "kind": "develop",
+      "source": "steam_431960",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_956ca380d767:publish:steam_431960",
+      "a": "steam_org_956ca380d767",
+      "b": "steam_431960",
+      "kind": "publish",
+      "source": "steam_431960",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_3e7c1c85cc96:develop:steam_1808500",
+      "a": "steam_org_3e7c1c85cc96",
+      "b": "steam_1808500",
+      "kind": "develop",
+      "source": "steam_1808500",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_3e7c1c85cc96:publish:steam_1808500",
+      "a": "steam_org_3e7c1c85cc96",
+      "b": "steam_1808500",
+      "kind": "publish",
+      "source": "steam_1808500",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_d684d8f99bfe:develop:steam_2507950",
+      "a": "steam_org_d684d8f99bfe",
+      "b": "steam_2507950",
+      "kind": "develop",
+      "source": "steam_2507950",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "timi:publish:steam_2507950",
+      "a": "timi",
+      "b": "steam_2507950",
+      "kind": "publish",
+      "source": "steam_2507950",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_a6bd0a7154ab:develop:steam_3678970",
+      "a": "steam_org_a6bd0a7154ab",
+      "b": "steam_3678970",
+      "kind": "develop",
+      "source": "steam_3678970",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_b49eddb56f2f:develop:steam_3678970",
+      "a": "steam_org_b49eddb56f2f",
+      "b": "steam_3678970",
+      "kind": "develop",
+      "source": "steam_3678970",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_a6bd0a7154ab:publish:steam_3678970",
+      "a": "steam_org_a6bd0a7154ab",
+      "b": "steam_3678970",
+      "kind": "publish",
+      "source": "steam_3678970",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_524e07d4de4f:develop:steam_892970",
+      "a": "steam_org_524e07d4de4f",
+      "b": "steam_892970",
+      "kind": "develop",
+      "source": "steam_892970",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_49c43429e0d6:publish:steam_892970",
+      "a": "steam_org_49c43429e0d6",
+      "b": "steam_892970",
+      "kind": "publish",
+      "source": "steam_892970",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_cc9ac015720f:develop:steam_252490",
+      "a": "steam_org_cc9ac015720f",
+      "b": "steam_252490",
+      "kind": "develop",
+      "source": "steam_252490",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_cc9ac015720f:publish:steam_252490",
+      "a": "steam_org_cc9ac015720f",
+      "b": "steam_252490",
+      "kind": "publish",
+      "source": "steam_252490",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_76e66d3d1e14:develop:steam_2868840",
+      "a": "steam_org_76e66d3d1e14",
+      "b": "steam_2868840",
+      "kind": "develop",
+      "source": "steam_2868840",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_76e66d3d1e14:publish:steam_2868840",
+      "a": "steam_org_76e66d3d1e14",
+      "b": "steam_2868840",
+      "kind": "publish",
+      "source": "steam_2868840",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "blizzard:develop:steam_2357570",
+      "a": "blizzard",
+      "b": "steam_2357570",
+      "kind": "develop",
+      "source": "steam_2357570",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "blizzard:publish:steam_2357570",
+      "a": "blizzard",
+      "b": "steam_2357570",
+      "kind": "publish",
+      "source": "steam_2357570",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "digital:publish:warframe",
+      "a": "digital",
+      "b": "warframe",
+      "kind": "publish",
+      "source": "steam_230410",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_96befdc47ad3:develop:steam_438100",
+      "a": "steam_org_96befdc47ad3",
+      "b": "steam_438100",
+      "kind": "develop",
+      "source": "steam_438100",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_96befdc47ad3:publish:steam_438100",
+      "a": "steam_org_96befdc47ad3",
+      "b": "steam_438100",
+      "kind": "publish",
+      "source": "steam_438100",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_88bc7770c5d8:develop:steam_4623570",
+      "a": "steam_org_88bc7770c5d8",
+      "b": "steam_4623570",
+      "kind": "develop",
+      "source": "steam_4623570",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_88bc7770c5d8:publish:steam_4623570",
+      "a": "steam_org_88bc7770c5d8",
+      "b": "steam_4623570",
+      "kind": "publish",
+      "source": "steam_4623570",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_3b3edde61bc9:publish:steam_4623570",
+      "a": "steam_org_3b3edde61bc9",
+      "b": "steam_4623570",
+      "kind": "publish",
+      "source": "steam_4623570",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_93c53b1bf338:develop:steam_413150",
+      "a": "steam_org_93c53b1bf338",
+      "b": "steam_413150",
+      "kind": "develop",
+      "source": "steam_413150",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_93c53b1bf338:publish:steam_413150",
+      "a": "steam_org_93c53b1bf338",
+      "b": "steam_413150",
+      "kind": "publish",
+      "source": "steam_413150",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_55fe8e6edc72:develop:steam_4126040",
+      "a": "steam_org_55fe8e6edc72",
+      "b": "steam_4126040",
+      "kind": "develop",
+      "source": "steam_4126040",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_55fe8e6edc72:publish:steam_4126040",
+      "a": "steam_org_55fe8e6edc72",
+      "b": "steam_4126040",
+      "kind": "publish",
+      "source": "steam_4126040",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "netease:develop:marvel",
+      "a": "netease",
+      "b": "marvel",
+      "kind": "develop",
+      "source": "steam_2767030",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "cdp:publish:witcher",
+      "a": "cdp",
+      "b": "witcher",
+      "kind": "publish",
+      "source": "steam_292030",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_a89e203bc6ac:develop:steam_108600",
+      "a": "steam_org_a89e203bc6ac",
+      "b": "steam_108600",
+      "kind": "develop",
+      "source": "steam_108600",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_a89e203bc6ac:publish:steam_108600",
+      "a": "steam_org_a89e203bc6ac",
+      "b": "steam_108600",
+      "kind": "publish",
+      "source": "steam_108600",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "ubisoft:publish:siege",
+      "a": "ubisoft",
+      "b": "siege",
+      "kind": "publish",
+      "source": "steam_359550",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_f5741b04acc2:develop:steam_1623730",
+      "a": "steam_org_f5741b04acc2",
+      "b": "steam_1623730",
+      "kind": "develop",
+      "source": "steam_1623730",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_f5741b04acc2:publish:steam_1623730",
+      "a": "steam_org_f5741b04acc2",
+      "b": "steam_1623730",
+      "kind": "publish",
+      "source": "steam_1623730",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_3fe60900eb6e:develop:steam_3240220",
+      "a": "steam_org_3fe60900eb6e",
+      "b": "steam_3240220",
+      "kind": "develop",
+      "source": "steam_3240220",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "rockstar:publish:steam_3240220",
+      "a": "rockstar",
+      "b": "steam_3240220",
+      "kind": "publish",
+      "source": "steam_3240220",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_0aadd801dda0:develop:steam_381210",
+      "a": "steam_org_0aadd801dda0",
+      "b": "steam_381210",
+      "kind": "develop",
+      "source": "steam_381210",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_0aadd801dda0:publish:steam_381210",
+      "a": "steam_org_0aadd801dda0",
+      "b": "steam_381210",
+      "kind": "publish",
+      "source": "steam_381210",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_3fe60900eb6e:develop:gta5",
+      "a": "steam_org_3fe60900eb6e",
+      "b": "gta5",
+      "kind": "develop",
+      "source": "steam_271590",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_613b037e9403:develop:steam_236390",
+      "a": "steam_org_613b037e9403",
+      "b": "steam_236390",
+      "kind": "develop",
+      "source": "steam_236390",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_797692dd51e8:publish:steam_236390",
+      "a": "steam_org_797692dd51e8",
+      "b": "steam_236390",
+      "kind": "publish",
+      "source": "steam_236390",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_f83f70955dcd:develop:steam_1973530",
+      "a": "steam_org_f83f70955dcd",
+      "b": "steam_1973530",
+      "kind": "develop",
+      "source": "steam_1973530",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_f83f70955dcd:publish:steam_1973530",
+      "a": "steam_org_f83f70955dcd",
+      "b": "steam_1973530",
+      "kind": "publish",
+      "source": "steam_1973530",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_68b490085b7e:develop:steam_250900",
+      "a": "steam_org_68b490085b7e",
+      "b": "steam_250900",
+      "kind": "develop",
+      "source": "steam_250900",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_53cab240f3e9:develop:steam_250900",
+      "a": "steam_org_53cab240f3e9",
+      "b": "steam_250900",
+      "kind": "develop",
+      "source": "steam_250900",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_68b490085b7e:publish:steam_250900",
+      "a": "steam_org_68b490085b7e",
+      "b": "steam_250900",
+      "kind": "publish",
+      "source": "steam_250900",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_613b47225818:develop:steam_1142710",
+      "a": "steam_org_613b47225818",
+      "b": "steam_1142710",
+      "kind": "develop",
+      "source": "steam_1142710",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_4ae8c026f071:develop:steam_1142710",
+      "a": "steam_org_4ae8c026f071",
+      "b": "steam_1142710",
+      "kind": "develop",
+      "source": "steam_1142710",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "sega:publish:steam_1142710",
+      "a": "sega",
+      "b": "steam_1142710",
+      "kind": "publish",
+      "source": "steam_1142710",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_4ae8c026f071:publish:steam_1142710",
+      "a": "steam_org_4ae8c026f071",
+      "b": "steam_1142710",
+      "kind": "publish",
+      "source": "steam_1142710",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_6e499775f134:develop:steam_1181000",
+      "a": "steam_org_6e499775f134",
+      "b": "steam_1181000",
+      "kind": "develop",
+      "source": "steam_1181000",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_6e499775f134:publish:steam_1181000",
+      "a": "steam_org_6e499775f134",
+      "b": "steam_1181000",
+      "kind": "publish",
+      "source": "steam_1181000",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_fd760ea377d9:develop:steam_322170",
+      "a": "steam_org_fd760ea377d9",
+      "b": "steam_322170",
+      "kind": "develop",
+      "source": "steam_322170",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_fd760ea377d9:publish:steam_322170",
+      "a": "steam_org_fd760ea377d9",
+      "b": "steam_322170",
+      "kind": "publish",
+      "source": "steam_322170",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_cc992aecee71:develop:steam_218620",
+      "a": "steam_org_cc992aecee71",
+      "b": "steam_218620",
+      "kind": "develop",
+      "source": "steam_218620",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_da0c9bcf1f15:develop:steam_218620",
+      "a": "steam_org_da0c9bcf1f15",
+      "b": "steam_218620",
+      "kind": "develop",
+      "source": "steam_218620",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_3f28e9cf26ba:publish:steam_218620",
+      "a": "steam_org_3f28e9cf26ba",
+      "b": "steam_218620",
+      "kind": "publish",
+      "source": "steam_218620",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "larian:publish:bg3",
+      "a": "larian",
+      "b": "bg3",
+      "kind": "publish",
+      "source": "steam_1086940",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "cdp:publish:cyberpunk",
+      "a": "cdp",
+      "b": "cyberpunk",
+      "kind": "publish",
+      "source": "steam_1091500",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_a097d7bceea1:develop:steam_105600",
+      "a": "steam_org_a097d7bceea1",
+      "b": "steam_105600",
+      "kind": "develop",
+      "source": "steam_105600",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_a097d7bceea1:publish:steam_105600",
+      "a": "steam_org_a097d7bceea1",
+      "b": "steam_105600",
+      "kind": "publish",
+      "source": "steam_105600",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_9a799b08738c:develop:steam_553850",
+      "a": "steam_org_9a799b08738c",
+      "b": "steam_553850",
+      "kind": "develop",
+      "source": "steam_553850",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_dd606a32c132:publish:steam_553850",
+      "a": "steam_org_dd606a32c132",
+      "b": "steam_553850",
+      "kind": "publish",
+      "source": "steam_553850",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_adc16e9a5938:develop:steam_1366800",
+      "a": "steam_org_adc16e9a5938",
+      "b": "steam_1366800",
+      "kind": "develop",
+      "source": "steam_1366800",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_adc16e9a5938:publish:steam_1366800",
+      "a": "steam_org_adc16e9a5938",
+      "b": "steam_1366800",
+      "kind": "publish",
+      "source": "steam_1366800",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "capcom:develop:steam_2246340",
+      "a": "capcom",
+      "b": "steam_2246340",
+      "kind": "develop",
+      "source": "steam_2246340",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "capcom:publish:steam_2246340",
+      "a": "capcom",
+      "b": "steam_2246340",
+      "kind": "publish",
+      "source": "steam_2246340",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_3767d4171c3a:develop:steam_4891320",
+      "a": "steam_org_3767d4171c3a",
+      "b": "steam_4891320",
+      "kind": "develop",
+      "source": "steam_4891320",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_3767d4171c3a:publish:steam_4891320",
+      "a": "steam_org_3767d4171c3a",
+      "b": "steam_4891320",
+      "kind": "publish",
+      "source": "steam_4891320",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_540aece58e70:develop:hoi4",
+      "a": "steam_org_540aece58e70",
+      "b": "hoi4",
+      "kind": "develop",
+      "source": "steam_394360",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_560f91fe3684:develop:steam_632360",
+      "a": "steam_org_560f91fe3684",
+      "b": "steam_632360",
+      "kind": "develop",
+      "source": "steam_632360",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_11ed1d42b7af:publish:steam_632360",
+      "a": "steam_org_11ed1d42b7af",
+      "b": "steam_632360",
+      "kind": "publish",
+      "source": "steam_632360",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_9636c122dddb:publish:steam_632360",
+      "a": "steam_org_9636c122dddb",
+      "b": "steam_632360",
+      "kind": "publish",
+      "source": "steam_632360",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_4464ee855a26:develop:steam_322330",
+      "a": "steam_org_4464ee855a26",
+      "b": "steam_322330",
+      "kind": "develop",
+      "source": "steam_322330",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_4464ee855a26:publish:steam_322330",
+      "a": "steam_org_4464ee855a26",
+      "b": "steam_322330",
+      "kind": "publish",
+      "source": "steam_322330",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_b6fadd55b14e:develop:steam_294100",
+      "a": "steam_org_b6fadd55b14e",
+      "b": "steam_294100",
+      "kind": "develop",
+      "source": "steam_294100",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_b6fadd55b14e:publish:steam_294100",
+      "a": "steam_org_b6fadd55b14e",
+      "b": "steam_294100",
+      "kind": "publish",
+      "source": "steam_294100",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "rockstar:develop:rdr2",
+      "a": "rockstar",
+      "b": "rdr2",
+      "kind": "develop",
+      "source": "steam_1174180",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_b1f3367ec169:develop:steam_289070",
+      "a": "steam_org_b1f3367ec169",
+      "b": "steam_289070",
+      "kind": "develop",
+      "source": "steam_289070",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_c9f6a5224cbe:develop:steam_289070",
+      "a": "steam_org_c9f6a5224cbe",
+      "b": "steam_289070",
+      "kind": "develop",
+      "source": "steam_289070",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_3c13d9a27632:develop:steam_289070",
+      "a": "steam_org_3c13d9a27632",
+      "b": "steam_289070",
+      "kind": "develop",
+      "source": "steam_289070",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_9636c122dddb:publish:steam_289070",
+      "a": "steam_org_9636c122dddb",
+      "b": "steam_289070",
+      "kind": "publish",
+      "source": "steam_289070",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_c9f6a5224cbe:publish:steam_289070",
+      "a": "steam_org_c9f6a5224cbe",
+      "b": "steam_289070",
+      "kind": "publish",
+      "source": "steam_289070",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_3c13d9a27632:publish:steam_289070",
+      "a": "steam_org_3c13d9a27632",
+      "b": "steam_289070",
+      "kind": "publish",
+      "source": "steam_289070",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_5fe88e07dbbc:develop:steam_4080220",
+      "a": "steam_org_5fe88e07dbbc",
+      "b": "steam_4080220",
+      "kind": "develop",
+      "source": "steam_4080220",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_44105903f98f:develop:steam_4080220",
+      "a": "steam_org_44105903f98f",
+      "b": "steam_4080220",
+      "kind": "develop",
+      "source": "steam_4080220",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "ea:publish:steam_4080220",
+      "a": "ea",
+      "b": "steam_4080220",
+      "kind": "publish",
+      "source": "steam_4080220",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_5c03f91c8041:develop:steam_3932890",
+      "a": "steam_org_5c03f91c8041",
+      "b": "steam_3932890",
+      "kind": "develop",
+      "source": "steam_3932890",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_5c03f91c8041:publish:steam_3932890",
+      "a": "steam_org_5c03f91c8041",
+      "b": "steam_3932890",
+      "kind": "publish",
+      "source": "steam_3932890",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_c1efd463f5f7:publish:skyrim",
+      "a": "steam_org_c1efd463f5f7",
+      "b": "skyrim",
+      "kind": "publish",
+      "source": "steam_489830",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "bungie:publish:destiny",
+      "a": "bungie",
+      "b": "destiny",
+      "kind": "publish",
+      "source": "steam_1085660",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_8a06a56098b9:develop:steam_221100",
+      "a": "steam_org_8a06a56098b9",
+      "b": "steam_221100",
+      "kind": "develop",
+      "source": "steam_221100",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_8a06a56098b9:publish:steam_221100",
+      "a": "steam_org_8a06a56098b9",
+      "b": "steam_221100",
+      "kind": "publish",
+      "source": "steam_221100",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_83cfdc3b917b:develop:steam_251570",
+      "a": "steam_org_83cfdc3b917b",
+      "b": "steam_251570",
+      "kind": "develop",
+      "source": "steam_251570",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_b151029816d8:publish:steam_251570",
+      "a": "steam_org_b151029816d8",
+      "b": "steam_251570",
+      "kind": "publish",
+      "source": "steam_251570",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_b8fd5895f097:develop:steam_1304930",
+      "a": "steam_org_b8fd5895f097",
+      "b": "steam_1304930",
+      "kind": "develop",
+      "source": "steam_1304930",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_b8fd5895f097:publish:steam_1304930",
+      "a": "steam_org_b8fd5895f097",
+      "b": "steam_1304930",
+      "kind": "publish",
+      "source": "steam_1304930",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "capcom:develop:steam_1364780",
+      "a": "capcom",
+      "b": "steam_1364780",
+      "kind": "develop",
+      "source": "steam_1364780",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "capcom:publish:steam_1364780",
+      "a": "capcom",
+      "b": "steam_1364780",
+      "kind": "publish",
+      "source": "steam_1364780",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_766a33f2cad3:develop:steam_2399830",
+      "a": "steam_org_766a33f2cad3",
+      "b": "steam_2399830",
+      "kind": "develop",
+      "source": "steam_2399830",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_d798334331a6:develop:steam_2399830",
+      "a": "steam_org_d798334331a6",
+      "b": "steam_2399830",
+      "kind": "develop",
+      "source": "steam_2399830",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_82901112c4f3:develop:steam_2399830",
+      "a": "steam_org_82901112c4f3",
+      "b": "steam_2399830",
+      "kind": "develop",
+      "source": "steam_2399830",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_766a33f2cad3:publish:steam_2399830",
+      "a": "steam_org_766a33f2cad3",
+      "b": "steam_2399830",
+      "kind": "publish",
+      "source": "steam_2399830",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_a19db46c0598:publish:steam_2399830",
+      "a": "steam_org_a19db46c0598",
+      "b": "steam_2399830",
+      "kind": "publish",
+      "source": "steam_2399830",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "from:publish:elden",
+      "a": "from",
+      "b": "elden",
+      "kind": "publish",
+      "source": "steam_1245620",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_9238f822c91a:develop:steam_261550",
+      "a": "steam_org_9238f822c91a",
+      "b": "steam_261550",
+      "kind": "develop",
+      "source": "steam_261550",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_9238f822c91a:publish:steam_261550",
+      "a": "steam_org_9238f822c91a",
+      "b": "steam_261550",
+      "kind": "publish",
+      "source": "steam_261550",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_e8807ddd4d2f:develop:steam_4019220",
+      "a": "steam_org_e8807ddd4d2f",
+      "b": "steam_4019220",
+      "kind": "develop",
+      "source": "steam_4019220",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_ed849887de37:publish:steam_4019220",
+      "a": "steam_org_ed849887de37",
+      "b": "steam_4019220",
+      "kind": "publish",
+      "source": "steam_4019220",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_55eb0ad88284:develop:steam_2288340",
+      "a": "steam_org_55eb0ad88284",
+      "b": "steam_2288340",
+      "kind": "develop",
+      "source": "steam_2288340",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "bandai:publish:steam_2288340",
+      "a": "bandai",
+      "b": "steam_2288340",
+      "kind": "publish",
+      "source": "steam_2288340",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "pearl:publish:blackdesert",
+      "a": "pearl",
+      "b": "blackdesert",
+      "kind": "publish",
+      "source": "steam_582660",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_0e18fb884fda:develop:steam_1905180",
+      "a": "steam_org_0e18fb884fda",
+      "b": "steam_1905180",
+      "kind": "develop",
+      "source": "steam_1905180",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_0e18fb884fda:publish:steam_1905180",
+      "a": "steam_org_0e18fb884fda",
+      "b": "steam_1905180",
+      "kind": "publish",
+      "source": "steam_1905180",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_e6bb0ac62bfd:develop:steam_1281930",
+      "a": "steam_org_e6bb0ac62bfd",
+      "b": "steam_1281930",
+      "kind": "develop",
+      "source": "steam_1281930",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_a097d7bceea1:publish:steam_1281930",
+      "a": "steam_org_a097d7bceea1",
+      "b": "steam_1281930",
+      "kind": "publish",
+      "source": "steam_1281930",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_e6bb0ac62bfd:publish:steam_1281930",
+      "a": "steam_org_e6bb0ac62bfd",
+      "b": "steam_1281930",
+      "kind": "publish",
+      "source": "steam_1281930",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_fb46efb3737b:develop:steam_2807960",
+      "a": "steam_org_fb46efb3737b",
+      "b": "steam_2807960",
+      "kind": "develop",
+      "source": "steam_2807960",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "ea:publish:steam_2807960",
+      "a": "ea",
+      "b": "steam_2807960",
+      "kind": "publish",
+      "source": "steam_2807960",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_3798504fe9f3:develop:steam_2073620",
+      "a": "steam_org_3798504fe9f3",
+      "b": "steam_2073620",
+      "kind": "develop",
+      "source": "steam_2073620",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_3798504fe9f3:publish:steam_2073620",
+      "a": "steam_org_3798504fe9f3",
+      "b": "steam_2073620",
+      "kind": "publish",
+      "source": "steam_2073620",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_177857d20233:develop:sims4",
+      "a": "steam_org_177857d20233",
+      "b": "sims4",
+      "kind": "develop",
+      "source": "steam_1222670",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_daf9657ea744:develop:steam_3551340",
+      "a": "steam_org_daf9657ea744",
+      "b": "steam_3551340",
+      "kind": "develop",
+      "source": "steam_3551340",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "sega:publish:steam_3551340",
+      "a": "sega",
+      "b": "steam_3551340",
+      "kind": "publish",
+      "source": "steam_3551340",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_7911111bb63f:develop:steam_1621690",
+      "a": "steam_org_7911111bb63f",
+      "b": "steam_1621690",
+      "kind": "develop",
+      "source": "steam_1621690",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_5a1ce259b1e0:publish:steam_1621690",
+      "a": "steam_org_5a1ce259b1e0",
+      "b": "steam_1621690",
+      "kind": "publish",
+      "source": "steam_1621690",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_20817449c022:publish:steam_1621690",
+      "a": "steam_org_20817449c022",
+      "b": "steam_1621690",
+      "kind": "publish",
+      "source": "steam_1621690",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_87818a9e79d6:develop:steam_1938090",
+      "a": "steam_org_87818a9e79d6",
+      "b": "steam_1938090",
+      "kind": "develop",
+      "source": "steam_1938090",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_1862c120efed:develop:steam_1938090",
+      "a": "steam_org_1862c120efed",
+      "b": "steam_1938090",
+      "kind": "develop",
+      "source": "steam_1938090",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_27d8266bec50:develop:steam_1938090",
+      "a": "steam_org_27d8266bec50",
+      "b": "steam_1938090",
+      "kind": "develop",
+      "source": "steam_1938090",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_9136bc543c96:develop:steam_1938090",
+      "a": "steam_org_9136bc543c96",
+      "b": "steam_1938090",
+      "kind": "develop",
+      "source": "steam_1938090",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_0142cd929cf5:develop:steam_1938090",
+      "a": "steam_org_0142cd929cf5",
+      "b": "steam_1938090",
+      "kind": "develop",
+      "source": "steam_1938090",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_275e0b062d56:develop:steam_1938090",
+      "a": "steam_org_275e0b062d56",
+      "b": "steam_1938090",
+      "kind": "develop",
+      "source": "steam_1938090",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_a5de95f508cf:develop:steam_1938090",
+      "a": "steam_org_a5de95f508cf",
+      "b": "steam_1938090",
+      "kind": "develop",
+      "source": "steam_1938090",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_63b5da76f64c:develop:steam_1938090",
+      "a": "steam_org_63b5da76f64c",
+      "b": "steam_1938090",
+      "kind": "develop",
+      "source": "steam_1938090",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_233b75da2586:publish:steam_1938090",
+      "a": "steam_org_233b75da2586",
+      "b": "steam_1938090",
+      "kind": "publish",
+      "source": "steam_1938090",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_8c3abffcf7a7:develop:steam_227300",
+      "a": "steam_org_8c3abffcf7a7",
+      "b": "steam_227300",
+      "kind": "develop",
+      "source": "steam_227300",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_8c3abffcf7a7:publish:steam_227300",
+      "a": "steam_org_8c3abffcf7a7",
+      "b": "steam_227300",
+      "kind": "publish",
+      "source": "steam_227300",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_540aece58e70:develop:ck3",
+      "a": "steam_org_540aece58e70",
+      "b": "ck3",
+      "kind": "develop",
+      "source": "steam_1158310",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_5fe88e07dbbc:develop:steam_3405690",
+      "a": "steam_org_5fe88e07dbbc",
+      "b": "steam_3405690",
+      "kind": "develop",
+      "source": "steam_3405690",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_44105903f98f:develop:steam_3405690",
+      "a": "steam_org_44105903f98f",
+      "b": "steam_3405690",
+      "kind": "develop",
+      "source": "steam_3405690",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "ea:publish:steam_3405690",
+      "a": "ea",
+      "b": "steam_3405690",
+      "kind": "publish",
+      "source": "steam_3405690",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_0de09d26f061:develop:steam_376210",
+      "a": "steam_org_0de09d26f061",
+      "b": "steam_376210",
+      "kind": "develop",
+      "source": "steam_376210",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_0de09d26f061:publish:steam_376210",
+      "a": "steam_org_0de09d26f061",
+      "b": "steam_376210",
+      "kind": "publish",
+      "source": "steam_376210",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_e261fa8d1488:develop:steam_2694490",
+      "a": "steam_org_e261fa8d1488",
+      "b": "steam_2694490",
+      "kind": "develop",
+      "source": "steam_2694490",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_e261fa8d1488:publish:steam_2694490",
+      "a": "steam_org_e261fa8d1488",
+      "b": "steam_2694490",
+      "kind": "publish",
+      "source": "steam_2694490",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_3318eaa079fb:develop:steam_2300320",
+      "a": "steam_org_3318eaa079fb",
+      "b": "steam_2300320",
+      "kind": "develop",
+      "source": "steam_2300320",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_3318eaa079fb:publish:steam_2300320",
+      "a": "steam_org_3318eaa079fb",
+      "b": "steam_2300320",
+      "kind": "publish",
+      "source": "steam_2300320",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_a8ce374f57b0:develop:steam_5166840",
+      "a": "steam_org_a8ce374f57b0",
+      "b": "steam_5166840",
+      "kind": "develop",
+      "source": "steam_5166840",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_a8ce374f57b0:publish:steam_5166840",
+      "a": "steam_org_a8ce374f57b0",
+      "b": "steam_5166840",
+      "kind": "publish",
+      "source": "steam_5166840",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_031e093d2ed4:develop:steam_552990",
+      "a": "steam_org_031e093d2ed4",
+      "b": "steam_552990",
+      "kind": "develop",
+      "source": "steam_552990",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_031e093d2ed4:publish:steam_552990",
+      "a": "steam_org_031e093d2ed4",
+      "b": "steam_552990",
+      "kind": "publish",
+      "source": "steam_552990",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "from:develop:steam_2622380",
+      "a": "from",
+      "b": "steam_2622380",
+      "kind": "develop",
+      "source": "steam_2622380",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "from:publish:steam_2622380",
+      "a": "from",
+      "b": "steam_2622380",
+      "kind": "publish",
+      "source": "steam_2622380",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "bandai:publish:steam_2622380",
+      "a": "bandai",
+      "b": "steam_2622380",
+      "kind": "publish",
+      "source": "steam_2622380",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "blizzard:develop:diablo",
+      "a": "blizzard",
+      "b": "diablo",
+      "kind": "develop",
+      "source": "steam_2344520",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_cc9ac015720f:develop:steam_4000",
+      "a": "steam_org_cc9ac015720f",
+      "b": "steam_4000",
+      "kind": "develop",
+      "source": "steam_4000",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "valve:publish:steam_4000",
+      "a": "valve",
+      "b": "steam_4000",
+      "kind": "publish",
+      "source": "steam_4000",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "konami:develop:steam_1449850",
+      "a": "konami",
+      "b": "steam_1449850",
+      "kind": "develop",
+      "source": "steam_1449850",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "konami:publish:steam_1449850",
+      "a": "konami",
+      "b": "steam_1449850",
+      "kind": "publish",
+      "source": "steam_1449850",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_e7b9542ff99c:develop:once",
+      "a": "steam_org_e7b9542ff99c",
+      "b": "once",
+      "kind": "develop",
+      "source": "steam_2139460",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_e7b9542ff99c:publish:once",
+      "a": "steam_org_e7b9542ff99c",
+      "b": "once",
+      "kind": "publish",
+      "source": "steam_2139460",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_d6c76f2ede4a:develop:steam_766570",
+      "a": "steam_org_d6c76f2ede4a",
+      "b": "steam_766570",
+      "kind": "develop",
+      "source": "steam_766570",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_d6c76f2ede4a:publish:steam_766570",
+      "a": "steam_org_d6c76f2ede4a",
+      "b": "steam_766570",
+      "kind": "publish",
+      "source": "steam_766570",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_44e101987240:develop:steam_813780",
+      "a": "steam_org_44e101987240",
+      "b": "steam_813780",
+      "kind": "develop",
+      "source": "steam_813780",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_a80d33b0db8c:develop:steam_813780",
+      "a": "steam_org_a80d33b0db8c",
+      "b": "steam_813780",
+      "kind": "develop",
+      "source": "steam_813780",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_489a8b7adc2c:develop:steam_813780",
+      "a": "steam_org_489a8b7adc2c",
+      "b": "steam_813780",
+      "kind": "develop",
+      "source": "steam_813780",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_bcd5958d92c0:develop:steam_813780",
+      "a": "steam_org_bcd5958d92c0",
+      "b": "steam_813780",
+      "kind": "develop",
+      "source": "steam_813780",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_d19d735e099e:develop:steam_813780",
+      "a": "steam_org_d19d735e099e",
+      "b": "steam_813780",
+      "kind": "develop",
+      "source": "steam_813780",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_4ae8c026f071:develop:steam_813780",
+      "a": "steam_org_4ae8c026f071",
+      "b": "steam_813780",
+      "kind": "develop",
+      "source": "steam_813780",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "xbox:publish:steam_813780",
+      "a": "xbox",
+      "b": "steam_813780",
+      "kind": "publish",
+      "source": "steam_813780",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_9fc1b8dfcaf2:develop:steam_2183900",
+      "a": "steam_org_9fc1b8dfcaf2",
+      "b": "steam_2183900",
+      "kind": "develop",
+      "source": "steam_2183900",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_ac30c0eba755:publish:steam_2183900",
+      "a": "steam_org_ac30c0eba755",
+      "b": "steam_2183900",
+      "kind": "publish",
+      "source": "steam_2183900",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "square:develop:ff14",
+      "a": "square",
+      "b": "ff14",
+      "kind": "develop",
+      "source": "steam_39210",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "valve:develop:steam_583950",
+      "a": "valve",
+      "b": "steam_583950",
+      "kind": "develop",
+      "source": "steam_583950",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "valve:publish:steam_583950",
+      "a": "valve",
+      "b": "steam_583950",
+      "kind": "publish",
+      "source": "steam_583950",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_62a39a2788c8:develop:steam_4349200",
+      "a": "steam_org_62a39a2788c8",
+      "b": "steam_4349200",
+      "kind": "develop",
+      "source": "steam_4349200",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_c238ee1ff183:publish:steam_4349200",
+      "a": "steam_org_c238ee1ff183",
+      "b": "steam_4349200",
+      "kind": "publish",
+      "source": "steam_4349200",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_e34966d3d803:develop:steam_365670",
+      "a": "steam_org_e34966d3d803",
+      "b": "steam_365670",
+      "kind": "develop",
+      "source": "steam_365670",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_e34966d3d803:publish:steam_365670",
+      "a": "steam_org_e34966d3d803",
+      "b": "steam_365670",
+      "kind": "publish",
+      "source": "steam_365670",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_fca9f69de2cc:develop:steam_1623660",
+      "a": "steam_org_fca9f69de2cc",
+      "b": "steam_1623660",
+      "kind": "develop",
+      "source": "steam_1623660",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
+    },
+    {
+      "id": "steam_org_3f0ac7032cbd:publish:steam_1623660",
+      "a": "steam_org_3f0ac7032cbd",
+      "b": "steam_1623660",
+      "kind": "publish",
+      "source": "steam_1623660",
+      "note": "Steam 商店该 app 的署名；不推断股权或唯一开发方。"
     }
   ]
 };

@@ -15,16 +15,18 @@
 </section>
 <main>
 <aside class="explorer" aria-label="搜索与筛选">
-  <div class="explorer-heading"><span class="eyebrow">EXPLORE THE INDUSTRY</span><h1>从一个名字出发。</h1><p>找到厂商、团队与作品的连接。</p></div>
+  <button id="explorer-close" aria-label="关闭搜索筛选">×</button><div class="explorer-heading"><span class="eyebrow">EXPLORE THE INDUSTRY</span><h1>从一个名字出发。</h1><p>找到厂商、团队与作品的连接。</p></div>
   <label class="search-label" for="search">搜索图谱</label><div class="search-box"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="腾讯、顽皮狗、Elden Ring…" autocomplete="off"></div>
   <div class="filter-block"><label for="region">办公地区</label><select id="region"><option value="all">全部地区</option><option>中国</option><option>日本</option><option>韩国</option><option>新加坡</option><option>北美</option><option>欧洲</option></select></div>
-  <fieldset class="kinds"><legend>节点类型</legend><label><input type="checkbox" value="company" checked><i class="dot company"></i>厂商 / 品牌</label><label><input type="checkbox" value="studio" checked><i class="dot studio"></i>工作室 / 团队</label><label><input type="checkbox" value="game" checked><i class="dot game"></i>游戏 / 系列</label><label><input type="checkbox" value="investor" checked><i class="dot investor"></i>股东 / 控股主体</label></fieldset>
+  <fieldset class="kinds"><legend>节点类型</legend><label><input type="checkbox" value="company" checked><i class="dot company"></i>厂商 / 品牌</label><label><input type="checkbox" value="studio" checked><i class="dot studio"></i>工作室 / 团队</label><label><input type="checkbox" value="game" checked><i class="dot game"></i>游戏 / 软件</label><label><input type="checkbox" value="investor" checked><i class="dot investor"></i>股东 / 控股主体</label></fieldset>
   <div class="directory-head"><span id="list-title">厂商目录</span><span id="list-count"></span></div><div id="directory" role="list" aria-label="匹配的节点"></div>
   <div class="explorer-footer"><a href="https://github.com/Essie363/MusicalGraph" target="_blank" rel="noopener noreferrer">基于 MusicalGraph ↗</a><span>陆地 Natural Earth · 坐标 <a href="https://www.geonames.org/" target="_blank" rel="noopener noreferrer">GeoNames · CC BY ↗</a></span></div>
 </aside>
+<button id="drawer-backdrop" aria-label="关闭搜索筛选" tabindex="-1"></button>
 <section class="map-area" aria-label="游戏厂商关系图">
   <div class="map-heading"><div><span class="eyebrow">THE CONNECTIONS BEHIND GAMES</span><h2 id="map-title">全球游戏版图</h2></div><button id="clear-focus" class="quiet hidden">返回全景 ↗</button></div>
   <div class="counts" id="counts"></div>
+  <div class="graph-actions"><button id="explore-toggle" aria-expanded="false">⌕ 搜索 / 筛选</button><button id="overview-toggle" aria-pressed="false">展开全部节点</button><button id="steam-chart">Steam Top 100 ↗</button><button id="details-toggle" aria-expanded="false">ⓘ 详情</button></div>
   <div class="view-switch" aria-label="展示方式"><button id="stars-mode" class="active" aria-pressed="true">Game Graph</button><button id="map-mode" aria-pressed="false">世界地图</button><select id="map-region-jump" class="hidden" aria-label="选择地图区域"><option value="">选择区域 / 城市</option></select><button id="map-global" class="hidden">返回全球</button><button id="locations">地点对照 ↗</button></div>
   <canvas id="graph" tabindex="0" aria-label="可拖动和缩放的关系图；也可通过左侧目录选择节点，方向键平移，加减键缩放"></canvas>
   <div id="tooltip" class="tooltip hidden" role="tooltip"></div>
